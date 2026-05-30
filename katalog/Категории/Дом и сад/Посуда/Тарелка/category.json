@@ -1,0 +1,20 @@
+{
+  "id": "champ-000202",
+  "name": "Тарелка",
+  "url": "",
+  "parent": "Посуда",
+  "parentId": "champ-000197",
+  "oneCId": "202",
+  "sortOrder": 1100205,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 202,
+  "depth": 3,
+  "path": "Дом и сад / Посуда / Тарелка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дом и сад\\Посуда\\Тарелка"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000401",
+  "name": "Туфли мужские",
+  "url": "",
+  "parent": "Мужская обувь",
+  "parentId": "champ-000397",
+  "oneCId": "401",
+  "sortOrder": 2200304,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 401,
+  "depth": 3,
+  "path": "Обувь / Мужская обувь / Туфли мужские",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Обувь\\Мужская обувь\\Туфли мужские"
+}

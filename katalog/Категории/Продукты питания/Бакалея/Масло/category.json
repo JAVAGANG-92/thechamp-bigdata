@@ -1,0 +1,20 @@
+{
+  "id": "champ-000458",
+  "name": "Масло",
+  "url": "",
+  "parent": "Бакалея",
+  "parentId": "champ-000455",
+  "oneCId": "458",
+  "sortOrder": 2500103,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 458,
+  "depth": 3,
+  "path": "Продукты питания / Бакалея / Масло",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Продукты питания\\Бакалея\\Масло"
+}

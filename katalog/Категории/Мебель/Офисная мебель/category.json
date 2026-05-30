@@ -1,0 +1,20 @@
+{
+  "id": "champ-000353",
+  "name": "Офисная мебель",
+  "url": "",
+  "parent": "Мебель",
+  "parentId": "champ-000337",
+  "oneCId": "353",
+  "sortOrder": 19004,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 353,
+  "depth": 2,
+  "path": "Мебель / Офисная мебель",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Мебель\\Офисная мебель"
+}

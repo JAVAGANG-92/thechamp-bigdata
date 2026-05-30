@@ -1,0 +1,20 @@
+{
+  "id": "champ-000103",
+  "name": "Кондиционер для белья",
+  "url": "",
+  "parent": "Стирка",
+  "parentId": "champ-000100",
+  "oneCId": "103",
+  "sortOrder": 600203,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 103,
+  "depth": 3,
+  "path": "Бытовая химия / Стирка / Кондиционер для белья",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Бытовая химия\\Стирка\\Кондиционер для белья"
+}

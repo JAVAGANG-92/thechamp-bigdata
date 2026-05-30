@@ -1,0 +1,20 @@
+{
+  "id": "champ-000194",
+  "name": "Картина",
+  "url": "",
+  "parent": "Декор",
+  "parentId": "champ-000191",
+  "oneCId": "194",
+  "sortOrder": 1100103,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 194,
+  "depth": 3,
+  "path": "Дом и сад / Декор / Картина",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дом и сад\\Декор\\Картина"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000547",
+  "name": "Товары для взрослых",
+  "url": "",
+  "parent": "Без категории",
+  "parentId": "",
+  "oneCId": "547",
+  "sortOrder": 30,
+  "active": true,
+  "showHome": true,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 547,
+  "depth": 1,
+  "path": "Товары для взрослых",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 1,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Товары для взрослых"
+}

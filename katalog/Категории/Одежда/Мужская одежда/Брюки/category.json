@@ -1,0 +1,20 @@
+{
+  "id": "champ-000418",
+  "name": "Брюки",
+  "url": "",
+  "parent": "Мужская одежда",
+  "parentId": "champ-000416",
+  "oneCId": "418",
+  "sortOrder": 2300202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 418,
+  "depth": 3,
+  "path": "Одежда / Мужская одежда / Брюки",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Одежда\\Мужская одежда\\Брюки"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000135",
+  "name": "Сумки и рюкзаки",
+  "url": "",
+  "parent": "Галантерея и аксессуары",
+  "parentId": "champ-000123",
+  "oneCId": "135",
+  "sortOrder": 8003,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 135,
+  "depth": 2,
+  "path": "Галантерея и аксессуары / Сумки и рюкзаки",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Галантерея и аксессуары\\Сумки и рюкзаки"
+}

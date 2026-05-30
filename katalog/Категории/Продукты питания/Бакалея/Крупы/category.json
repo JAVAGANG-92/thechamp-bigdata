@@ -1,0 +1,20 @@
+{
+  "id": "champ-000456",
+  "name": "Крупы",
+  "url": "",
+  "parent": "Бакалея",
+  "parentId": "champ-000455",
+  "oneCId": "456",
+  "sortOrder": 2500101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 456,
+  "depth": 3,
+  "path": "Продукты питания / Бакалея / Крупы",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Продукты питания\\Бакалея\\Крупы"
+}

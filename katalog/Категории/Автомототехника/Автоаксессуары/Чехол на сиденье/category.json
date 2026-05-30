@@ -1,0 +1,20 @@
+{
+  "id": "champ-000006",
+  "name": "Чехол на сиденье",
+  "url": "",
+  "parent": "Автоаксессуары",
+  "parentId": "champ-000002",
+  "oneCId": "6",
+  "sortOrder": 100104,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 6,
+  "depth": 3,
+  "path": "Автомототехника / Автоаксессуары / Чехол на сиденье",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Автомототехника\\Автоаксессуары\\Чехол на сиденье"
+}

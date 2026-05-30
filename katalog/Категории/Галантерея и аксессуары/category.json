@@ -1,0 +1,20 @@
+{
+  "id": "champ-000123",
+  "name": "Галантерея и аксессуары",
+  "url": "",
+  "parent": "Без категории",
+  "parentId": "",
+  "oneCId": "123",
+  "sortOrder": 8,
+  "active": true,
+  "showHome": true,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 123,
+  "depth": 1,
+  "path": "Галантерея и аксессуары",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 1,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Галантерея и аксессуары"
+}

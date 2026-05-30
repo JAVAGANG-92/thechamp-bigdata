@@ -1,0 +1,20 @@
+{
+  "id": "champ-000518",
+  "name": "Подарочные сертификаты",
+  "url": "",
+  "parent": "Сертификаты и услуги",
+  "parentId": "champ-000513",
+  "oneCId": "518",
+  "sortOrder": 28002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 518,
+  "depth": 2,
+  "path": "Сертификаты и услуги / Подарочные сертификаты",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Сертификаты и услуги\\Подарочные сертификаты"
+}

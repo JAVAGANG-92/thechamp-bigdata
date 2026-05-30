@@ -1,0 +1,20 @@
+{
+  "id": "champ-000331",
+  "name": "Сыворотка",
+  "url": "",
+  "parent": "Уход за лицом",
+  "parentId": "champ-000327",
+  "oneCId": "331",
+  "sortOrder": 1800404,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 331,
+  "depth": 3,
+  "path": "Красота и гигиена / Уход за лицом / Сыворотка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Красота и гигиена\\Уход за лицом\\Сыворотка"
+}

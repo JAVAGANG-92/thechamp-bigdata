@@ -1,0 +1,20 @@
+{
+  "id": "champ-000656",
+  "name": "Ремешок",
+  "url": "",
+  "parent": "Часы",
+  "parentId": "champ-000654",
+  "oneCId": "656",
+  "sortOrder": 3600302,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 656,
+  "depth": 3,
+  "path": "Ювелирные изделия / Часы / Ремешок",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Ювелирные изделия\\Часы\\Ремешок"
+}

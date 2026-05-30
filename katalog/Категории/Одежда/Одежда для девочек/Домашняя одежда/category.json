@@ -1,0 +1,20 @@
+{
+  "id": "champ-000425",
+  "name": "Домашняя одежда",
+  "url": "",
+  "parent": "Одежда для девочек",
+  "parentId": "champ-000423",
+  "oneCId": "425",
+  "sortOrder": 2300302,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 425,
+  "depth": 3,
+  "path": "Одежда / Одежда для девочек / Домашняя одежда",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Одежда\\Одежда для девочек\\Домашняя одежда"
+}

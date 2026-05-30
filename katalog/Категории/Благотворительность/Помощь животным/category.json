@@ -1,0 +1,20 @@
+{
+  "id": "champ-000067",
+  "name": "Помощь животным",
+  "url": "",
+  "parent": "Благотворительность",
+  "parentId": "champ-000063",
+  "oneCId": "67",
+  "sortOrder": 4002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 67,
+  "depth": 2,
+  "path": "Благотворительность / Помощь животным",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Благотворительность\\Помощь животным"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000107",
+  "name": "Средство для ванной",
+  "url": "",
+  "parent": "Уборка",
+  "parentId": "champ-000105",
+  "oneCId": "107",
+  "sortOrder": 600302,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 107,
+  "depth": 3,
+  "path": "Бытовая химия / Уборка / Средство для ванной",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Бытовая химия\\Уборка\\Средство для ванной"
+}

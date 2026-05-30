@@ -1,0 +1,20 @@
+{
+  "id": "champ-000375",
+  "name": "Микрофон",
+  "url": "",
+  "parent": "Звук",
+  "parentId": "champ-000373",
+  "oneCId": "375",
+  "sortOrder": 2100102,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 375,
+  "depth": 3,
+  "path": "Музыкальные инструменты / Звук / Микрофон",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Музыкальные инструменты\\Звук\\Микрофон"
+}

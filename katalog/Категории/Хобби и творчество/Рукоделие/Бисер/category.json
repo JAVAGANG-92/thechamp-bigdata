@@ -1,0 +1,20 @@
+{
+  "id": "champ-000585",
+  "name": "Бисер",
+  "url": "",
+  "parent": "Рукоделие",
+  "parentId": "champ-000584",
+  "oneCId": "585",
+  "sortOrder": 3200301,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 585,
+  "depth": 3,
+  "path": "Хобби и творчество / Рукоделие / Бисер",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Хобби и творчество\\Рукоделие\\Бисер"
+}

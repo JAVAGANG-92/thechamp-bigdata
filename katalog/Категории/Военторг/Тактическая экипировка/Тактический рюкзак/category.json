@@ -1,0 +1,20 @@
+{
+  "id": "champ-000118",
+  "name": "Тактический рюкзак",
+  "url": "",
+  "parent": "Тактическая экипировка",
+  "parentId": "champ-000115",
+  "oneCId": "118",
+  "sortOrder": 700203,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 118,
+  "depth": 3,
+  "path": "Военторг / Тактическая экипировка / Тактический рюкзак",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Военторг\\Тактическая экипировка\\Тактический рюкзак"
+}

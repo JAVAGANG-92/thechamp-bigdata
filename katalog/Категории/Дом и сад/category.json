@@ -1,0 +1,20 @@
+{
+  "id": "champ-000190",
+  "name": "Дом и сад",
+  "url": "",
+  "parent": "Без категории",
+  "parentId": "",
+  "oneCId": "190",
+  "sortOrder": 11,
+  "active": true,
+  "showHome": true,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 190,
+  "depth": 1,
+  "path": "Дом и сад",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 1,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дом и сад"
+}

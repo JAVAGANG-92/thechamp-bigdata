@@ -1,0 +1,20 @@
+{
+  "id": "champ-000413",
+  "name": "Платья",
+  "url": "",
+  "parent": "Женская одежда",
+  "parentId": "champ-000408",
+  "oneCId": "413",
+  "sortOrder": 2300105,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 413,
+  "depth": 3,
+  "path": "Одежда / Женская одежда / Платья",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Одежда\\Женская одежда\\Платья"
+}

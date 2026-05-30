@@ -1,0 +1,20 @@
+{
+  "id": "champ-000650",
+  "name": "Браслет",
+  "url": "",
+  "parent": "Украшения из серебра",
+  "parentId": "champ-000649",
+  "oneCId": "650",
+  "sortOrder": 3600201,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 650,
+  "depth": 3,
+  "path": "Ювелирные изделия / Украшения из серебра / Браслет",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Ювелирные изделия\\Украшения из серебра\\Браслет"
+}

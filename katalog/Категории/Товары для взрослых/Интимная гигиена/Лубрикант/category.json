@@ -1,0 +1,20 @@
+{
+  "id": "champ-000556",
+  "name": "Лубрикант",
+  "url": "",
+  "parent": "Интимная гигиена",
+  "parentId": "champ-000555",
+  "oneCId": "556",
+  "sortOrder": 3000301,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 556,
+  "depth": 3,
+  "path": "Товары для взрослых / Интимная гигиена / Лубрикант",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Товары для взрослых\\Интимная гигиена\\Лубрикант"
+}

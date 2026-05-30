@@ -1,0 +1,20 @@
+{
+  "id": "champ-000345",
+  "name": "Журнальный стол",
+  "url": "",
+  "parent": "Мебель для гостиной",
+  "parentId": "champ-000343",
+  "oneCId": "345",
+  "sortOrder": 1900202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 345,
+  "depth": 3,
+  "path": "Мебель / Мебель для гостиной / Журнальный стол",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Мебель\\Мебель для гостиной\\Журнальный стол"
+}

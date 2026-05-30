@@ -1,0 +1,20 @@
+{
+  "id": "champ-000084",
+  "name": "Техника для дома",
+  "url": "",
+  "parent": "Бытовая техника",
+  "parentId": "champ-000073",
+  "oneCId": "84",
+  "sortOrder": 5003,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 84,
+  "depth": 2,
+  "path": "Бытовая техника / Техника для дома",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Бытовая техника\\Техника для дома"
+}

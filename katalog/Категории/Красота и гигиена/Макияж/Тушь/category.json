@@ -1,0 +1,20 @@
+{
+  "id": "champ-000326",
+  "name": "Тушь",
+  "url": "",
+  "parent": "Макияж",
+  "parentId": "champ-000321",
+  "oneCId": "326",
+  "sortOrder": 1800305,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 326,
+  "depth": 3,
+  "path": "Красота и гигиена / Макияж / Тушь",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Красота и гигиена\\Макияж\\Тушь"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000532",
+  "name": "Рыбалка",
+  "url": "",
+  "parent": "Спорт и отдых",
+  "parentId": "champ-000526",
+  "oneCId": "532",
+  "sortOrder": 29002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 532,
+  "depth": 2,
+  "path": "Спорт и отдых / Рыбалка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Спорт и отдых\\Рыбалка"
+}

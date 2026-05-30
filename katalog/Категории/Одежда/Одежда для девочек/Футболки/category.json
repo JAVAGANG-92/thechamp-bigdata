@@ -1,0 +1,20 @@
+{
+  "id": "champ-000428",
+  "name": "Футболки",
+  "url": "",
+  "parent": "Одежда для девочек",
+  "parentId": "champ-000423",
+  "oneCId": "428",
+  "sortOrder": 2300305,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 428,
+  "depth": 3,
+  "path": "Одежда / Одежда для девочек / Футболки",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Одежда\\Одежда для девочек\\Футболки"
+}

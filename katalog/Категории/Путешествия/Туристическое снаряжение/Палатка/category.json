@@ -1,0 +1,20 @@
+{
+  "id": "champ-000489",
+  "name": "Палатка",
+  "url": "",
+  "parent": "Туристическое снаряжение",
+  "parentId": "champ-000488",
+  "oneCId": "489",
+  "sortOrder": 2600301,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 489,
+  "depth": 3,
+  "path": "Путешествия / Туристическое снаряжение / Палатка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Путешествия\\Туристическое снаряжение\\Палатка"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000350",
+  "name": "Кровать",
+  "url": "",
+  "parent": "Мебель для спальни",
+  "parentId": "champ-000348",
+  "oneCId": "350",
+  "sortOrder": 1900302,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 350,
+  "depth": 3,
+  "path": "Мебель / Мебель для спальни / Кровать",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Мебель\\Мебель для спальни\\Кровать"
+}

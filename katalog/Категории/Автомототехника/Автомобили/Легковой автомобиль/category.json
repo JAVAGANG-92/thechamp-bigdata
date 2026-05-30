@@ -1,0 +1,20 @@
+{
+  "id": "champ-000014",
+  "name": "Легковой автомобиль",
+  "url": "",
+  "parent": "Автомобили",
+  "parentId": "champ-000012",
+  "oneCId": "14",
+  "sortOrder": 100302,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 14,
+  "depth": 3,
+  "path": "Автомототехника / Автомобили / Легковой автомобиль",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Автомототехника\\Автомобили\\Легковой автомобиль"
+}

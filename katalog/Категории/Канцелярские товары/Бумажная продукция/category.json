@@ -1,0 +1,20 @@
+{
+  "id": "champ-000249",
+  "name": "Бумажная продукция",
+  "url": "",
+  "parent": "Канцелярские товары",
+  "parentId": "champ-000248",
+  "oneCId": "249",
+  "sortOrder": 14001,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 249,
+  "depth": 2,
+  "path": "Канцелярские товары / Бумажная продукция",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Канцелярские товары\\Бумажная продукция"
+}

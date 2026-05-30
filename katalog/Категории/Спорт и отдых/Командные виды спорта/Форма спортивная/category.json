@@ -1,0 +1,20 @@
+{
+  "id": "champ-000531",
+  "name": "Форма спортивная",
+  "url": "",
+  "parent": "Командные виды спорта",
+  "parentId": "champ-000527",
+  "oneCId": "531",
+  "sortOrder": 2900104,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 531,
+  "depth": 3,
+  "path": "Спорт и отдых / Командные виды спорта / Форма спортивная",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Спорт и отдых\\Командные виды спорта\\Форма спортивная"
+}

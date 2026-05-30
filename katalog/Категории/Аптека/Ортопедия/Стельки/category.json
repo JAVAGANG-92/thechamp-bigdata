@@ -1,0 +1,20 @@
+{
+  "id": "champ-000062",
+  "name": "Стельки",
+  "url": "",
+  "parent": "Ортопедия",
+  "parentId": "champ-000058",
+  "oneCId": "62",
+  "sortOrder": 300404,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 62,
+  "depth": 3,
+  "path": "Аптека / Ортопедия / Стельки",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Аптека\\Ортопедия\\Стельки"
+}

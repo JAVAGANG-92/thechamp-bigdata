@@ -1,0 +1,20 @@
+{
+  "id": "champ-000131",
+  "name": "Заколка",
+  "url": "",
+  "parent": "Аксессуары для волос",
+  "parentId": "champ-000130",
+  "oneCId": "131",
+  "sortOrder": 800201,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 131,
+  "depth": 3,
+  "path": "Галантерея и аксессуары / Аксессуары для волос / Заколка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Галантерея и аксессуары\\Аксессуары для волос\\Заколка"
+}

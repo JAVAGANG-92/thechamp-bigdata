@@ -1,0 +1,20 @@
+{
+  "id": "champ-000252",
+  "name": "Ежедневник",
+  "url": "",
+  "parent": "Бумажная продукция",
+  "parentId": "champ-000249",
+  "oneCId": "252",
+  "sortOrder": 1400103,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 252,
+  "depth": 3,
+  "path": "Канцелярские товары / Бумажная продукция / Ежедневник",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Канцелярские товары\\Бумажная продукция\\Ежедневник"
+}

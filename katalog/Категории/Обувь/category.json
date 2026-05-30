@@ -1,0 +1,20 @@
+{
+  "id": "champ-000385",
+  "name": "Обувь",
+  "url": "",
+  "parent": "Без категории",
+  "parentId": "",
+  "oneCId": "385",
+  "sortOrder": 22,
+  "active": true,
+  "showHome": true,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 385,
+  "depth": 1,
+  "path": "Обувь",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 1,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Обувь"
+}

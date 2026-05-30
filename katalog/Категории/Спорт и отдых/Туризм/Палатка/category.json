@@ -1,0 +1,20 @@
+{
+  "id": "champ-000538",
+  "name": "Палатка",
+  "url": "",
+  "parent": "Туризм",
+  "parentId": "champ-000537",
+  "oneCId": "538",
+  "sortOrder": 2900301,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 538,
+  "depth": 3,
+  "path": "Спорт и отдых / Туризм / Палатка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Спорт и отдых\\Туризм\\Палатка"
+}

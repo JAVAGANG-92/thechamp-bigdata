@@ -1,0 +1,20 @@
+{
+  "id": "champ-000288",
+  "name": "Художественная литература",
+  "url": "",
+  "parent": "Книги",
+  "parentId": "champ-000277",
+  "oneCId": "288",
+  "sortOrder": 16003,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 288,
+  "depth": 2,
+  "path": "Книги / Художественная литература",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Книги\\Художественная литература"
+}

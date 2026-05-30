@@ -1,0 +1,20 @@
+{
+  "id": "champ-000453",
+  "name": "Статуэтка",
+  "url": "",
+  "parent": "Сувениры",
+  "parentId": "champ-000449",
+  "oneCId": "453",
+  "sortOrder": 2400304,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 453,
+  "depth": 3,
+  "path": "Подарки и сувениры / Сувениры / Статуэтка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Подарки и сувениры\\Сувениры\\Статуэтка"
+}

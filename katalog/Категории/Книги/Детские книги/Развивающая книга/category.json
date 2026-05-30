@@ -1,0 +1,20 @@
+{
+  "id": "champ-000280",
+  "name": "Развивающая книга",
+  "url": "",
+  "parent": "Детские книги",
+  "parentId": "champ-000278",
+  "oneCId": "280",
+  "sortOrder": 1600102,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 280,
+  "depth": 3,
+  "path": "Книги / Детские книги / Развивающая книга",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Книги\\Детские книги\\Развивающая книга"
+}

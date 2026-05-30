@@ -1,0 +1,20 @@
+{
+  "id": "champ-000048",
+  "name": "Медицинские изделия",
+  "url": "",
+  "parent": "Аптека",
+  "parentId": "champ-000042",
+  "oneCId": "48",
+  "sortOrder": 3002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 48,
+  "depth": 2,
+  "path": "Аптека / Медицинские изделия",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Аптека\\Медицинские изделия"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000083",
+  "name": "Холодильник",
+  "url": "",
+  "parent": "Крупная техника",
+  "parentId": "champ-000079",
+  "oneCId": "83",
+  "sortOrder": 500204,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 83,
+  "depth": 3,
+  "path": "Бытовая техника / Крупная техника / Холодильник",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Бытовая техника\\Крупная техника\\Холодильник"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000017",
+  "name": "Антифриз",
+  "url": "",
+  "parent": "Автохимия",
+  "parentId": "champ-000016",
+  "oneCId": "17",
+  "sortOrder": 100401,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 17,
+  "depth": 3,
+  "path": "Автомототехника / Автохимия / Антифриз",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Автомототехника\\Автохимия\\Антифриз"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000592",
+  "name": "Игровая валюта",
+  "url": "",
+  "parent": "Игровой контент",
+  "parentId": "champ-000590",
+  "oneCId": "592",
+  "sortOrder": 3300102,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 592,
+  "depth": 3,
+  "path": "Цифровые товары / Игровой контент / Игровая валюта",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Цифровые товары\\Игровой контент\\Игровая валюта"
+}

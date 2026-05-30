@@ -1,0 +1,20 @@
+{
+  "id": "champ-000378",
+  "name": "MIDI-клавиатура",
+  "url": "",
+  "parent": "Клавишные",
+  "parentId": "champ-000377",
+  "oneCId": "378",
+  "sortOrder": 2100201,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 378,
+  "depth": 3,
+  "path": "Музыкальные инструменты / Клавишные / MIDI-клавиатура",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Музыкальные инструменты\\Клавишные\\MIDI-клавиатура"
+}

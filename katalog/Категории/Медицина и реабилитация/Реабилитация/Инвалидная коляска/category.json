@@ -1,0 +1,20 @@
+{
+  "id": "champ-000364",
+  "name": "Инвалидная коляска",
+  "url": "",
+  "parent": "Реабилитация",
+  "parentId": "champ-000363",
+  "oneCId": "364",
+  "sortOrder": 2000201,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 364,
+  "depth": 3,
+  "path": "Медицина и реабилитация / Реабилитация / Инвалидная коляска",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Медицина и реабилитация\\Реабилитация\\Инвалидная коляска"
+}

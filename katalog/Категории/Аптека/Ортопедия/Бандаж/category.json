@@ -1,0 +1,20 @@
+{
+  "id": "champ-000059",
+  "name": "Бандаж",
+  "url": "",
+  "parent": "Ортопедия",
+  "parentId": "champ-000058",
+  "oneCId": "59",
+  "sortOrder": 300401,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 59,
+  "depth": 3,
+  "path": "Аптека / Ортопедия / Бандаж",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Аптека\\Ортопедия\\Бандаж"
+}

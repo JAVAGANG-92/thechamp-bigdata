@@ -1,0 +1,20 @@
+{
+  "id": "champ-000578",
+  "name": "Фигурка",
+  "url": "",
+  "parent": "Коллекционирование",
+  "parentId": "champ-000574",
+  "oneCId": "578",
+  "sortOrder": 3200104,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 578,
+  "depth": 3,
+  "path": "Хобби и творчество / Коллекционирование / Фигурка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Хобби и творчество\\Коллекционирование\\Фигурка"
+}

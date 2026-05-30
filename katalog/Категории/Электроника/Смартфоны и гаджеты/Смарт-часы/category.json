@@ -1,0 +1,20 @@
+{
+  "id": "champ-000635",
+  "name": "Смарт-часы",
+  "url": "",
+  "parent": "Смартфоны и гаджеты",
+  "parentId": "champ-000633",
+  "oneCId": "635",
+  "sortOrder": 3500402,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 635,
+  "depth": 3,
+  "path": "Электроника / Смартфоны и гаджеты / Смарт-часы",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Электроника\\Смартфоны и гаджеты\\Смарт-часы"
+}

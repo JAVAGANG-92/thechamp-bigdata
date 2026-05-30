@@ -1,0 +1,20 @@
+{
+  "id": "champ-000090",
+  "name": "Блендер",
+  "url": "",
+  "parent": "Техника для кухни",
+  "parentId": "champ-000089",
+  "oneCId": "90",
+  "sortOrder": 500401,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 90,
+  "depth": 3,
+  "path": "Бытовая техника / Техника для кухни / Блендер",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Бытовая техника\\Техника для кухни\\Блендер"
+}

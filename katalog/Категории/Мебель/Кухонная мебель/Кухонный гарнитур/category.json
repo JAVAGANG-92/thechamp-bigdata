@@ -1,0 +1,20 @@
+{
+  "id": "champ-000340",
+  "name": "Кухонный гарнитур",
+  "url": "",
+  "parent": "Кухонная мебель",
+  "parentId": "champ-000338",
+  "oneCId": "340",
+  "sortOrder": 1900102,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 340,
+  "depth": 3,
+  "path": "Мебель / Кухонная мебель / Кухонный гарнитур",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Мебель\\Кухонная мебель\\Кухонный гарнитур"
+}

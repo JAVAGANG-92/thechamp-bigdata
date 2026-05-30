@@ -1,0 +1,20 @@
+{
+  "id": "champ-000381",
+  "name": "Струнные",
+  "url": "",
+  "parent": "Музыкальные инструменты",
+  "parentId": "champ-000372",
+  "oneCId": "381",
+  "sortOrder": 21003,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 381,
+  "depth": 2,
+  "path": "Музыкальные инструменты / Струнные",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Музыкальные инструменты\\Струнные"
+}

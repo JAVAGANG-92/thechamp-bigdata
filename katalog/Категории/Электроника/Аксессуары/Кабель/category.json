@@ -1,0 +1,20 @@
+{
+  "id": "champ-000620",
+  "name": "Кабель",
+  "url": "",
+  "parent": "Аксессуары",
+  "parentId": "champ-000617",
+  "oneCId": "620",
+  "sortOrder": 3500103,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 620,
+  "depth": 3,
+  "path": "Электроника / Аксессуары / Кабель",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Электроника\\Аксессуары\\Кабель"
+}

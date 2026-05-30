@@ -1,0 +1,20 @@
+{
+  "id": "champ-000649",
+  "name": "Украшения из серебра",
+  "url": "",
+  "parent": "Ювелирные изделия",
+  "parentId": "champ-000643",
+  "oneCId": "649",
+  "sortOrder": 36002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 649,
+  "depth": 2,
+  "path": "Ювелирные изделия / Украшения из серебра",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Ювелирные изделия\\Украшения из серебра"
+}

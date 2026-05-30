@@ -1,0 +1,20 @@
+{
+  "id": "champ-000155",
+  "name": "Саженец",
+  "url": "",
+  "parent": "Семена и растения",
+  "parentId": "champ-000153",
+  "oneCId": "155",
+  "sortOrder": 900202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 155,
+  "depth": 3,
+  "path": "Дача, сад и огород / Семена и растения / Саженец",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дача, сад и огород\\Семена и растения\\Саженец"
+}

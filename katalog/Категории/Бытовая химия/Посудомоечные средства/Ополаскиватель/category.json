@@ -1,0 +1,20 @@
+{
+  "id": "champ-000097",
+  "name": "Ополаскиватель",
+  "url": "",
+  "parent": "Посудомоечные средства",
+  "parentId": "champ-000096",
+  "oneCId": "97",
+  "sortOrder": 600101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 97,
+  "depth": 3,
+  "path": "Бытовая химия / Посудомоечные средства / Ополаскиватель",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Бытовая химия\\Посудомоечные средства\\Ополаскиватель"
+}

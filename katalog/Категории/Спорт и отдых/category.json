@@ -1,0 +1,20 @@
+{
+  "id": "champ-000526",
+  "name": "Спорт и отдых",
+  "url": "",
+  "parent": "Без категории",
+  "parentId": "",
+  "oneCId": "526",
+  "sortOrder": 29,
+  "active": true,
+  "showHome": true,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 526,
+  "depth": 1,
+  "path": "Спорт и отдых",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 1,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Спорт и отдых"
+}

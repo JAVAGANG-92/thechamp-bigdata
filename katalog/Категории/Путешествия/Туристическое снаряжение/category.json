@@ -1,0 +1,20 @@
+{
+  "id": "champ-000488",
+  "name": "Туристическое снаряжение",
+  "url": "",
+  "parent": "Путешествия",
+  "parentId": "champ-000478",
+  "oneCId": "488",
+  "sortOrder": 26003,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 488,
+  "depth": 2,
+  "path": "Путешествия / Туристическое снаряжение",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Путешествия\\Туристическое снаряжение"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000238",
+  "name": "Игровая мышь",
+  "url": "",
+  "parent": "Аксессуары для геймеров",
+  "parentId": "champ-000235",
+  "oneCId": "238",
+  "sortOrder": 1300103,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 238,
+  "depth": 3,
+  "path": "Игры и консоли / Аксессуары для геймеров / Игровая мышь",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Игры и консоли\\Аксессуары для геймеров\\Игровая мышь"
+}

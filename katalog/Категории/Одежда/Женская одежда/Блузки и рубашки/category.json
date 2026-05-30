@@ -1,0 +1,20 @@
+{
+  "id": "champ-000410",
+  "name": "Блузки и рубашки",
+  "url": "",
+  "parent": "Женская одежда",
+  "parentId": "champ-000408",
+  "oneCId": "410",
+  "sortOrder": 2300102,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 410,
+  "depth": 3,
+  "path": "Одежда / Женская одежда / Блузки и рубашки",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Одежда\\Женская одежда\\Блузки и рубашки"
+}

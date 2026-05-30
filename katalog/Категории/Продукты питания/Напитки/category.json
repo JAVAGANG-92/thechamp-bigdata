@@ -1,0 +1,20 @@
+{
+  "id": "champ-000466",
+  "name": "Напитки",
+  "url": "",
+  "parent": "Продукты питания",
+  "parentId": "champ-000454",
+  "oneCId": "466",
+  "sortOrder": 25003,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 466,
+  "depth": 2,
+  "path": "Продукты питания / Напитки",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Продукты питания\\Напитки"
+}

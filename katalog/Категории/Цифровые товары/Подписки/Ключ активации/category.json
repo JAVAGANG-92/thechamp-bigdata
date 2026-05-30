@@ -1,0 +1,20 @@
+{
+  "id": "champ-000595",
+  "name": "Ключ активации",
+  "url": "",
+  "parent": "Подписки",
+  "parentId": "champ-000594",
+  "oneCId": "595",
+  "sortOrder": 3300201,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 595,
+  "depth": 3,
+  "path": "Цифровые товары / Подписки / Ключ активации",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Цифровые товары\\Подписки\\Ключ активации"
+}

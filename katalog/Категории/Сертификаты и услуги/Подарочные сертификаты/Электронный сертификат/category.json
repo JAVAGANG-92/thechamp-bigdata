@@ -1,0 +1,20 @@
+{
+  "id": "champ-000521",
+  "name": "Электронный сертификат",
+  "url": "",
+  "parent": "Подарочные сертификаты",
+  "parentId": "champ-000518",
+  "oneCId": "521",
+  "sortOrder": 2800203,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 521,
+  "depth": 3,
+  "path": "Сертификаты и услуги / Подарочные сертификаты / Электронный сертификат",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Сертификаты и услуги\\Подарочные сертификаты\\Электронный сертификат"
+}

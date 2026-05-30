@@ -1,0 +1,20 @@
+{
+  "id": "champ-000183",
+  "name": "Костюм для мальчика",
+  "url": "",
+  "parent": "Одежда для мальчиков",
+  "parentId": "champ-000181",
+  "oneCId": "183",
+  "sortOrder": 1000402,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 183,
+  "depth": 3,
+  "path": "Детские товары / Одежда для мальчиков / Костюм для мальчика",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Детские товары\\Одежда для мальчиков\\Костюм для мальчика"
+}

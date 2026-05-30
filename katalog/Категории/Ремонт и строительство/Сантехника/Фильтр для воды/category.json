@@ -1,0 +1,20 @@
+{
+  "id": "champ-000507",
+  "name": "Фильтр для воды",
+  "url": "",
+  "parent": "Сантехника",
+  "parentId": "champ-000503",
+  "oneCId": "507",
+  "sortOrder": 2700304,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 507,
+  "depth": 3,
+  "path": "Ремонт и строительство / Сантехника / Фильтр для воды",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Ремонт и строительство\\Сантехника\\Фильтр для воды"
+}

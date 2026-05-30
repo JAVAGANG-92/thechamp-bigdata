@@ -1,0 +1,20 @@
+{
+  "id": "champ-000639",
+  "name": "Видеокамера",
+  "url": "",
+  "parent": "Фото и видео",
+  "parentId": "champ-000638",
+  "oneCId": "639",
+  "sortOrder": 3500501,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 639,
+  "depth": 3,
+  "path": "Электроника / Фото и видео / Видеокамера",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Электроника\\Фото и видео\\Видеокамера"
+}

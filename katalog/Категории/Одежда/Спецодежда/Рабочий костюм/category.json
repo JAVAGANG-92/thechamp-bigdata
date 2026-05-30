@@ -1,0 +1,20 @@
+{
+  "id": "champ-000438",
+  "name": "Рабочий костюм",
+  "url": "",
+  "parent": "Спецодежда",
+  "parentId": "champ-000435",
+  "oneCId": "438",
+  "sortOrder": 2300503,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 438,
+  "depth": 3,
+  "path": "Одежда / Спецодежда / Рабочий костюм",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Одежда\\Спецодежда\\Рабочий костюм"
+}

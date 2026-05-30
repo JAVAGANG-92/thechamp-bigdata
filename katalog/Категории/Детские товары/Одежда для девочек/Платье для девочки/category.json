@@ -1,0 +1,20 @@
+{
+  "id": "champ-000179",
+  "name": "Платье для девочки",
+  "url": "",
+  "parent": "Одежда для девочек",
+  "parentId": "champ-000177",
+  "oneCId": "179",
+  "sortOrder": 1000302,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 179,
+  "depth": 3,
+  "path": "Детские товары / Одежда для девочек / Платье для девочки",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Детские товары\\Одежда для девочек\\Платье для девочки"
+}

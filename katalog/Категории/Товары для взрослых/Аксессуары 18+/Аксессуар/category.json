@@ -1,0 +1,20 @@
+{
+  "id": "champ-000549",
+  "name": "Аксессуар",
+  "url": "",
+  "parent": "Аксессуары 18+",
+  "parentId": "champ-000548",
+  "oneCId": "549",
+  "sortOrder": 3000101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 549,
+  "depth": 3,
+  "path": "Товары для взрослых / Аксессуары 18+ / Аксессуар",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Товары для взрослых\\Аксессуары 18+\\Аксессуар"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000609",
+  "name": "Плакат",
+  "url": "",
+  "parent": "Учебные материалы",
+  "parentId": "champ-000607",
+  "oneCId": "609",
+  "sortOrder": 3400202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 609,
+  "depth": 3,
+  "path": "Школа и образование / Учебные материалы / Плакат",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Школа и образование\\Учебные материалы\\Плакат"
+}

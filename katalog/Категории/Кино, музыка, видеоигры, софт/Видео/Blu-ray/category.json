@@ -1,0 +1,20 @@
+{
+  "id": "champ-000266",
+  "name": "Blu-ray",
+  "url": "",
+  "parent": "Видео",
+  "parentId": "champ-000265",
+  "oneCId": "266",
+  "sortOrder": 1500101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 266,
+  "depth": 3,
+  "path": "Кино, музыка, видеоигры, софт / Видео / Blu-ray",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Кино, музыка, видеоигры, софт\\Видео\\Blu-ray"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000075",
+  "name": "Кондиционер",
+  "url": "",
+  "parent": "Климатическая техника",
+  "parentId": "champ-000074",
+  "oneCId": "75",
+  "sortOrder": 500101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 75,
+  "depth": 3,
+  "path": "Бытовая техника / Климатическая техника / Кондиционер",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Бытовая техника\\Климатическая техника\\Кондиционер"
+}

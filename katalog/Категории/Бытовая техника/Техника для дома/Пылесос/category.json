@@ -1,0 +1,20 @@
+{
+  "id": "champ-000086",
+  "name": "Пылесос",
+  "url": "",
+  "parent": "Техника для дома",
+  "parentId": "champ-000084",
+  "oneCId": "86",
+  "sortOrder": 500302,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 86,
+  "depth": 3,
+  "path": "Бытовая техника / Техника для дома / Пылесос",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Бытовая техника\\Техника для дома\\Пылесос"
+}

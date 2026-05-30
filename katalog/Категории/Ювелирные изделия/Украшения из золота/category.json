@@ -1,0 +1,20 @@
+{
+  "id": "champ-000644",
+  "name": "Украшения из золота",
+  "url": "",
+  "parent": "Ювелирные изделия",
+  "parentId": "champ-000643",
+  "oneCId": "644",
+  "sortOrder": 36001,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 644,
+  "depth": 2,
+  "path": "Ювелирные изделия / Украшения из золота",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Ювелирные изделия\\Украшения из золота"
+}

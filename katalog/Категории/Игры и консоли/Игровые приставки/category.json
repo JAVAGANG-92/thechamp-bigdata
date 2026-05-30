@@ -1,0 +1,20 @@
+{
+  "id": "champ-000244",
+  "name": "Игровые приставки",
+  "url": "",
+  "parent": "Игры и консоли",
+  "parentId": "champ-000234",
+  "oneCId": "244",
+  "sortOrder": 13003,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 244,
+  "depth": 2,
+  "path": "Игры и консоли / Игровые приставки",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Игры и консоли\\Игровые приставки"
+}

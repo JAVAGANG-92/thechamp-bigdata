@@ -1,0 +1,20 @@
+{
+  "id": "champ-000446",
+  "name": "Воздушный шар",
+  "url": "",
+  "parent": "Праздничный декор",
+  "parentId": "champ-000445",
+  "oneCId": "446",
+  "sortOrder": 2400201,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 446,
+  "depth": 3,
+  "path": "Подарки и сувениры / Праздничный декор / Воздушный шар",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Подарки и сувениры\\Праздничный декор\\Воздушный шар"
+}

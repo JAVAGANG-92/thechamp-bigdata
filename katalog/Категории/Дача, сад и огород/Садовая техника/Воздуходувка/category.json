@@ -1,0 +1,20 @@
+{
+  "id": "champ-000149",
+  "name": "Воздуходувка",
+  "url": "",
+  "parent": "Садовая техника",
+  "parentId": "champ-000148",
+  "oneCId": "149",
+  "sortOrder": 900101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 149,
+  "depth": 3,
+  "path": "Дача, сад и огород / Садовая техника / Воздуходувка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дача, сад и огород\\Садовая техника\\Воздуходувка"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000140",
+  "name": "Чемодан",
+  "url": "",
+  "parent": "Сумки и рюкзаки",
+  "parentId": "champ-000135",
+  "oneCId": "140",
+  "sortOrder": 800305,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 140,
+  "depth": 3,
+  "path": "Галантерея и аксессуары / Сумки и рюкзаки / Чемодан",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Галантерея и аксессуары\\Сумки и рюкзаки\\Чемодан"
+}

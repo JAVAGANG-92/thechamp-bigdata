@@ -1,0 +1,20 @@
+{
+  "id": "champ-000189",
+  "name": "Пустышка",
+  "url": "",
+  "parent": "Товары для малыша",
+  "parentId": "champ-000185",
+  "oneCId": "189",
+  "sortOrder": 1000504,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 189,
+  "depth": 3,
+  "path": "Детские товары / Товары для малыша / Пустышка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Детские товары\\Товары для малыша\\Пустышка"
+}

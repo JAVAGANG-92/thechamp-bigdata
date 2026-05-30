@@ -1,0 +1,20 @@
+{
+  "id": "champ-000271",
+  "name": "Винил",
+  "url": "",
+  "parent": "Музыка",
+  "parentId": "champ-000269",
+  "oneCId": "271",
+  "sortOrder": 1500202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 271,
+  "depth": 3,
+  "path": "Кино, музыка, видеоигры, софт / Музыка / Винил",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Кино, музыка, видеоигры, софт\\Музыка\\Винил"
+}

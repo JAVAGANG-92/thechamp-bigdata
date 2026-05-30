@@ -1,0 +1,20 @@
+{
+  "id": "champ-000285",
+  "name": "Рабочая тетрадь",
+  "url": "",
+  "parent": "Образование",
+  "parentId": "champ-000283",
+  "oneCId": "285",
+  "sortOrder": 1600202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 285,
+  "depth": 3,
+  "path": "Книги / Образование / Рабочая тетрадь",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Книги\\Образование\\Рабочая тетрадь"
+}

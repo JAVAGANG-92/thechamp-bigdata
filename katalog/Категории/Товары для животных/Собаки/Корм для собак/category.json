@@ -1,0 +1,20 @@
+{
+  "id": "champ-000569",
+  "name": "Корм для собак",
+  "url": "",
+  "parent": "Собаки",
+  "parentId": "champ-000568",
+  "oneCId": "569",
+  "sortOrder": 3100301,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 569,
+  "depth": 3,
+  "path": "Товары для животных / Собаки / Корм для собак",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Товары для животных\\Собаки\\Корм для собак"
+}

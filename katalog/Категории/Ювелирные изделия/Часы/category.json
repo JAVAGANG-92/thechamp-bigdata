@@ -1,0 +1,20 @@
+{
+  "id": "champ-000654",
+  "name": "Часы",
+  "url": "",
+  "parent": "Ювелирные изделия",
+  "parentId": "champ-000643",
+  "oneCId": "654",
+  "sortOrder": 36003,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 654,
+  "depth": 2,
+  "path": "Ювелирные изделия / Часы",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Ювелирные изделия\\Часы"
+}

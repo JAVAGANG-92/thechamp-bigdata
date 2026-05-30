@@ -1,0 +1,20 @@
+{
+  "id": "champ-000408",
+  "name": "Женская одежда",
+  "url": "",
+  "parent": "Одежда",
+  "parentId": "champ-000407",
+  "oneCId": "408",
+  "sortOrder": 23001,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 408,
+  "depth": 2,
+  "path": "Одежда / Женская одежда",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Одежда\\Женская одежда"
+}

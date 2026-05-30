@@ -1,0 +1,20 @@
+{
+  "id": "champ-000374",
+  "name": "Акустическая система",
+  "url": "",
+  "parent": "Звук",
+  "parentId": "champ-000373",
+  "oneCId": "374",
+  "sortOrder": 2100101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 374,
+  "depth": 3,
+  "path": "Музыкальные инструменты / Звук / Акустическая система",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Музыкальные инструменты\\Звук\\Акустическая система"
+}

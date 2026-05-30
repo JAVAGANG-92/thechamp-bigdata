@@ -1,0 +1,20 @@
+{
+  "id": "champ-000347",
+  "name": "Стеллаж",
+  "url": "",
+  "parent": "Мебель для гостиной",
+  "parentId": "champ-000343",
+  "oneCId": "347",
+  "sortOrder": 1900204,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 347,
+  "depth": 3,
+  "path": "Мебель / Мебель для гостиной / Стеллаж",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Мебель\\Мебель для гостиной\\Стеллаж"
+}

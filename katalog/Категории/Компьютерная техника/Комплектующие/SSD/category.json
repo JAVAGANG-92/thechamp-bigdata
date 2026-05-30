@@ -1,0 +1,20 @@
+{
+  "id": "champ-000295",
+  "name": "SSD",
+  "url": "",
+  "parent": "Комплектующие",
+  "parentId": "champ-000294",
+  "oneCId": "295",
+  "sortOrder": 1700101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 295,
+  "depth": 3,
+  "path": "Компьютерная техника / Комплектующие / SSD",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Компьютерная техника\\Комплектующие\\SSD"
+}

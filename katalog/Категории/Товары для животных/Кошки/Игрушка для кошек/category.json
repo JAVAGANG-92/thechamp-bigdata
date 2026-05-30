@@ -1,0 +1,20 @@
+{
+  "id": "champ-000564",
+  "name": "Игрушка для кошек",
+  "url": "",
+  "parent": "Кошки",
+  "parentId": "champ-000563",
+  "oneCId": "564",
+  "sortOrder": 3100201,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 564,
+  "depth": 3,
+  "path": "Товары для животных / Кошки / Игрушка для кошек",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Товары для животных\\Кошки\\Игрушка для кошек"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000330",
+  "name": "Очищающее средство",
+  "url": "",
+  "parent": "Уход за лицом",
+  "parentId": "champ-000327",
+  "oneCId": "330",
+  "sortOrder": 1800403,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 330,
+  "depth": 3,
+  "path": "Красота и гигиена / Уход за лицом / Очищающее средство",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Красота и гигиена\\Уход за лицом\\Очищающее средство"
+}

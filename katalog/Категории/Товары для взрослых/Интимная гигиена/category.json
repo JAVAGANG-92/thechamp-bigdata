@@ -1,0 +1,20 @@
+{
+  "id": "champ-000555",
+  "name": "Интимная гигиена",
+  "url": "",
+  "parent": "Товары для взрослых",
+  "parentId": "champ-000547",
+  "oneCId": "555",
+  "sortOrder": 30003,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 555,
+  "depth": 2,
+  "path": "Товары для взрослых / Интимная гигиена",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Товары для взрослых\\Интимная гигиена"
+}

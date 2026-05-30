@@ -1,0 +1,20 @@
+{
+  "id": "champ-000323",
+  "name": "Пудра",
+  "url": "",
+  "parent": "Макияж",
+  "parentId": "champ-000321",
+  "oneCId": "323",
+  "sortOrder": 1800302,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 323,
+  "depth": 3,
+  "path": "Красота и гигиена / Макияж / Пудра",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Красота и гигиена\\Макияж\\Пудра"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000598",
+  "name": "Электронные книги",
+  "url": "",
+  "parent": "Цифровые товары",
+  "parentId": "champ-000589",
+  "oneCId": "598",
+  "sortOrder": 33003,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 598,
+  "depth": 2,
+  "path": "Цифровые товары / Электронные книги",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Цифровые товары\\Электронные книги"
+}

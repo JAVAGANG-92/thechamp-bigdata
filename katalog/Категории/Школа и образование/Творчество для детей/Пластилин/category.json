@@ -1,0 +1,20 @@
+{
+  "id": "champ-000606",
+  "name": "Пластилин",
+  "url": "",
+  "parent": "Творчество для детей",
+  "parentId": "champ-000603",
+  "oneCId": "606",
+  "sortOrder": 3400103,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 606,
+  "depth": 3,
+  "path": "Школа и образование / Творчество для детей / Пластилин",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Школа и образование\\Творчество для детей\\Пластилин"
+}

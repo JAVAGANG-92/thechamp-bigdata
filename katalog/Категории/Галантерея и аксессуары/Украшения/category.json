@@ -1,0 +1,20 @@
+{
+  "id": "champ-000141",
+  "name": "Украшения",
+  "url": "",
+  "parent": "Галантерея и аксессуары",
+  "parentId": "champ-000123",
+  "oneCId": "141",
+  "sortOrder": 8004,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 141,
+  "depth": 2,
+  "path": "Галантерея и аксессуары / Украшения",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Галантерея и аксессуары\\Украшения"
+}

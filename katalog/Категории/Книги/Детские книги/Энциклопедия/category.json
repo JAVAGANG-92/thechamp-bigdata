@@ -1,0 +1,20 @@
+{
+  "id": "champ-000282",
+  "name": "Энциклопедия",
+  "url": "",
+  "parent": "Детские книги",
+  "parentId": "champ-000278",
+  "oneCId": "282",
+  "sortOrder": 1600104,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 282,
+  "depth": 3,
+  "path": "Книги / Детские книги / Энциклопедия",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Книги\\Детские книги\\Энциклопедия"
+}

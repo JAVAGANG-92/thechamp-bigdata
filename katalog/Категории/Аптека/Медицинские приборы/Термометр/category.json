@@ -1,0 +1,20 @@
+{
+  "id": "champ-000056",
+  "name": "Термометр",
+  "url": "",
+  "parent": "Медицинские приборы",
+  "parentId": "champ-000053",
+  "oneCId": "56",
+  "sortOrder": 300303,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 56,
+  "depth": 3,
+  "path": "Аптека / Медицинские приборы / Термометр",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Аптека\\Медицинские приборы\\Термометр"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000632",
+  "name": "Ноутбук",
+  "url": "",
+  "parent": "Компьютеры",
+  "parentId": "champ-000627",
+  "oneCId": "632",
+  "sortOrder": 3500305,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 632,
+  "depth": 3,
+  "path": "Электроника / Компьютеры / Ноутбук",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Электроника\\Компьютеры\\Ноутбук"
+}

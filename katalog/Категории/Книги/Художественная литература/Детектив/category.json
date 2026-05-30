@@ -1,0 +1,20 @@
+{
+  "id": "champ-000289",
+  "name": "Детектив",
+  "url": "",
+  "parent": "Художественная литература",
+  "parentId": "champ-000288",
+  "oneCId": "289",
+  "sortOrder": 1600301,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 289,
+  "depth": 3,
+  "path": "Книги / Художественная литература / Детектив",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Книги\\Художественная литература\\Детектив"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000338",
+  "name": "Кухонная мебель",
+  "url": "",
+  "parent": "Мебель",
+  "parentId": "champ-000337",
+  "oneCId": "338",
+  "sortOrder": 19001,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 338,
+  "depth": 2,
+  "path": "Мебель / Кухонная мебель",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Мебель\\Кухонная мебель"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000393",
+  "name": "Кроссовки женские",
+  "url": "",
+  "parent": "Женская обувь",
+  "parentId": "champ-000391",
+  "oneCId": "393",
+  "sortOrder": 2200202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 393,
+  "depth": 3,
+  "path": "Обувь / Женская обувь / Кроссовки женские",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Обувь\\Женская обувь\\Кроссовки женские"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000011",
+  "name": "Фильтр автомобильный",
+  "url": "",
+  "parent": "Автозапчасти",
+  "parentId": "champ-000007",
+  "oneCId": "11",
+  "sortOrder": 100204,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 11,
+  "depth": 3,
+  "path": "Автомототехника / Автозапчасти / Фильтр автомобильный",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Автомототехника\\Автозапчасти\\Фильтр автомобильный"
+}

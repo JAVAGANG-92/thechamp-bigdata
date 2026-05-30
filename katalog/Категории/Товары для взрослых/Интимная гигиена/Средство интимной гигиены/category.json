@@ -1,0 +1,20 @@
+{
+  "id": "champ-000557",
+  "name": "Средство интимной гигиены",
+  "url": "",
+  "parent": "Интимная гигиена",
+  "parentId": "champ-000555",
+  "oneCId": "557",
+  "sortOrder": 3000302,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 557,
+  "depth": 3,
+  "path": "Товары для взрослых / Интимная гигиена / Средство интимной гигиены",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Товары для взрослых\\Интимная гигиена\\Средство интимной гигиены"
+}

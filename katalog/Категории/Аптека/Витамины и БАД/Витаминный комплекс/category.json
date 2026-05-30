@@ -1,0 +1,20 @@
+{
+  "id": "champ-000044",
+  "name": "Витаминный комплекс",
+  "url": "",
+  "parent": "Витамины и БАД",
+  "parentId": "champ-000043",
+  "oneCId": "44",
+  "sortOrder": 300101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 44,
+  "depth": 3,
+  "path": "Аптека / Витамины и БАД / Витаминный комплекс",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Аптека\\Витамины и БАД\\Витаминный комплекс"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000542",
+  "name": "Фитнес",
+  "url": "",
+  "parent": "Спорт и отдых",
+  "parentId": "champ-000526",
+  "oneCId": "542",
+  "sortOrder": 29004,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 542,
+  "depth": 2,
+  "path": "Спорт и отдых / Фитнес",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Спорт и отдых\\Фитнес"
+}

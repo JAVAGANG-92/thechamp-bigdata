@@ -1,0 +1,20 @@
+{
+  "id": "champ-000541",
+  "name": "Термос",
+  "url": "",
+  "parent": "Туризм",
+  "parentId": "champ-000537",
+  "oneCId": "541",
+  "sortOrder": 2900304,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 541,
+  "depth": 3,
+  "path": "Спорт и отдых / Туризм / Термос",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Спорт и отдых\\Туризм\\Термос"
+}

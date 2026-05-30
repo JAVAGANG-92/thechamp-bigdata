@@ -1,0 +1,20 @@
+{
+  "id": "champ-000514",
+  "name": "Билеты",
+  "url": "",
+  "parent": "Сертификаты и услуги",
+  "parentId": "champ-000513",
+  "oneCId": "514",
+  "sortOrder": 28001,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 514,
+  "depth": 2,
+  "path": "Сертификаты и услуги / Билеты",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Сертификаты и услуги\\Билеты"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000178",
+  "name": "Брюки для девочки",
+  "url": "",
+  "parent": "Одежда для девочек",
+  "parentId": "champ-000177",
+  "oneCId": "178",
+  "sortOrder": 1000301,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 178,
+  "depth": 3,
+  "path": "Детские товары / Одежда для девочек / Брюки для девочки",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Детские товары\\Одежда для девочек\\Брюки для девочки"
+}

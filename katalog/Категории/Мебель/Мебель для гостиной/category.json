@@ -1,0 +1,20 @@
+{
+  "id": "champ-000343",
+  "name": "Мебель для гостиной",
+  "url": "",
+  "parent": "Мебель",
+  "parentId": "champ-000337",
+  "oneCId": "343",
+  "sortOrder": 19002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 343,
+  "depth": 2,
+  "path": "Мебель / Мебель для гостиной",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Мебель\\Мебель для гостиной"
+}

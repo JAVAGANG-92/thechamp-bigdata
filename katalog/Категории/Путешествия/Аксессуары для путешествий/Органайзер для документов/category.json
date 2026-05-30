@@ -1,0 +1,20 @@
+{
+  "id": "champ-000481",
+  "name": "Органайзер для документов",
+  "url": "",
+  "parent": "Аксессуары для путешествий",
+  "parentId": "champ-000479",
+  "oneCId": "481",
+  "sortOrder": 2600102,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 481,
+  "depth": 3,
+  "path": "Путешествия / Аксессуары для путешествий / Органайзер для документов",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Путешествия\\Аксессуары для путешествий\\Органайзер для документов"
+}

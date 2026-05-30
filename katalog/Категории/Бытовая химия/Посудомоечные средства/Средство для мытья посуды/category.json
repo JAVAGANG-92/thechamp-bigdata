@@ -1,0 +1,20 @@
+{
+  "id": "champ-000098",
+  "name": "Средство для мытья посуды",
+  "url": "",
+  "parent": "Посудомоечные средства",
+  "parentId": "champ-000096",
+  "oneCId": "98",
+  "sortOrder": 600102,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 98,
+  "depth": 3,
+  "path": "Бытовая химия / Посудомоечные средства / Средство для мытья посуды",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Бытовая химия\\Посудомоечные средства\\Средство для мытья посуды"
+}

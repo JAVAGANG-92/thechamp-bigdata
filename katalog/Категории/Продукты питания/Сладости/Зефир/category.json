@@ -1,0 +1,20 @@
+{
+  "id": "champ-000473",
+  "name": "Зефир",
+  "url": "",
+  "parent": "Сладости",
+  "parentId": "champ-000472",
+  "oneCId": "473",
+  "sortOrder": 2500401,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 473,
+  "depth": 3,
+  "path": "Продукты питания / Сладости / Зефир",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Продукты питания\\Сладости\\Зефир"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "thechamp-bigdata",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Marketplace entegrasyonlari icin TheChamp BigData admin paneli",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

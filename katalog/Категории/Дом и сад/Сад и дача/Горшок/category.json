@@ -1,0 +1,20 @@
+{
+  "id": "champ-000204",
+  "name": "Горшок",
+  "url": "",
+  "parent": "Сад и дача",
+  "parentId": "champ-000203",
+  "oneCId": "204",
+  "sortOrder": 1100301,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 204,
+  "depth": 3,
+  "path": "Дом и сад / Сад и дача / Горшок",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дом и сад\\Сад и дача\\Горшок"
+}

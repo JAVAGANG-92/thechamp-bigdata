@@ -1,0 +1,20 @@
+{
+  "id": "champ-000591",
+  "name": "DLC",
+  "url": "",
+  "parent": "Игровой контент",
+  "parentId": "champ-000590",
+  "oneCId": "591",
+  "sortOrder": 3300101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 591,
+  "depth": 3,
+  "path": "Цифровые товары / Игровой контент / DLC",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Цифровые товары\\Игровой контент\\DLC"
+}

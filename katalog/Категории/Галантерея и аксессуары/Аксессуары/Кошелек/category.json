@@ -1,0 +1,20 @@
+{
+  "id": "champ-000126",
+  "name": "Кошелек",
+  "url": "",
+  "parent": "Аксессуары",
+  "parentId": "champ-000124",
+  "oneCId": "126",
+  "sortOrder": 800102,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 126,
+  "depth": 3,
+  "path": "Галантерея и аксессуары / Аксессуары / Кошелек",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Галантерея и аксессуары\\Аксессуары\\Кошелек"
+}

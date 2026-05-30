@@ -1,0 +1,20 @@
+{
+  "id": "champ-000527",
+  "name": "Командные виды спорта",
+  "url": "",
+  "parent": "Спорт и отдых",
+  "parentId": "champ-000526",
+  "oneCId": "527",
+  "sortOrder": 29001,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 527,
+  "depth": 2,
+  "path": "Спорт и отдых / Командные виды спорта",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Спорт и отдых\\Командные виды спорта"
+}

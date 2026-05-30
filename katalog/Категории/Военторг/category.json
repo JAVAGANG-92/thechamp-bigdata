@@ -1,0 +1,20 @@
+{
+  "id": "champ-000110",
+  "name": "Военторг",
+  "url": "",
+  "parent": "Без категории",
+  "parentId": "",
+  "oneCId": "110",
+  "sortOrder": 7,
+  "active": true,
+  "showHome": true,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 110,
+  "depth": 1,
+  "path": "Военторг",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 1,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Военторг"
+}

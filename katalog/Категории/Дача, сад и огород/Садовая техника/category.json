@@ -1,0 +1,20 @@
+{
+  "id": "champ-000148",
+  "name": "Садовая техника",
+  "url": "",
+  "parent": "Дача, сад и огород",
+  "parentId": "champ-000147",
+  "oneCId": "148",
+  "sortOrder": 9001,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 148,
+  "depth": 2,
+  "path": "Дача, сад и огород / Садовая техника",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дача, сад и огород\\Садовая техника"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000490",
+  "name": "Рюкзак туристический",
+  "url": "",
+  "parent": "Туристическое снаряжение",
+  "parentId": "champ-000488",
+  "oneCId": "490",
+  "sortOrder": 2600302,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 490,
+  "depth": 3,
+  "path": "Путешествия / Туристическое снаряжение / Рюкзак туристический",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Путешествия\\Туристическое снаряжение\\Рюкзак туристический"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000200",
+  "name": "Набор столовых приборов",
+  "url": "",
+  "parent": "Посуда",
+  "parentId": "champ-000197",
+  "oneCId": "200",
+  "sortOrder": 1100203,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 200,
+  "depth": 3,
+  "path": "Дом и сад / Посуда / Набор столовых приборов",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дом и сад\\Посуда\\Набор столовых приборов"
+}

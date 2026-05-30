@@ -1,0 +1,20 @@
+{
+  "id": "champ-000232",
+  "name": "Миска",
+  "url": "",
+  "parent": "Содержание",
+  "parentId": "champ-000229",
+  "oneCId": "232",
+  "sortOrder": 1200303,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 232,
+  "depth": 3,
+  "path": "Животные и ветеринария / Содержание / Миска",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Животные и ветеринария\\Содержание\\Миска"
+}

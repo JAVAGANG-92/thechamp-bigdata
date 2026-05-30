@@ -1,0 +1,20 @@
+{
+  "id": "champ-000198",
+  "name": "Кастрюля",
+  "url": "",
+  "parent": "Посуда",
+  "parentId": "champ-000197",
+  "oneCId": "198",
+  "sortOrder": 1100201,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 198,
+  "depth": 3,
+  "path": "Дом и сад / Посуда / Кастрюля",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дом и сад\\Посуда\\Кастрюля"
+}

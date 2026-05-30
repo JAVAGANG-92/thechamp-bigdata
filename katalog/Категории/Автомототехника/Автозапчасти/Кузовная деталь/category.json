@@ -1,0 +1,20 @@
+{
+  "id": "champ-000008",
+  "name": "Кузовная деталь",
+  "url": "",
+  "parent": "Автозапчасти",
+  "parentId": "champ-000007",
+  "oneCId": "8",
+  "sortOrder": 100201,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 8,
+  "depth": 3,
+  "path": "Автомототехника / Автозапчасти / Кузовная деталь",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Автомототехника\\Автозапчасти\\Кузовная деталь"
+}

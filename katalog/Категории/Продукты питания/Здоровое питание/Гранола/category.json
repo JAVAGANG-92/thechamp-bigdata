@@ -1,0 +1,20 @@
+{
+  "id": "champ-000463",
+  "name": "Гранола",
+  "url": "",
+  "parent": "Здоровое питание",
+  "parentId": "champ-000461",
+  "oneCId": "463",
+  "sortOrder": 2500202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 463,
+  "depth": 3,
+  "path": "Продукты питания / Здоровое питание / Гранола",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Продукты питания\\Здоровое питание\\Гранола"
+}

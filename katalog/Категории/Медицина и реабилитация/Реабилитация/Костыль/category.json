@@ -1,0 +1,20 @@
+{
+  "id": "champ-000365",
+  "name": "Костыль",
+  "url": "",
+  "parent": "Реабилитация",
+  "parentId": "champ-000363",
+  "oneCId": "365",
+  "sortOrder": 2000202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 365,
+  "depth": 3,
+  "path": "Медицина и реабилитация / Реабилитация / Костыль",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Медицина и реабилитация\\Реабилитация\\Костыль"
+}

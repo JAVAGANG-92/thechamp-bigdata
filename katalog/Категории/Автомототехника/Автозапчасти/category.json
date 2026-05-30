@@ -1,0 +1,20 @@
+{
+  "id": "champ-000007",
+  "name": "Автозапчасти",
+  "url": "",
+  "parent": "Автомототехника",
+  "parentId": "champ-000001",
+  "oneCId": "7",
+  "sortOrder": 1002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 7,
+  "depth": 2,
+  "path": "Автомототехника / Автозапчасти",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Автомототехника\\Автозапчасти"
+}

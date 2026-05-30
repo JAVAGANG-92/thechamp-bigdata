@@ -1,0 +1,20 @@
+{
+  "id": "champ-000167",
+  "name": "Детские товары",
+  "url": "",
+  "parent": "Без категории",
+  "parentId": "",
+  "oneCId": "167",
+  "sortOrder": 10,
+  "active": true,
+  "showHome": true,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 167,
+  "depth": 1,
+  "path": "Детские товары",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 1,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Детские товары"
+}

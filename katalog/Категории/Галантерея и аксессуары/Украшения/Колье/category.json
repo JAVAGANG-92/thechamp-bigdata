@@ -1,0 +1,20 @@
+{
+  "id": "champ-000144",
+  "name": "Колье",
+  "url": "",
+  "parent": "Украшения",
+  "parentId": "champ-000141",
+  "oneCId": "144",
+  "sortOrder": 800403,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 144,
+  "depth": 3,
+  "path": "Галантерея и аксессуары / Украшения / Колье",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Галантерея и аксессуары\\Украшения\\Колье"
+}

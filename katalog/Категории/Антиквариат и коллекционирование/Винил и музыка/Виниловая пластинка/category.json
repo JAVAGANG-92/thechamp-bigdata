@@ -1,0 +1,20 @@
+{
+  "id": "champ-000034",
+  "name": "Виниловая пластинка",
+  "url": "",
+  "parent": "Винил и музыка",
+  "parentId": "champ-000032",
+  "oneCId": "34",
+  "sortOrder": 200202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 34,
+  "depth": 3,
+  "path": "Антиквариат и коллекционирование / Винил и музыка / Виниловая пластинка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Антиквариат и коллекционирование\\Винил и музыка\\Виниловая пластинка"
+}

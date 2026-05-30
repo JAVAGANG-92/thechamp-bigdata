@@ -1,0 +1,20 @@
+{
+  "id": "champ-000187",
+  "name": "Пеленки",
+  "url": "",
+  "parent": "Товары для малыша",
+  "parentId": "champ-000185",
+  "oneCId": "187",
+  "sortOrder": 1000502,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 187,
+  "depth": 3,
+  "path": "Детские товары / Товары для малыша / Пеленки",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Детские товары\\Товары для малыша\\Пеленки"
+}

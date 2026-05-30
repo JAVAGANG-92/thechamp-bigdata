@@ -1,0 +1,20 @@
+{
+  "id": "champ-000647",
+  "name": "Серьги",
+  "url": "",
+  "parent": "Украшения из золота",
+  "parentId": "champ-000644",
+  "oneCId": "647",
+  "sortOrder": 3600103,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 647,
+  "depth": 3,
+  "path": "Ювелирные изделия / Украшения из золота / Серьги",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Ювелирные изделия\\Украшения из золота\\Серьги"
+}

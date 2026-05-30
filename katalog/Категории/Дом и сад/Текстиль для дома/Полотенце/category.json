@@ -1,0 +1,20 @@
+{
+  "id": "champ-000212",
+  "name": "Полотенце",
+  "url": "",
+  "parent": "Текстиль для дома",
+  "parentId": "champ-000209",
+  "oneCId": "212",
+  "sortOrder": 1100403,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 212,
+  "depth": 3,
+  "path": "Дом и сад / Текстиль для дома / Полотенце",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дом и сад\\Текстиль для дома\\Полотенце"
+}

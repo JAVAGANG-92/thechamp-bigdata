@@ -1,0 +1,20 @@
+{
+  "id": "champ-000482",
+  "name": "Подушка дорожная",
+  "url": "",
+  "parent": "Аксессуары для путешествий",
+  "parentId": "champ-000479",
+  "oneCId": "482",
+  "sortOrder": 2600103,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 482,
+  "depth": 3,
+  "path": "Путешествия / Аксессуары для путешествий / Подушка дорожная",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Путешествия\\Аксессуары для путешествий\\Подушка дорожная"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000621",
+  "name": "Чехол",
+  "url": "",
+  "parent": "Аксессуары",
+  "parentId": "champ-000617",
+  "oneCId": "621",
+  "sortOrder": 3500104,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 621,
+  "depth": 3,
+  "path": "Электроника / Аксессуары / Чехол",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Электроника\\Аксессуары\\Чехол"
+}

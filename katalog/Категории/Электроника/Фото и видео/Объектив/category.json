@@ -1,0 +1,20 @@
+{
+  "id": "champ-000640",
+  "name": "Объектив",
+  "url": "",
+  "parent": "Фото и видео",
+  "parentId": "champ-000638",
+  "oneCId": "640",
+  "sortOrder": 3500502,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 640,
+  "depth": 3,
+  "path": "Электроника / Фото и видео / Объектив",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Электроника\\Фото и видео\\Объектив"
+}

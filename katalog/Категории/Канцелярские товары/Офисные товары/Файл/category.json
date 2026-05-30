@@ -1,0 +1,20 @@
+{
+  "id": "champ-000258",
+  "name": "Файл",
+  "url": "",
+  "parent": "Офисные товары",
+  "parentId": "champ-000254",
+  "oneCId": "258",
+  "sortOrder": 1400204,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 258,
+  "depth": 3,
+  "path": "Канцелярские товары / Офисные товары / Файл",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Канцелярские товары\\Офисные товары\\Файл"
+}

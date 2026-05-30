@@ -1,0 +1,20 @@
+{
+  "id": "champ-000002",
+  "name": "Автоаксессуары",
+  "url": "",
+  "parent": "Автомототехника",
+  "parentId": "champ-000001",
+  "oneCId": "2",
+  "sortOrder": 1001,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 2,
+  "depth": 2,
+  "path": "Автомототехника / Автоаксессуары",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Автомототехника\\Автоаксессуары"
+}

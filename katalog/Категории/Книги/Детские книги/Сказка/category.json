@@ -1,0 +1,20 @@
+{
+  "id": "champ-000281",
+  "name": "Сказка",
+  "url": "",
+  "parent": "Детские книги",
+  "parentId": "champ-000278",
+  "oneCId": "281",
+  "sortOrder": 1600103,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 281,
+  "depth": 3,
+  "path": "Книги / Детские книги / Сказка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Книги\\Детские книги\\Сказка"
+}

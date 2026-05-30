@@ -1,0 +1,20 @@
+{
+  "id": "champ-000519",
+  "name": "Подарочная карта",
+  "url": "",
+  "parent": "Подарочные сертификаты",
+  "parentId": "champ-000518",
+  "oneCId": "519",
+  "sortOrder": 2800201,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 519,
+  "depth": 3,
+  "path": "Сертификаты и услуги / Подарочные сертификаты / Подарочная карта",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Сертификаты и услуги\\Подарочные сертификаты\\Подарочная карта"
+}

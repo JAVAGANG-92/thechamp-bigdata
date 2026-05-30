@@ -1,0 +1,20 @@
+{
+  "id": "champ-000298",
+  "name": "Оперативная память",
+  "url": "",
+  "parent": "Комплектующие",
+  "parentId": "champ-000294",
+  "oneCId": "298",
+  "sortOrder": 1700104,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 298,
+  "depth": 3,
+  "path": "Компьютерная техника / Комплектующие / Оперативная память",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Компьютерная техника\\Комплектующие\\Оперативная память"
+}

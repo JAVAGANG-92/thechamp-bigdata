@@ -1,0 +1,20 @@
+{
+  "id": "champ-000120",
+  "name": "Компас",
+  "url": "",
+  "parent": "Туристическая экипировка",
+  "parentId": "champ-000119",
+  "oneCId": "120",
+  "sortOrder": 700301,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 120,
+  "depth": 3,
+  "path": "Военторг / Туристическая экипировка / Компас",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Военторг\\Туристическая экипировка\\Компас"
+}

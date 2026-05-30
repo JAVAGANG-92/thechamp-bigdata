@@ -1,0 +1,20 @@
+{
+  "id": "champ-000102",
+  "name": "Капсулы",
+  "url": "",
+  "parent": "Стирка",
+  "parentId": "champ-000100",
+  "oneCId": "102",
+  "sortOrder": 600202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 102,
+  "depth": 3,
+  "path": "Бытовая химия / Стирка / Капсулы",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Бытовая химия\\Стирка\\Капсулы"
+}

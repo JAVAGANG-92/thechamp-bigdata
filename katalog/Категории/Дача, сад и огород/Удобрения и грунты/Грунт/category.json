@@ -1,0 +1,20 @@
+{
+  "id": "champ-000164",
+  "name": "Грунт",
+  "url": "",
+  "parent": "Удобрения и грунты",
+  "parentId": "champ-000163",
+  "oneCId": "164",
+  "sortOrder": 900401,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 164,
+  "depth": 3,
+  "path": "Дача, сад и огород / Удобрения и грунты / Грунт",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дача, сад и огород\\Удобрения и грунты\\Грунт"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000351",
+  "name": "Матрас",
+  "url": "",
+  "parent": "Мебель для спальни",
+  "parentId": "champ-000348",
+  "oneCId": "351",
+  "sortOrder": 1900303,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 351,
+  "depth": 3,
+  "path": "Мебель / Мебель для спальни / Матрас",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Мебель\\Мебель для спальни\\Матрас"
+}

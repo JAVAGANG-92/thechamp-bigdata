@@ -1,0 +1,20 @@
+{
+  "id": "champ-000119",
+  "name": "Туристическая экипировка",
+  "url": "",
+  "parent": "Военторг",
+  "parentId": "champ-000110",
+  "oneCId": "119",
+  "sortOrder": 7003,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 119,
+  "depth": 2,
+  "path": "Военторг / Туристическая экипировка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Военторг\\Туристическая экипировка"
+}

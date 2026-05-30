@@ -1,0 +1,20 @@
+{
+  "id": "champ-000651",
+  "name": "Кольцо",
+  "url": "",
+  "parent": "Украшения из серебра",
+  "parentId": "champ-000649",
+  "oneCId": "651",
+  "sortOrder": 3600202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 651,
+  "depth": 3,
+  "path": "Ювелирные изделия / Украшения из серебра / Кольцо",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Ювелирные изделия\\Украшения из серебра\\Кольцо"
+}

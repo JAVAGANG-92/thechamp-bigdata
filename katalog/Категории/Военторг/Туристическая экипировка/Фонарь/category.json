@@ -1,0 +1,20 @@
+{
+  "id": "champ-000122",
+  "name": "Фонарь",
+  "url": "",
+  "parent": "Туристическая экипировка",
+  "parentId": "champ-000119",
+  "oneCId": "122",
+  "sortOrder": 700303,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 122,
+  "depth": 3,
+  "path": "Военторг / Туристическая экипировка / Фонарь",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Военторг\\Туристическая экипировка\\Фонарь"
+}

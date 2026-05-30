@@ -1,0 +1,20 @@
+{
+  "id": "champ-000500",
+  "name": "Ламинат",
+  "url": "",
+  "parent": "Отделочные материалы",
+  "parentId": "champ-000498",
+  "oneCId": "500",
+  "sortOrder": 2700202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 500,
+  "depth": 3,
+  "path": "Ремонт и строительство / Отделочные материалы / Ламинат",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Ремонт и строительство\\Отделочные материалы\\Ламинат"
+}

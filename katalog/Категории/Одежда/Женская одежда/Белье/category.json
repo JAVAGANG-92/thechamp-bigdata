@@ -1,0 +1,20 @@
+{
+  "id": "champ-000409",
+  "name": "Белье",
+  "url": "",
+  "parent": "Женская одежда",
+  "parentId": "champ-000408",
+  "oneCId": "409",
+  "sortOrder": 2300101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 409,
+  "depth": 3,
+  "path": "Одежда / Женская одежда / Белье",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Одежда\\Женская одежда\\Белье"
+}

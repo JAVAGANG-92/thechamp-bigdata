@@ -1,0 +1,20 @@
+{
+  "id": "champ-000462",
+  "name": "Батончик",
+  "url": "",
+  "parent": "Здоровое питание",
+  "parentId": "champ-000461",
+  "oneCId": "462",
+  "sortOrder": 2500201,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 462,
+  "depth": 3,
+  "path": "Продукты питания / Здоровое питание / Батончик",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Продукты питания\\Здоровое питание\\Батончик"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000551",
+  "name": "Белье 18+",
+  "url": "",
+  "parent": "Товары для взрослых",
+  "parentId": "champ-000547",
+  "oneCId": "551",
+  "sortOrder": 30002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 551,
+  "depth": 2,
+  "path": "Товары для взрослых / Белье 18+",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Товары для взрослых\\Белье 18+"
+}

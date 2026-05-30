@@ -1,0 +1,20 @@
+{
+  "id": "champ-000283",
+  "name": "Образование",
+  "url": "",
+  "parent": "Книги",
+  "parentId": "champ-000277",
+  "oneCId": "283",
+  "sortOrder": 16002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 283,
+  "depth": 2,
+  "path": "Книги / Образование",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Книги\\Образование"
+}

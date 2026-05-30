@@ -1,0 +1,20 @@
+{
+  "id": "champ-000536",
+  "name": "Удочка",
+  "url": "",
+  "parent": "Рыбалка",
+  "parentId": "champ-000532",
+  "oneCId": "536",
+  "sortOrder": 2900204,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 536,
+  "depth": 3,
+  "path": "Спорт и отдых / Рыбалка / Удочка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Спорт и отдых\\Рыбалка\\Удочка"
+}

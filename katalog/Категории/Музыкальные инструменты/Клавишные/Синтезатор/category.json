@@ -1,0 +1,20 @@
+{
+  "id": "champ-000380",
+  "name": "Синтезатор",
+  "url": "",
+  "parent": "Клавишные",
+  "parentId": "champ-000377",
+  "oneCId": "380",
+  "sortOrder": 2100203,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 380,
+  "depth": 3,
+  "path": "Музыкальные инструменты / Клавишные / Синтезатор",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Музыкальные инструменты\\Клавишные\\Синтезатор"
+}

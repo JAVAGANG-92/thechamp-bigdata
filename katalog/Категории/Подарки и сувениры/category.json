@@ -1,0 +1,20 @@
+{
+  "id": "champ-000440",
+  "name": "Подарки и сувениры",
+  "url": "",
+  "parent": "Без категории",
+  "parentId": "",
+  "oneCId": "440",
+  "sortOrder": 24,
+  "active": true,
+  "showHome": true,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 440,
+  "depth": 1,
+  "path": "Подарки и сувениры",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 1,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Подарки и сувениры"
+}

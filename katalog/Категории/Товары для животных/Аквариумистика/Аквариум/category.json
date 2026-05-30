@@ -1,0 +1,20 @@
+{
+  "id": "champ-000560",
+  "name": "Аквариум",
+  "url": "",
+  "parent": "Аквариумистика",
+  "parentId": "champ-000559",
+  "oneCId": "560",
+  "sortOrder": 3100101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 560,
+  "depth": 3,
+  "path": "Товары для животных / Аквариумистика / Аквариум",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Товары для животных\\Аквариумистика\\Аквариум"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000416",
+  "name": "Мужская одежда",
+  "url": "",
+  "parent": "Одежда",
+  "parentId": "champ-000407",
+  "oneCId": "416",
+  "sortOrder": 23002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 416,
+  "depth": 2,
+  "path": "Одежда / Мужская одежда",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Одежда\\Мужская одежда"
+}

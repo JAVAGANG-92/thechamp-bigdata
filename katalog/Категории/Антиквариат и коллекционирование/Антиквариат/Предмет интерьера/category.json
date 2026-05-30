@@ -1,0 +1,20 @@
+{
+  "id": "champ-000031",
+  "name": "Предмет интерьера",
+  "url": "",
+  "parent": "Антиквариат",
+  "parentId": "champ-000027",
+  "oneCId": "31",
+  "sortOrder": 200104,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 31,
+  "depth": 3,
+  "path": "Антиквариат и коллекционирование / Антиквариат / Предмет интерьера",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Антиквариат и коллекционирование\\Антиквариат\\Предмет интерьера"
+}

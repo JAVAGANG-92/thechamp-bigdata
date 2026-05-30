@@ -1,0 +1,20 @@
+{
+  "id": "champ-000028",
+  "name": "Антикварная книга",
+  "url": "",
+  "parent": "Антиквариат",
+  "parentId": "champ-000027",
+  "oneCId": "28",
+  "sortOrder": 200101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 28,
+  "depth": 3,
+  "path": "Антиквариат и коллекционирование / Антиквариат / Антикварная книга",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Антиквариат и коллекционирование\\Антиквариат\\Антикварная книга"
+}

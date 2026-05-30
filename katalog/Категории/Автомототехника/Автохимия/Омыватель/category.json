@@ -1,0 +1,20 @@
+{
+  "id": "champ-000019",
+  "name": "Омыватель",
+  "url": "",
+  "parent": "Автохимия",
+  "parentId": "champ-000016",
+  "oneCId": "19",
+  "sortOrder": 100403,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 19,
+  "depth": 3,
+  "path": "Автомототехника / Автохимия / Омыватель",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Автомототехника\\Автохимия\\Омыватель"
+}

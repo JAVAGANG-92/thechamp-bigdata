@@ -1,0 +1,20 @@
+{
+  "id": "champ-000461",
+  "name": "Здоровое питание",
+  "url": "",
+  "parent": "Продукты питания",
+  "parentId": "champ-000454",
+  "oneCId": "461",
+  "sortOrder": 25002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 461,
+  "depth": 2,
+  "path": "Продукты питания / Здоровое питание",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Продукты питания\\Здоровое питание"
+}

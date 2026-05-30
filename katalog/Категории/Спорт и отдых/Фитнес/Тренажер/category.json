@@ -1,0 +1,20 @@
+{
+  "id": "champ-000545",
+  "name": "Тренажер",
+  "url": "",
+  "parent": "Фитнес",
+  "parentId": "champ-000542",
+  "oneCId": "545",
+  "sortOrder": 2900403,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 545,
+  "depth": 3,
+  "path": "Спорт и отдых / Фитнес / Тренажер",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Спорт и отдых\\Фитнес\\Тренажер"
+}

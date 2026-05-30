@@ -1,0 +1,20 @@
+{
+  "id": "champ-000304",
+  "name": "Мышь",
+  "url": "",
+  "parent": "Периферия",
+  "parentId": "champ-000300",
+  "oneCId": "304",
+  "sortOrder": 1700204,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 304,
+  "depth": 3,
+  "path": "Компьютерная техника / Периферия / Мышь",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Компьютерная техника\\Периферия\\Мышь"
+}

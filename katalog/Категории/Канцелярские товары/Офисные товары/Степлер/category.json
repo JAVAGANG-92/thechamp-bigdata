@@ -1,0 +1,20 @@
+{
+  "id": "champ-000257",
+  "name": "Степлер",
+  "url": "",
+  "parent": "Офисные товары",
+  "parentId": "champ-000254",
+  "oneCId": "257",
+  "sortOrder": 1400203,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 257,
+  "depth": 3,
+  "path": "Канцелярские товары / Офисные товары / Степлер",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Канцелярские товары\\Офисные товары\\Степлер"
+}

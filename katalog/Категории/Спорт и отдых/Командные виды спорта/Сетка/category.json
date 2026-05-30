@@ -1,0 +1,20 @@
+{
+  "id": "champ-000530",
+  "name": "Сетка",
+  "url": "",
+  "parent": "Командные виды спорта",
+  "parentId": "champ-000527",
+  "oneCId": "530",
+  "sortOrder": 2900103,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 530,
+  "depth": 3,
+  "path": "Спорт и отдых / Командные виды спорта / Сетка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Спорт и отдых\\Командные виды спорта\\Сетка"
+}

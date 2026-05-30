@@ -1,0 +1,20 @@
+{
+  "id": "champ-000277",
+  "name": "Книги",
+  "url": "",
+  "parent": "Без категории",
+  "parentId": "",
+  "oneCId": "277",
+  "sortOrder": 16,
+  "active": true,
+  "showHome": true,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 277,
+  "depth": 1,
+  "path": "Книги",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 1,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Книги"
+}

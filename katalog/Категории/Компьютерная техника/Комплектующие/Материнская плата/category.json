@@ -1,0 +1,20 @@
+{
+  "id": "champ-000297",
+  "name": "Материнская плата",
+  "url": "",
+  "parent": "Комплектующие",
+  "parentId": "champ-000294",
+  "oneCId": "297",
+  "sortOrder": 1700103,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 297,
+  "depth": 3,
+  "path": "Компьютерная техника / Комплектующие / Материнская плата",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Компьютерная техника\\Комплектующие\\Материнская плата"
+}

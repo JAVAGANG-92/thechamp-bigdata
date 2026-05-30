@@ -1,0 +1,20 @@
+{
+  "id": "champ-000021",
+  "name": "Шины и диски",
+  "url": "",
+  "parent": "Автомототехника",
+  "parentId": "champ-000001",
+  "oneCId": "21",
+  "sortOrder": 1005,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 21,
+  "depth": 2,
+  "path": "Автомототехника / Шины и диски",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Автомототехника\\Шины и диски"
+}

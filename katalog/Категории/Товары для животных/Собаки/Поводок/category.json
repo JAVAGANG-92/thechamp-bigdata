@@ -1,0 +1,20 @@
+{
+  "id": "champ-000572",
+  "name": "Поводок",
+  "url": "",
+  "parent": "Собаки",
+  "parentId": "champ-000568",
+  "oneCId": "572",
+  "sortOrder": 3100304,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 572,
+  "depth": 3,
+  "path": "Товары для животных / Собаки / Поводок",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Товары для животных\\Собаки\\Поводок"
+}

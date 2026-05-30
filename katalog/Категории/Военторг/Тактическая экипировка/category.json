@@ -1,0 +1,20 @@
+{
+  "id": "champ-000115",
+  "name": "Тактическая экипировка",
+  "url": "",
+  "parent": "Военторг",
+  "parentId": "champ-000110",
+  "oneCId": "115",
+  "sortOrder": 7002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 115,
+  "depth": 2,
+  "path": "Военторг / Тактическая экипировка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Военторг\\Тактическая экипировка"
+}

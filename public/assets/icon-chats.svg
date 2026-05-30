@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="chat-a" x1="6" y1="4" x2="25" y2="27" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8FD6FF"/>
+      <stop offset="1" stop-color="#5B6CFF"/>
+    </linearGradient>
+    <filter id="chat-s" x="1" y="1" width="30" height="30" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#5B6CFF" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <g filter="url(#chat-s)">
+    <path d="M7 9.5A5.5 5.5 0 0 1 12.5 4h7A5.5 5.5 0 0 1 25 9.5v5A5.5 5.5 0 0 1 19.5 20H15l-6.2 4.2 1.4-5A5.5 5.5 0 0 1 7 14.5v-5Z" fill="url(#chat-a)"/>
+    <path d="M12 11h8M12 15h5" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+    <path d="M10 7.8c1.7-1.6 4-2 6.6-2h2.8c2.8 0 4.7 1.5 5.2 4.1" stroke="#fff" stroke-opacity=".45" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000147",
+  "name": "Дача, сад и огород",
+  "url": "",
+  "parent": "Без категории",
+  "parentId": "",
+  "oneCId": "147",
+  "sortOrder": 9,
+  "active": true,
+  "showHome": true,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 147,
+  "depth": 1,
+  "path": "Дача, сад и огород",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 1,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дача, сад и огород"
+}

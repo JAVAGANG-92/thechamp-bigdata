@@ -1,0 +1,20 @@
+{
+  "id": "champ-000081",
+  "name": "Посудомоечная машина",
+  "url": "",
+  "parent": "Крупная техника",
+  "parentId": "champ-000079",
+  "oneCId": "81",
+  "sortOrder": 500202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 81,
+  "depth": 3,
+  "path": "Бытовая техника / Крупная техника / Посудомоечная машина",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Бытовая техника\\Крупная техника\\Посудомоечная машина"
+}

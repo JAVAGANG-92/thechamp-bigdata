@@ -1,0 +1,20 @@
+{
+  "id": "champ-000175",
+  "name": "Кроссовки детские",
+  "url": "",
+  "parent": "Обувь детская",
+  "parentId": "champ-000173",
+  "oneCId": "175",
+  "sortOrder": 1000202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 175,
+  "depth": 3,
+  "path": "Детские товары / Обувь детская / Кроссовки детские",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Детские товары\\Обувь детская\\Кроссовки детские"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000594",
+  "name": "Подписки",
+  "url": "",
+  "parent": "Цифровые товары",
+  "parentId": "champ-000589",
+  "oneCId": "594",
+  "sortOrder": 33002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 594,
+  "depth": 2,
+  "path": "Цифровые товары / Подписки",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Цифровые товары\\Подписки"
+}

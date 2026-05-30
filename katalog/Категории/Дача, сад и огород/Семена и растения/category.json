@@ -1,0 +1,20 @@
+{
+  "id": "champ-000153",
+  "name": "Семена и растения",
+  "url": "",
+  "parent": "Дача, сад и огород",
+  "parentId": "champ-000147",
+  "oneCId": "153",
+  "sortOrder": 9002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 153,
+  "depth": 2,
+  "path": "Дача, сад и огород / Семена и растения",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дача, сад и огород\\Семена и растения"
+}

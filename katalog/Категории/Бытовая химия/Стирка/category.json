@@ -1,0 +1,20 @@
+{
+  "id": "champ-000100",
+  "name": "Стирка",
+  "url": "",
+  "parent": "Бытовая химия",
+  "parentId": "champ-000095",
+  "oneCId": "100",
+  "sortOrder": 6002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 100,
+  "depth": 2,
+  "path": "Бытовая химия / Стирка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Бытовая химия\\Стирка"
+}

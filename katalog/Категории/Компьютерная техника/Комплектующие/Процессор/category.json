@@ -1,0 +1,20 @@
+{
+  "id": "champ-000299",
+  "name": "Процессор",
+  "url": "",
+  "parent": "Комплектующие",
+  "parentId": "champ-000294",
+  "oneCId": "299",
+  "sortOrder": 1700105,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 299,
+  "depth": 3,
+  "path": "Компьютерная техника / Комплектующие / Процессор",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Компьютерная техника\\Комплектующие\\Процессор"
+}

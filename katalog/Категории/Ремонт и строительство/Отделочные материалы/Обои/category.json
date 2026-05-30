@@ -1,0 +1,20 @@
+{
+  "id": "champ-000501",
+  "name": "Обои",
+  "url": "",
+  "parent": "Отделочные материалы",
+  "parentId": "champ-000498",
+  "oneCId": "501",
+  "sortOrder": 2700203,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 501,
+  "depth": 3,
+  "path": "Ремонт и строительство / Отделочные материалы / Обои",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Ремонт и строительство\\Отделочные материалы\\Обои"
+}

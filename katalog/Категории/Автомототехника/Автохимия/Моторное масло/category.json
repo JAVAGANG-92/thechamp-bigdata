@@ -1,0 +1,20 @@
+{
+  "id": "champ-000018",
+  "name": "Моторное масло",
+  "url": "",
+  "parent": "Автохимия",
+  "parentId": "champ-000016",
+  "oneCId": "18",
+  "sortOrder": 100402,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 18,
+  "depth": 3,
+  "path": "Автомототехника / Автохимия / Моторное масло",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Автомототехника\\Автохимия\\Моторное масло"
+}

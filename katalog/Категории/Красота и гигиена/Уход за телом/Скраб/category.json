@@ -1,0 +1,20 @@
+{
+  "id": "champ-000336",
+  "name": "Скраб",
+  "url": "",
+  "parent": "Уход за телом",
+  "parentId": "champ-000332",
+  "oneCId": "336",
+  "sortOrder": 1800504,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 336,
+  "depth": 3,
+  "path": "Красота и гигиена / Уход за телом / Скраб",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Красота и гигиена\\Уход за телом\\Скраб"
+}

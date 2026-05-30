@@ -1,0 +1,20 @@
+{
+  "id": "champ-000004",
+  "name": "Коврик автомобильный",
+  "url": "",
+  "parent": "Автоаксессуары",
+  "parentId": "champ-000002",
+  "oneCId": "4",
+  "sortOrder": 100102,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 4,
+  "depth": 3,
+  "path": "Автомототехника / Автоаксессуары / Коврик автомобильный",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Автомототехника\\Автоаксессуары\\Коврик автомобильный"
+}

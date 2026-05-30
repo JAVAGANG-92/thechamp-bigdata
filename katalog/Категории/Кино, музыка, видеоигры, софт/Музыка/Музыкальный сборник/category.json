@@ -1,0 +1,20 @@
+{
+  "id": "champ-000272",
+  "name": "Музыкальный сборник",
+  "url": "",
+  "parent": "Музыка",
+  "parentId": "champ-000269",
+  "oneCId": "272",
+  "sortOrder": 1500203,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 272,
+  "depth": 3,
+  "path": "Кино, музыка, видеоигры, софт / Музыка / Музыкальный сборник",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Кино, музыка, видеоигры, софт\\Музыка\\Музыкальный сборник"
+}

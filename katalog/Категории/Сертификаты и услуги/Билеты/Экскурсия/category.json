@@ -1,0 +1,20 @@
+{
+  "id": "champ-000517",
+  "name": "Экскурсия",
+  "url": "",
+  "parent": "Билеты",
+  "parentId": "champ-000514",
+  "oneCId": "517",
+  "sortOrder": 2800103,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 517,
+  "depth": 3,
+  "path": "Сертификаты и услуги / Билеты / Экскурсия",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Сертификаты и услуги\\Билеты\\Экскурсия"
+}

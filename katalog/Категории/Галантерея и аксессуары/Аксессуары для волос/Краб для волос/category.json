@@ -1,0 +1,20 @@
+{
+  "id": "champ-000132",
+  "name": "Краб для волос",
+  "url": "",
+  "parent": "Аксессуары для волос",
+  "parentId": "champ-000130",
+  "oneCId": "132",
+  "sortOrder": 800202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 132,
+  "depth": 3,
+  "path": "Галантерея и аксессуары / Аксессуары для волос / Краб для волос",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Галантерея и аксессуары\\Аксессуары для волос\\Краб для волос"
+}

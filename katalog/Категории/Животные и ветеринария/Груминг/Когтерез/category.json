@@ -1,0 +1,20 @@
+{
+  "id": "champ-000226",
+  "name": "Когтерез",
+  "url": "",
+  "parent": "Груминг",
+  "parentId": "champ-000225",
+  "oneCId": "226",
+  "sortOrder": 1200201,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 226,
+  "depth": 3,
+  "path": "Животные и ветеринария / Груминг / Когтерез",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Животные и ветеринария\\Груминг\\Когтерез"
+}

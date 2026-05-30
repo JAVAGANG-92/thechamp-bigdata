@@ -1,0 +1,20 @@
+{
+  "id": "champ-000459",
+  "name": "Мука",
+  "url": "",
+  "parent": "Бакалея",
+  "parentId": "champ-000455",
+  "oneCId": "459",
+  "sortOrder": 2500104,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 459,
+  "depth": 3,
+  "path": "Продукты питания / Бакалея / Мука",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Продукты питания\\Бакалея\\Мука"
+}

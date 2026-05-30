@@ -1,0 +1,20 @@
+{
+  "id": "champ-000575",
+  "name": "Альбом",
+  "url": "",
+  "parent": "Коллекционирование",
+  "parentId": "champ-000574",
+  "oneCId": "575",
+  "sortOrder": 3200101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 575,
+  "depth": 3,
+  "path": "Хобби и творчество / Коллекционирование / Альбом",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Хобби и творчество\\Коллекционирование\\Альбом"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000357",
+  "name": "Шкаф",
+  "url": "",
+  "parent": "Офисная мебель",
+  "parentId": "champ-000353",
+  "oneCId": "357",
+  "sortOrder": 1900404,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 357,
+  "depth": 3,
+  "path": "Мебель / Офисная мебель / Шкаф",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Мебель\\Офисная мебель\\Шкаф"
+}

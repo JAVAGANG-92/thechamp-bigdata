@@ -1,0 +1,20 @@
+{
+  "id": "champ-000294",
+  "name": "Комплектующие",
+  "url": "",
+  "parent": "Компьютерная техника",
+  "parentId": "champ-000293",
+  "oneCId": "294",
+  "sortOrder": 17001,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 294,
+  "depth": 2,
+  "path": "Компьютерная техника / Комплектующие",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Компьютерная техника\\Комплектующие"
+}

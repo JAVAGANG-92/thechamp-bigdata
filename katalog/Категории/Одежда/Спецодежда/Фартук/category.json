@@ -1,0 +1,20 @@
+{
+  "id": "champ-000439",
+  "name": "Фартук",
+  "url": "",
+  "parent": "Спецодежда",
+  "parentId": "champ-000435",
+  "oneCId": "439",
+  "sortOrder": 2300504,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 439,
+  "depth": 3,
+  "path": "Одежда / Спецодежда / Фартук",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Одежда\\Спецодежда\\Фартук"
+}

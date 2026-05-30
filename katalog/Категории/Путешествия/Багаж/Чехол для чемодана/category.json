@@ -1,0 +1,20 @@
+{
+  "id": "champ-000487",
+  "name": "Чехол для чемодана",
+  "url": "",
+  "parent": "Багаж",
+  "parentId": "champ-000483",
+  "oneCId": "487",
+  "sortOrder": 2600204,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 487,
+  "depth": 3,
+  "path": "Путешествия / Багаж / Чехол для чемодана",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Путешествия\\Багаж\\Чехол для чемодана"
+}

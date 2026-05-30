@@ -1,0 +1,20 @@
+{
+  "id": "champ-000071",
+  "name": "Пожертвование",
+  "url": "",
+  "parent": "Социальные проекты",
+  "parentId": "champ-000070",
+  "oneCId": "71",
+  "sortOrder": 400301,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 71,
+  "depth": 3,
+  "path": "Благотворительность / Социальные проекты / Пожертвование",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Благотворительность\\Социальные проекты\\Пожертвование"
+}

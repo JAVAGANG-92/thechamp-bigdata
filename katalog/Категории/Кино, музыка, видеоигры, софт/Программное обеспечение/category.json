@@ -1,0 +1,20 @@
+{
+  "id": "champ-000273",
+  "name": "Программное обеспечение",
+  "url": "",
+  "parent": "Кино, музыка, видеоигры, софт",
+  "parentId": "champ-000264",
+  "oneCId": "273",
+  "sortOrder": 15003,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 273,
+  "depth": 2,
+  "path": "Кино, музыка, видеоигры, софт / Программное обеспечение",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Кино, музыка, видеоигры, софт\\Программное обеспечение"
+}

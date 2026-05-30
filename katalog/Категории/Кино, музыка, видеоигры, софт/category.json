@@ -1,0 +1,20 @@
+{
+  "id": "champ-000264",
+  "name": "Кино, музыка, видеоигры, софт",
+  "url": "",
+  "parent": "Без категории",
+  "parentId": "",
+  "oneCId": "264",
+  "sortOrder": 15,
+  "active": true,
+  "showHome": true,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 264,
+  "depth": 1,
+  "path": "Кино, музыка, видеоигры, софт",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 1,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Кино, музыка, видеоигры, софт"
+}

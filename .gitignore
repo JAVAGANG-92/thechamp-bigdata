@@ -1,0 +1,31 @@
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Runtime caches
+__pycache__/
+*.py[cod]
+node_modules/
+.test-runtime/
+
+# Local product data and private operational data
+katalog/products.json
+katalog/products/
+katalog/Бренды/brands.json
+katalog/Бренды/*/brand.json
+BuckUp/**/*.json
+BuckUp/**/items/
+storage/
+
+# Generated reports and temporary files
+*.log
+*.tmp
+*.broken-*
+database/audit-report-*.json
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

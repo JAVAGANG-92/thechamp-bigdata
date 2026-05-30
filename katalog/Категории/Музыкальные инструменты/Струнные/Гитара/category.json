@@ -1,0 +1,20 @@
+{
+  "id": "champ-000382",
+  "name": "Гитара",
+  "url": "",
+  "parent": "Струнные",
+  "parentId": "champ-000381",
+  "oneCId": "382",
+  "sortOrder": 2100301,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 382,
+  "depth": 3,
+  "path": "Музыкальные инструменты / Струнные / Гитара",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Музыкальные инструменты\\Струнные\\Гитара"
+}

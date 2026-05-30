@@ -1,0 +1,20 @@
+{
+  "id": "champ-000165",
+  "name": "Средство защиты растений",
+  "url": "",
+  "parent": "Удобрения и грунты",
+  "parentId": "champ-000163",
+  "oneCId": "165",
+  "sortOrder": 900402,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 165,
+  "depth": 3,
+  "path": "Дача, сад и огород / Удобрения и грунты / Средство защиты растений",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дача, сад и огород\\Удобрения и грунты\\Средство защиты растений"
+}

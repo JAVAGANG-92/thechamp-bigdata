@@ -1,0 +1,20 @@
+{
+  "id": "champ-000001",
+  "name": "Автомототехника",
+  "url": "",
+  "parent": "Без категории",
+  "parentId": "",
+  "oneCId": "1",
+  "sortOrder": 1,
+  "active": true,
+  "showHome": true,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 1,
+  "depth": 1,
+  "path": "Автомототехника",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 1,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Автомототехника"
+}

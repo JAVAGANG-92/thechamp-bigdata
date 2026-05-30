@@ -1,0 +1,20 @@
+{
+  "id": "champ-000626",
+  "name": "Саундбар",
+  "url": "",
+  "parent": "Аудио",
+  "parentId": "champ-000622",
+  "oneCId": "626",
+  "sortOrder": 3500204,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 626,
+  "depth": 3,
+  "path": "Электроника / Аудио / Саундбар",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Электроника\\Аудио\\Саундбар"
+}

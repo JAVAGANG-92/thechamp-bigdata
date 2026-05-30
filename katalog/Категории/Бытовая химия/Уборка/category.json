@@ -1,0 +1,20 @@
+{
+  "id": "champ-000105",
+  "name": "Уборка",
+  "url": "",
+  "parent": "Бытовая химия",
+  "parentId": "champ-000095",
+  "oneCId": "105",
+  "sortOrder": 6003,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 105,
+  "depth": 2,
+  "path": "Бытовая химия / Уборка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Бытовая химия\\Уборка"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000534",
+  "name": "Леска",
+  "url": "",
+  "parent": "Рыбалка",
+  "parentId": "champ-000532",
+  "oneCId": "534",
+  "sortOrder": 2900202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 534,
+  "depth": 3,
+  "path": "Спорт и отдых / Рыбалка / Леска",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Спорт и отдых\\Рыбалка\\Леска"
+}

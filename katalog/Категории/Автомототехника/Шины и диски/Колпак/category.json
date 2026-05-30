@@ -1,0 +1,20 @@
+{
+  "id": "champ-000024",
+  "name": "Колпак",
+  "url": "",
+  "parent": "Шины и диски",
+  "parentId": "champ-000021",
+  "oneCId": "24",
+  "sortOrder": 100503,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 24,
+  "depth": 3,
+  "path": "Автомототехника / Шины и диски / Колпак",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Автомототехника\\Шины и диски\\Колпак"
+}

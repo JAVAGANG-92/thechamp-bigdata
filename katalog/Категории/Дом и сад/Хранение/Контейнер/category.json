@@ -1,0 +1,20 @@
+{
+  "id": "champ-000217",
+  "name": "Контейнер",
+  "url": "",
+  "parent": "Хранение",
+  "parentId": "champ-000215",
+  "oneCId": "217",
+  "sortOrder": 1100502,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 217,
+  "depth": 3,
+  "path": "Дом и сад / Хранение / Контейнер",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дом и сад\\Хранение\\Контейнер"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000623",
+  "name": "Колонка",
+  "url": "",
+  "parent": "Аудио",
+  "parentId": "champ-000622",
+  "oneCId": "623",
+  "sortOrder": 3500201,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 623,
+  "depth": 3,
+  "path": "Электроника / Аудио / Колонка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Электроника\\Аудио\\Колонка"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000657",
+  "name": "Шкатулка для часов",
+  "url": "",
+  "parent": "Часы",
+  "parentId": "champ-000654",
+  "oneCId": "657",
+  "sortOrder": 3600303,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 657,
+  "depth": 3,
+  "path": "Ювелирные изделия / Часы / Шкатулка для часов",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Ювелирные изделия\\Часы\\Шкатулка для часов"
+}

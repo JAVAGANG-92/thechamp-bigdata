@@ -1,0 +1,20 @@
+{
+  "id": "champ-000581",
+  "name": "Кисти",
+  "url": "",
+  "parent": "Рисование",
+  "parentId": "champ-000579",
+  "oneCId": "581",
+  "sortOrder": 3200202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 581,
+  "depth": 3,
+  "path": "Хобби и творчество / Рисование / Кисти",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Хобби и творчество\\Рисование\\Кисти"
+}

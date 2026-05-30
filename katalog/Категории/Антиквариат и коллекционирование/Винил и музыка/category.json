@@ -1,0 +1,20 @@
+{
+  "id": "champ-000032",
+  "name": "Винил и музыка",
+  "url": "",
+  "parent": "Антиквариат и коллекционирование",
+  "parentId": "champ-000026",
+  "oneCId": "32",
+  "sortOrder": 2002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 32,
+  "depth": 2,
+  "path": "Антиквариат и коллекционирование / Винил и музыка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Антиквариат и коллекционирование\\Винил и музыка"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000236",
+  "name": "Игровая гарнитура",
+  "url": "",
+  "parent": "Аксессуары для геймеров",
+  "parentId": "champ-000235",
+  "oneCId": "236",
+  "sortOrder": 1300101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 236,
+  "depth": 3,
+  "path": "Игры и консоли / Аксессуары для геймеров / Игровая гарнитура",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Игры и консоли\\Аксессуары для геймеров\\Игровая гарнитура"
+}

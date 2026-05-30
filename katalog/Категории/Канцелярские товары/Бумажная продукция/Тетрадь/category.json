@@ -1,0 +1,20 @@
+{
+  "id": "champ-000253",
+  "name": "Тетрадь",
+  "url": "",
+  "parent": "Бумажная продукция",
+  "parentId": "champ-000249",
+  "oneCId": "253",
+  "sortOrder": 1400104,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 253,
+  "depth": 3,
+  "path": "Канцелярские товары / Бумажная продукция / Тетрадь",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Канцелярские товары\\Бумажная продукция\\Тетрадь"
+}

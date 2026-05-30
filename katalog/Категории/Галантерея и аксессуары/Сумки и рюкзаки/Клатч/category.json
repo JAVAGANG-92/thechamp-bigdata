@@ -1,0 +1,20 @@
+{
+  "id": "champ-000136",
+  "name": "Клатч",
+  "url": "",
+  "parent": "Сумки и рюкзаки",
+  "parentId": "champ-000135",
+  "oneCId": "136",
+  "sortOrder": 800301,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 136,
+  "depth": 3,
+  "path": "Галантерея и аксессуары / Сумки и рюкзаки / Клатч",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Галантерея и аксессуары\\Сумки и рюкзаки\\Клатч"
+}

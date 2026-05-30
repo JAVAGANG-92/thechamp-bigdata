@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bell-a" x1="9" y1="4" x2="24" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE59A"/>
+      <stop offset="1" stop-color="#FF9F43"/>
+    </linearGradient>
+    <filter id="bell-s" x="2" y="1" width="29" height="30" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#FF9F43" flood-opacity=".3"/>
+    </filter>
+  </defs>
+  <g filter="url(#bell-s)">
+    <path d="M16 5c-4.1 0-7 3-7 7.2 0 5-2.4 6-3 8.3-.2.8.4 1.5 1.2 1.5h17.6c.8 0 1.4-.7 1.2-1.5-.6-2.3-3-3.3-3-8.3C23 8 20.1 5 16 5Z" fill="url(#bell-a)"/>
+    <path d="M13.3 23.5a2.8 2.8 0 0 0 5.4 0" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+    <path d="M12 8.4c1.8-1.5 5.7-2.2 8.1 1.2" stroke="#fff" stroke-opacity=".5" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>

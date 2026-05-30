@@ -1,0 +1,20 @@
+{
+  "id": "champ-000392",
+  "name": "Ботинки женские",
+  "url": "",
+  "parent": "Женская обувь",
+  "parentId": "champ-000391",
+  "oneCId": "392",
+  "sortOrder": 2200201,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 392,
+  "depth": 3,
+  "path": "Обувь / Женская обувь / Ботинки женские",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Обувь\\Женская обувь\\Ботинки женские"
+}

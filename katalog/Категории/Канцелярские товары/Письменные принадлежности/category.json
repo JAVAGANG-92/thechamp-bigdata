@@ -1,0 +1,20 @@
+{
+  "id": "champ-000259",
+  "name": "Письменные принадлежности",
+  "url": "",
+  "parent": "Канцелярские товары",
+  "parentId": "champ-000248",
+  "oneCId": "259",
+  "sortOrder": 14003,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 259,
+  "depth": 2,
+  "path": "Канцелярские товары / Письменные принадлежности",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Канцелярские товары\\Письменные принадлежности"
+}

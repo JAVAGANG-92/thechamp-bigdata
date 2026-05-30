@@ -1,0 +1,20 @@
+{
+  "id": "champ-000596",
+  "name": "Подписка на сервис",
+  "url": "",
+  "parent": "Подписки",
+  "parentId": "champ-000594",
+  "oneCId": "596",
+  "sortOrder": 3300202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 596,
+  "depth": 3,
+  "path": "Цифровые товары / Подписки / Подписка на сервис",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Цифровые товары\\Подписки\\Подписка на сервис"
+}

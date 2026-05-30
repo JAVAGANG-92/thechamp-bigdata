@@ -1,0 +1,20 @@
+{
+  "id": "champ-000479",
+  "name": "Аксессуары для путешествий",
+  "url": "",
+  "parent": "Путешествия",
+  "parentId": "champ-000478",
+  "oneCId": "479",
+  "sortOrder": 26001,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 479,
+  "depth": 2,
+  "path": "Путешествия / Аксессуары для путешествий",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Путешествия\\Аксессуары для путешествий"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000116",
+  "name": "Разгрузочный жилет",
+  "url": "",
+  "parent": "Тактическая экипировка",
+  "parentId": "champ-000115",
+  "oneCId": "116",
+  "sortOrder": 700201,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 116,
+  "depth": 3,
+  "path": "Военторг / Тактическая экипировка / Разгрузочный жилет",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Военторг\\Тактическая экипировка\\Разгрузочный жилет"
+}

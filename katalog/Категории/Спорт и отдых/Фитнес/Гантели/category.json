@@ -1,0 +1,20 @@
+{
+  "id": "champ-000543",
+  "name": "Гантели",
+  "url": "",
+  "parent": "Фитнес",
+  "parentId": "champ-000542",
+  "oneCId": "543",
+  "sortOrder": 2900401,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 543,
+  "depth": 3,
+  "path": "Спорт и отдых / Фитнес / Гантели",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Спорт и отдых\\Фитнес\\Гантели"
+}

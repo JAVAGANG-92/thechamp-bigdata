@@ -1,0 +1,20 @@
+{
+  "id": "champ-000342",
+  "name": "Стул",
+  "url": "",
+  "parent": "Кухонная мебель",
+  "parentId": "champ-000338",
+  "oneCId": "342",
+  "sortOrder": 1900104,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 342,
+  "depth": 3,
+  "path": "Мебель / Кухонная мебель / Стул",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Мебель\\Кухонная мебель\\Стул"
+}

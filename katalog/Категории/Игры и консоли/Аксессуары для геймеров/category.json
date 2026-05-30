@@ -1,0 +1,20 @@
+{
+  "id": "champ-000235",
+  "name": "Аксессуары для геймеров",
+  "url": "",
+  "parent": "Игры и консоли",
+  "parentId": "champ-000234",
+  "oneCId": "235",
+  "sortOrder": 13001,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 235,
+  "depth": 2,
+  "path": "Игры и консоли / Аксессуары для геймеров",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Игры и консоли\\Аксессуары для геймеров"
+}

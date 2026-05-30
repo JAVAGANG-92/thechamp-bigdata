@@ -1,0 +1,20 @@
+{
+  "id": "champ-000082",
+  "name": "Стиральная машина",
+  "url": "",
+  "parent": "Крупная техника",
+  "parentId": "champ-000079",
+  "oneCId": "82",
+  "sortOrder": 500203,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 82,
+  "depth": 3,
+  "path": "Бытовая техника / Крупная техника / Стиральная машина",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Бытовая техника\\Крупная техника\\Стиральная машина"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000587",
+  "name": "Пряжа",
+  "url": "",
+  "parent": "Рукоделие",
+  "parentId": "champ-000584",
+  "oneCId": "587",
+  "sortOrder": 3200303,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 587,
+  "depth": 3,
+  "path": "Хобби и творчество / Рукоделие / Пряжа",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Хобби и творчество\\Рукоделие\\Пряжа"
+}

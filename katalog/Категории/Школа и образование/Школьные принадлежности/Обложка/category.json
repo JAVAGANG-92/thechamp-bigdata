@@ -1,0 +1,20 @@
+{
+  "id": "champ-000613",
+  "name": "Обложка",
+  "url": "",
+  "parent": "Школьные принадлежности",
+  "parentId": "champ-000611",
+  "oneCId": "613",
+  "sortOrder": 3400302,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 613,
+  "depth": 3,
+  "path": "Школа и образование / Школьные принадлежности / Обложка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Школа и образование\\Школьные принадлежности\\Обложка"
+}

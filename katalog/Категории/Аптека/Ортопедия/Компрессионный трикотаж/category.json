@@ -1,0 +1,20 @@
+{
+  "id": "champ-000060",
+  "name": "Компрессионный трикотаж",
+  "url": "",
+  "parent": "Ортопедия",
+  "parentId": "champ-000058",
+  "oneCId": "60",
+  "sortOrder": 300402,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 60,
+  "depth": 3,
+  "path": "Аптека / Ортопедия / Компрессионный трикотаж",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Аптека\\Ортопедия\\Компрессионный трикотаж"
+}

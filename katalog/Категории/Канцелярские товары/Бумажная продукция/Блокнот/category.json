@@ -1,0 +1,20 @@
+{
+  "id": "champ-000250",
+  "name": "Блокнот",
+  "url": "",
+  "parent": "Бумажная продукция",
+  "parentId": "champ-000249",
+  "oneCId": "250",
+  "sortOrder": 1400101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 250,
+  "depth": 3,
+  "path": "Канцелярские товары / Бумажная продукция / Блокнот",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Канцелярские товары\\Бумажная продукция\\Блокнот"
+}

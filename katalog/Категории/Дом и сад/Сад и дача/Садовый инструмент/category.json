@@ -1,0 +1,20 @@
+{
+  "id": "champ-000207",
+  "name": "Садовый инструмент",
+  "url": "",
+  "parent": "Сад и дача",
+  "parentId": "champ-000203",
+  "oneCId": "207",
+  "sortOrder": 1100304,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 207,
+  "depth": 3,
+  "path": "Дом и сад / Сад и дача / Садовый инструмент",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дом и сад\\Сад и дача\\Садовый инструмент"
+}

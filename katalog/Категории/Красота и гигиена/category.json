@@ -1,0 +1,20 @@
+{
+  "id": "champ-000310",
+  "name": "Красота и гигиена",
+  "url": "",
+  "parent": "Без категории",
+  "parentId": "",
+  "oneCId": "310",
+  "sortOrder": 18,
+  "active": true,
+  "showHome": true,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 310,
+  "depth": 1,
+  "path": "Красота и гигиена",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 1,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Красота и гигиена"
+}

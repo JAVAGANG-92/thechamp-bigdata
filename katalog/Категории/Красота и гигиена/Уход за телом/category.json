@@ -1,0 +1,20 @@
+{
+  "id": "champ-000332",
+  "name": "Уход за телом",
+  "url": "",
+  "parent": "Красота и гигиена",
+  "parentId": "champ-000310",
+  "oneCId": "332",
+  "sortOrder": 18005,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 332,
+  "depth": 2,
+  "path": "Красота и гигиена / Уход за телом",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Красота и гигиена\\Уход за телом"
+}

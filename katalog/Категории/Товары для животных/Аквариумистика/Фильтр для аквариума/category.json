@@ -1,0 +1,20 @@
+{
+  "id": "champ-000562",
+  "name": "Фильтр для аквариума",
+  "url": "",
+  "parent": "Аквариумистика",
+  "parentId": "champ-000559",
+  "oneCId": "562",
+  "sortOrder": 3100103,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 562,
+  "depth": 3,
+  "path": "Товары для животных / Аквариумистика / Фильтр для аквариума",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Товары для животных\\Аквариумистика\\Фильтр для аквариума"
+}

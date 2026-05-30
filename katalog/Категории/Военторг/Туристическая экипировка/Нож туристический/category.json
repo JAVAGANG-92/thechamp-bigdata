@@ -1,0 +1,20 @@
+{
+  "id": "champ-000121",
+  "name": "Нож туристический",
+  "url": "",
+  "parent": "Туристическая экипировка",
+  "parentId": "champ-000119",
+  "oneCId": "121",
+  "sortOrder": 700302,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 121,
+  "depth": 3,
+  "path": "Военторг / Туристическая экипировка / Нож туристический",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Военторг\\Туристическая экипировка\\Нож туристический"
+}

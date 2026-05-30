@@ -1,0 +1,20 @@
+{
+  "id": "champ-000046",
+  "name": "Омега",
+  "url": "",
+  "parent": "Витамины и БАД",
+  "parentId": "champ-000043",
+  "oneCId": "46",
+  "sortOrder": 300103,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 46,
+  "depth": 3,
+  "path": "Аптека / Витамины и БАД / Омега",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Аптека\\Витамины и БАД\\Омега"
+}

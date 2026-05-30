@@ -1,0 +1,20 @@
+{
+  "id": "champ-000230",
+  "name": "Клетка",
+  "url": "",
+  "parent": "Содержание",
+  "parentId": "champ-000229",
+  "oneCId": "230",
+  "sortOrder": 1200301,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 230,
+  "depth": 3,
+  "path": "Животные и ветеринария / Содержание / Клетка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Животные и ветеринария\\Содержание\\Клетка"
+}

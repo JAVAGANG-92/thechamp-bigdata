@@ -1,0 +1,20 @@
+{
+  "id": "champ-000437",
+  "name": "Медицинская одежда",
+  "url": "",
+  "parent": "Спецодежда",
+  "parentId": "champ-000435",
+  "oneCId": "437",
+  "sortOrder": 2300502,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 437,
+  "depth": 3,
+  "path": "Одежда / Спецодежда / Медицинская одежда",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Одежда\\Спецодежда\\Медицинская одежда"
+}

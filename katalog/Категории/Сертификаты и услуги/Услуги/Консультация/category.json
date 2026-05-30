@@ -1,0 +1,20 @@
+{
+  "id": "champ-000523",
+  "name": "Консультация",
+  "url": "",
+  "parent": "Услуги",
+  "parentId": "champ-000522",
+  "oneCId": "523",
+  "sortOrder": 2800301,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 523,
+  "depth": 3,
+  "path": "Сертификаты и услуги / Услуги / Консультация",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Сертификаты и услуги\\Услуги\\Консультация"
+}

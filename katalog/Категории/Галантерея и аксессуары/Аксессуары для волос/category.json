@@ -1,0 +1,20 @@
+{
+  "id": "champ-000130",
+  "name": "Аксессуары для волос",
+  "url": "",
+  "parent": "Галантерея и аксессуары",
+  "parentId": "champ-000123",
+  "oneCId": "130",
+  "sortOrder": 8002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 130,
+  "depth": 2,
+  "path": "Галантерея и аксессуары / Аксессуары для волос",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Галантерея и аксессуары\\Аксессуары для волос"
+}

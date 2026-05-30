@@ -1,0 +1,20 @@
+{
+  "id": "champ-000387",
+  "name": "Ботинки детские",
+  "url": "",
+  "parent": "Детская обувь",
+  "parentId": "champ-000386",
+  "oneCId": "387",
+  "sortOrder": 2200101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 387,
+  "depth": 3,
+  "path": "Обувь / Детская обувь / Ботинки детские",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Обувь\\Детская обувь\\Ботинки детские"
+}

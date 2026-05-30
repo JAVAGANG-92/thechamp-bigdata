@@ -1,0 +1,20 @@
+{
+  "id": "champ-000355",
+  "name": "Офисный стол",
+  "url": "",
+  "parent": "Офисная мебель",
+  "parentId": "champ-000353",
+  "oneCId": "355",
+  "sortOrder": 1900402,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 355,
+  "depth": 3,
+  "path": "Мебель / Офисная мебель / Офисный стол",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Мебель\\Офисная мебель\\Офисный стол"
+}

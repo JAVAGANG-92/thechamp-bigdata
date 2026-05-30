@@ -1,0 +1,20 @@
+{
+  "id": "champ-000300",
+  "name": "Периферия",
+  "url": "",
+  "parent": "Компьютерная техника",
+  "parentId": "champ-000293",
+  "oneCId": "300",
+  "sortOrder": 17002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 300,
+  "depth": 2,
+  "path": "Компьютерная техника / Периферия",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Компьютерная техника\\Периферия"
+}

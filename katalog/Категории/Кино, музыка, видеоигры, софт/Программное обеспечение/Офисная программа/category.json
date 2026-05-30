@@ -1,0 +1,20 @@
+{
+  "id": "champ-000276",
+  "name": "Офисная программа",
+  "url": "",
+  "parent": "Программное обеспечение",
+  "parentId": "champ-000273",
+  "oneCId": "276",
+  "sortOrder": 1500303,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 276,
+  "depth": 3,
+  "path": "Кино, музыка, видеоигры, софт / Программное обеспечение / Офисная программа",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Кино, музыка, видеоигры, софт\\Программное обеспечение\\Офисная программа"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000327",
+  "name": "Уход за лицом",
+  "url": "",
+  "parent": "Красота и гигиена",
+  "parentId": "champ-000310",
+  "oneCId": "327",
+  "sortOrder": 18004,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 327,
+  "depth": 2,
+  "path": "Красота и гигиена / Уход за лицом",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Красота и гигиена\\Уход за лицом"
+}

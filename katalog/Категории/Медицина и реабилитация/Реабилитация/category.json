@@ -1,0 +1,20 @@
+{
+  "id": "champ-000363",
+  "name": "Реабилитация",
+  "url": "",
+  "parent": "Медицина и реабилитация",
+  "parentId": "champ-000358",
+  "oneCId": "363",
+  "sortOrder": 20002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 363,
+  "depth": 2,
+  "path": "Медицина и реабилитация / Реабилитация",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Медицина и реабилитация\\Реабилитация"
+}

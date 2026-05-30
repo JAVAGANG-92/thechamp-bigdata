@@ -1,0 +1,20 @@
+{
+  "id": "champ-000036",
+  "name": "Коллекционирование",
+  "url": "",
+  "parent": "Антиквариат и коллекционирование",
+  "parentId": "champ-000026",
+  "oneCId": "36",
+  "sortOrder": 2003,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 36,
+  "depth": 2,
+  "path": "Антиквариат и коллекционирование / Коллекционирование",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Антиквариат и коллекционирование\\Коллекционирование"
+}

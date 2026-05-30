@@ -1,0 +1,20 @@
+{
+  "id": "champ-000209",
+  "name": "Текстиль для дома",
+  "url": "",
+  "parent": "Дом и сад",
+  "parentId": "champ-000190",
+  "oneCId": "209",
+  "sortOrder": 11004,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 209,
+  "depth": 2,
+  "path": "Дом и сад / Текстиль для дома",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дом и сад\\Текстиль для дома"
+}

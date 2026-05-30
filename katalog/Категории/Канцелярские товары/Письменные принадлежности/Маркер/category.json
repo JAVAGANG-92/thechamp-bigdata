@@ -1,0 +1,20 @@
+{
+  "id": "champ-000261",
+  "name": "Маркер",
+  "url": "",
+  "parent": "Письменные принадлежности",
+  "parentId": "champ-000259",
+  "oneCId": "261",
+  "sortOrder": 1400302,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 261,
+  "depth": 3,
+  "path": "Канцелярские товары / Письменные принадлежности / Маркер",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Канцелярские товары\\Письменные принадлежности\\Маркер"
+}

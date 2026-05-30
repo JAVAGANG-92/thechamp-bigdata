@@ -1,0 +1,20 @@
+{
+  "id": "champ-000064",
+  "name": "Помощь детям",
+  "url": "",
+  "parent": "Благотворительность",
+  "parentId": "champ-000063",
+  "oneCId": "64",
+  "sortOrder": 4001,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 64,
+  "depth": 2,
+  "path": "Благотворительность / Помощь детям",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Благотворительность\\Помощь детям"
+}

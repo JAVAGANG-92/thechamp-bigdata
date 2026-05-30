@@ -1,0 +1,20 @@
+{
+  "id": "champ-000504",
+  "name": "Душ",
+  "url": "",
+  "parent": "Сантехника",
+  "parentId": "champ-000503",
+  "oneCId": "504",
+  "sortOrder": 2700301,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 504,
+  "depth": 3,
+  "path": "Ремонт и строительство / Сантехника / Душ",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Ремонт и строительство\\Сантехника\\Душ"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000170",
+  "name": "Кукла",
+  "url": "",
+  "parent": "Игрушки",
+  "parentId": "champ-000168",
+  "oneCId": "170",
+  "sortOrder": 1000102,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 170,
+  "depth": 3,
+  "path": "Детские товары / Игрушки / Кукла",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Детские товары\\Игрушки\\Кукла"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000112",
+  "name": "Брелок",
+  "url": "",
+  "parent": "Сувениры",
+  "parentId": "champ-000111",
+  "oneCId": "112",
+  "sortOrder": 700101,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 112,
+  "depth": 3,
+  "path": "Военторг / Сувениры / Брелок",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Военторг\\Сувениры\\Брелок"
+}

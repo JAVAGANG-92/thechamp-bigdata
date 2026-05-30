@@ -1,0 +1,20 @@
+{
+  "id": "champ-000391",
+  "name": "Женская обувь",
+  "url": "",
+  "parent": "Обувь",
+  "parentId": "champ-000385",
+  "oneCId": "391",
+  "sortOrder": 22002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 391,
+  "depth": 2,
+  "path": "Обувь / Женская обувь",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Обувь\\Женская обувь"
+}

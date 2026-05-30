@@ -1,0 +1,20 @@
+{
+  "id": "champ-000054",
+  "name": "Глюкометр",
+  "url": "",
+  "parent": "Медицинские приборы",
+  "parentId": "champ-000053",
+  "oneCId": "54",
+  "sortOrder": 300301,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 54,
+  "depth": 3,
+  "path": "Аптека / Медицинские приборы / Глюкометр",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Аптека\\Медицинские приборы\\Глюкометр"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000195",
+  "name": "Свеча",
+  "url": "",
+  "parent": "Декор",
+  "parentId": "champ-000191",
+  "oneCId": "195",
+  "sortOrder": 1100104,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 195,
+  "depth": 3,
+  "path": "Дом и сад / Декор / Свеча",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Дом и сад\\Декор\\Свеча"
+}

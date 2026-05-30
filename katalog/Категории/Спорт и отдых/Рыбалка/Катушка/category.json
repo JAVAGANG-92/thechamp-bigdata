@@ -1,0 +1,20 @@
+{
+  "id": "champ-000533",
+  "name": "Катушка",
+  "url": "",
+  "parent": "Рыбалка",
+  "parentId": "champ-000532",
+  "oneCId": "533",
+  "sortOrder": 2900201,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 533,
+  "depth": 3,
+  "path": "Спорт и отдых / Рыбалка / Катушка",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Спорт и отдых\\Рыбалка\\Катушка"
+}

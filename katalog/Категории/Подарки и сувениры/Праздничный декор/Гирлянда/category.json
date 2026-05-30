@@ -1,0 +1,20 @@
+{
+  "id": "champ-000447",
+  "name": "Гирлянда",
+  "url": "",
+  "parent": "Праздничный декор",
+  "parentId": "champ-000445",
+  "oneCId": "447",
+  "sortOrder": 2400202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 447,
+  "depth": 3,
+  "path": "Подарки и сувениры / Праздничный декор / Гирлянда",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Подарки и сувениры\\Праздничный декор\\Гирлянда"
+}

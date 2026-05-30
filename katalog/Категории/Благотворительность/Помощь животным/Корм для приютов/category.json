@@ -1,0 +1,20 @@
+{
+  "id": "champ-000069",
+  "name": "Корм для приютов",
+  "url": "",
+  "parent": "Помощь животным",
+  "parentId": "champ-000067",
+  "oneCId": "69",
+  "sortOrder": 400202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 69,
+  "depth": 3,
+  "path": "Благотворительность / Помощь животным / Корм для приютов",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Благотворительность\\Помощь животным\\Корм для приютов"
+}

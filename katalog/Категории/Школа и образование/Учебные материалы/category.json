@@ -1,0 +1,20 @@
+{
+  "id": "champ-000607",
+  "name": "Учебные материалы",
+  "url": "",
+  "parent": "Школа и образование",
+  "parentId": "champ-000602",
+  "oneCId": "607",
+  "sortOrder": 34002,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 607,
+  "depth": 2,
+  "path": "Школа и образование / Учебные материалы",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 2,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Школа и образование\\Учебные материалы"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000223",
+  "name": "Витамины для животных",
+  "url": "",
+  "parent": "Ветеринария",
+  "parentId": "champ-000221",
+  "oneCId": "223",
+  "sortOrder": 1200102,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 223,
+  "depth": 3,
+  "path": "Животные и ветеринария / Ветеринария / Витамины для животных",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Животные и ветеринария\\Ветеринария\\Витамины для животных"
+}

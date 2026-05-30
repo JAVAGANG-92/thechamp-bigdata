@@ -1,0 +1,20 @@
+{
+  "id": "champ-000146",
+  "name": "Шарм",
+  "url": "",
+  "parent": "Украшения",
+  "parentId": "champ-000141",
+  "oneCId": "146",
+  "sortOrder": 800405,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 146,
+  "depth": 3,
+  "path": "Галантерея и аксессуары / Украшения / Шарм",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Галантерея и аксессуары\\Украшения\\Шарм"
+}

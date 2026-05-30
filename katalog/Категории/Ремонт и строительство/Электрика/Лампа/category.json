@@ -1,0 +1,20 @@
+{
+  "id": "champ-000511",
+  "name": "Лампа",
+  "url": "",
+  "parent": "Электрика",
+  "parentId": "champ-000508",
+  "oneCId": "511",
+  "sortOrder": 2700403,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 511,
+  "depth": 3,
+  "path": "Ремонт и строительство / Электрика / Лампа",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Ремонт и строительство\\Электрика\\Лампа"
+}

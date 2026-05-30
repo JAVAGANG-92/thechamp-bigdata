@@ -1,0 +1,20 @@
+{
+  "id": "champ-000544",
+  "name": "Коврик",
+  "url": "",
+  "parent": "Фитнес",
+  "parentId": "champ-000542",
+  "oneCId": "544",
+  "sortOrder": 2900402,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 544,
+  "depth": 3,
+  "path": "Спорт и отдых / Фитнес / Коврик",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Спорт и отдых\\Фитнес\\Коврик"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000510",
+  "name": "Кабель",
+  "url": "",
+  "parent": "Электрика",
+  "parentId": "champ-000508",
+  "oneCId": "510",
+  "sortOrder": 2700402,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 510,
+  "depth": 3,
+  "path": "Ремонт и строительство / Электрика / Кабель",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Ремонт и строительство\\Электрика\\Кабель"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "champ-000061",
+  "name": "Корсет",
+  "url": "",
+  "parent": "Ортопедия",
+  "parentId": "champ-000058",
+  "oneCId": "61",
+  "sortOrder": 300403,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 61,
+  "depth": 3,
+  "path": "Аптека / Ортопедия / Корсет",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Аптека\\Ортопедия\\Корсет"
+}

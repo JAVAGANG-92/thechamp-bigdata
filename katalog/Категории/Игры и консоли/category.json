@@ -1,0 +1,20 @@
+{
+  "id": "champ-000234",
+  "name": "Игры и консоли",
+  "url": "",
+  "parent": "Без категории",
+  "parentId": "",
+  "oneCId": "234",
+  "sortOrder": 13,
+  "active": true,
+  "showHome": true,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 234,
+  "depth": 1,
+  "path": "Игры и консоли",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 1,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Игры и консоли"
+}

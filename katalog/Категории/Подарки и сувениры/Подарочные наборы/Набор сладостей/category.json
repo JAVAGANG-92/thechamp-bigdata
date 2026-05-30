@@ -1,0 +1,20 @@
+{
+  "id": "champ-000443",
+  "name": "Набор сладостей",
+  "url": "",
+  "parent": "Подарочные наборы",
+  "parentId": "champ-000441",
+  "oneCId": "443",
+  "sortOrder": 2400102,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 443,
+  "depth": 3,
+  "path": "Подарки и сувениры / Подарочные наборы / Набор сладостей",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Подарки и сувениры\\Подарочные наборы\\Набор сладостей"
+}

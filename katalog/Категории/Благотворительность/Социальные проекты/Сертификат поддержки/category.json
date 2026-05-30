@@ -1,0 +1,20 @@
+{
+  "id": "champ-000072",
+  "name": "Сертификат поддержки",
+  "url": "",
+  "parent": "Социальные проекты",
+  "parentId": "champ-000070",
+  "oneCId": "72",
+  "sortOrder": 400302,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 72,
+  "depth": 3,
+  "path": "Благотворительность / Социальные проекты / Сертификат поддержки",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Благотворительность\\Социальные проекты\\Сертификат поддержки"
+}

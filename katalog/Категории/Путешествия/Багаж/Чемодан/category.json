@@ -1,0 +1,20 @@
+{
+  "id": "champ-000486",
+  "name": "Чемодан",
+  "url": "",
+  "parent": "Багаж",
+  "parentId": "champ-000483",
+  "oneCId": "486",
+  "sortOrder": 2600203,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 486,
+  "depth": 3,
+  "path": "Путешествия / Багаж / Чемодан",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Путешествия\\Багаж\\Чемодан"
+}

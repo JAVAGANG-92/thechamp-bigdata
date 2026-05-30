@@ -1,0 +1,20 @@
+{
+  "id": "champ-000553",
+  "name": "Корсет",
+  "url": "",
+  "parent": "Белье 18+",
+  "parentId": "champ-000551",
+  "oneCId": "553",
+  "sortOrder": 3000202,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 553,
+  "depth": 3,
+  "path": "Товары для взрослых / Белье 18+ / Корсет",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Товары для взрослых\\Белье 18+\\Корсет"
+}

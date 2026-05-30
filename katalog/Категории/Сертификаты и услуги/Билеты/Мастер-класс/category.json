@@ -1,0 +1,20 @@
+{
+  "id": "champ-000516",
+  "name": "Мастер-класс",
+  "url": "",
+  "parent": "Билеты",
+  "parentId": "champ-000514",
+  "oneCId": "516",
+  "sortOrder": 2800102,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 516,
+  "depth": 3,
+  "path": "Сертификаты и услуги / Билеты / Мастер-класс",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Сертификаты и услуги\\Билеты\\Мастер-класс"
+}

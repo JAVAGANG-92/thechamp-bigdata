@@ -1,0 +1,20 @@
+{
+  "id": "champ-000491",
+  "name": "Спальный мешок",
+  "url": "",
+  "parent": "Туристическое снаряжение",
+  "parentId": "champ-000488",
+  "oneCId": "491",
+  "sortOrder": 2600303,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 491,
+  "depth": 3,
+  "path": "Путешествия / Туристическое снаряжение / Спальный мешок",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Путешествия\\Туристическое снаряжение\\Спальный мешок"
+}

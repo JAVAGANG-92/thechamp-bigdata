@@ -1,0 +1,20 @@
+{
+  "id": "champ-000260",
+  "name": "Карандаш",
+  "url": "",
+  "parent": "Письменные принадлежности",
+  "parentId": "champ-000259",
+  "oneCId": "260",
+  "sortOrder": 1400301,
+  "active": true,
+  "showHome": false,
+  "mainImageName": "",
+  "iconName": "",
+  "source": "the-champ",
+  "champId": 260,
+  "depth": 3,
+  "path": "Канцелярские товары / Письменные принадлежности / Карандаш",
+  "createdAt": "2026-05-28T19:02:33",
+  "priorityGroup": 3,
+  "folderPath": "C:\\Users\\Crypt\\Documents\\TheChamp\\katalog\\Категории\\Канцелярские товары\\Письменные принадлежности\\Карандаш"
+}
