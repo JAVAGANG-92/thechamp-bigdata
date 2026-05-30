@@ -1,4 +1,4 @@
-﻿const app = document.querySelector('#app');
+const app = document.querySelector('#app');
 
 let appConfig = {
   brandName: 'The Champ',
@@ -43,21 +43,21 @@ const navItems = [
 ];
 
 const catalogSections = [
-  'РљР°С‚РµРіРѕСЂРёРё',
-  'РљРѕРјРёСЃСЃРёСЏ РєР°С‚РµРіРѕСЂРёР№',
-  'РўРѕРІР°СЂС‹',
-  'Р‘СЂРµРЅРґС‹',
-  'Р¦РІРµС‚Р°',
-  'РњР°С‚РµСЂРёР°Р»С‹',
-  'РњР°С‚РµСЂРёР°Р»С‹ (РґР»СЏ С„РёР»СЊС‚СЂРѕРІ)',
-  'РЎРµР·РѕРЅС‹',
-  'РўРёРїС‹ С‚РѕРІР°СЂРѕРІ',
-  'РЎС‚СЂР°РЅР°',
-  'РўРµРіРё',
-  'Р Р°Р·РјРµСЂС‹',
-  'РћС‚Р·С‹РІС‹ С‚РѕРІР°СЂРѕРІ',
-  'РџСЂРѕРјРѕРєРѕРґС‹',
-  'РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё'
+  'Категории',
+  'Комиссия категорий',
+  'Товары',
+  'Бренды',
+  'Цвета',
+  'Материалы',
+  'Материалы (для фильтров)',
+  'Сезоны',
+  'Типы товаров',
+  'Страна',
+  'Теги',
+  'Размеры',
+  'Отзывы товаров',
+  'Промокоды',
+  'Характеристики'
 ];
 
 let currentView = localStorage.getItem('thechamp_current_view') || 'dashboard';
@@ -69,9 +69,9 @@ let catalogColors = null;
 let catalogMaterials = null;
 let catalogBrands = null;
 let catalogProducts = null;
-let selectedCatalogSection = localStorage.getItem('thechamp_catalog_section') || 'РљР°С‚РµРіРѕСЂРёРё';
+let selectedCatalogSection = localStorage.getItem('thechamp_catalog_section') || 'Категории';
 let catalogOpen = localStorage.getItem('thechamp_catalog_open') !== 'false';
-let pendingCategoryParent = 'Р‘РµР· РєР°С‚РµРіРѕСЂРёРё';
+let pendingCategoryParent = 'Без категории';
 let productEditorOpen = false;
 let productDraftName = '';
 let productDraftCategory = '';
@@ -89,9 +89,9 @@ let selectedBackupSection = localStorage.getItem('thechamp_backup_section') || '
 let activeProductStatus = localStorage.getItem('thechamp_product_status') || 'all';
 
 const languageNames = {
-  ru: 'Р СѓСЃСЃРєРёР№',
+  ru: 'Русский',
   en: 'English',
-  tr: 'TГјrkГ§e'
+  tr: 'Türkçe'
 };
 
 const settingsSections = [
@@ -108,104 +108,104 @@ const settingsSections = [
 
 const catalogSectionLabels = {
   ru: {
-    'РљР°С‚РµРіРѕСЂРёРё': 'РљР°С‚РµРіРѕСЂРёРё',
-    'РљРѕРјРёСЃСЃРёСЏ РєР°С‚РµРіРѕСЂРёР№': 'РљРѕРјРёСЃСЃРёСЏ РєР°С‚РµРіРѕСЂРёР№',
-    'РўРѕРІР°СЂС‹': 'РўРѕРІР°СЂС‹',
-    'Р‘СЂРµРЅРґС‹': 'Р‘СЂРµРЅРґС‹',
-    'Р¦РІРµС‚Р°': 'Р¦РІРµС‚Р°',
-    'РњР°С‚РµСЂРёР°Р»С‹': 'РњР°С‚РµСЂРёР°Р»С‹',
-    'РњР°С‚РµСЂРёР°Р»С‹ ( РґР»СЏ С„РёР»СЊС‚СЂРѕРІ)': 'РњР°С‚РµСЂРёР°Р»С‹ ( РґР»СЏ С„РёР»СЊС‚СЂРѕРІ)',
-    'РЎРµР·РѕРЅС‹': 'РЎРµР·РѕРЅС‹',
-    'РўРёРїС‹ С‚РѕРІР°СЂРѕРІ': 'РўРёРїС‹ С‚РѕРІР°СЂРѕРІ',
-    'РЎС‚СЂР°РЅР°': 'РЎС‚СЂР°РЅР°',
-    'РўРµРіРё': 'РўРµРіРё',
-    'Р Р°Р·РјРµСЂС‹': 'Р Р°Р·РјРµСЂС‹',
-    'РћС‚Р·С‹РІС‹ С‚РѕРІР°СЂРѕРІ': 'РћС‚Р·С‹РІС‹ С‚РѕРІР°СЂРѕРІ',
-    'РџСЂРѕРјРѕРєРѕРґС‹': 'РџСЂРѕРјРѕРєРѕРґС‹',
-    'РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё': 'РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё'
+    'Категории': 'Категории',
+    'Комиссия категорий': 'Комиссия категорий',
+    'Товары': 'Товары',
+    'Бренды': 'Бренды',
+    'Цвета': 'Цвета',
+    'Материалы': 'Материалы',
+    'Материалы ( для фильтров)': 'Материалы ( для фильтров)',
+    'Сезоны': 'Сезоны',
+    'Типы товаров': 'Типы товаров',
+    'Страна': 'Страна',
+    'Теги': 'Теги',
+    'Размеры': 'Размеры',
+    'Отзывы товаров': 'Отзывы товаров',
+    'Промокоды': 'Промокоды',
+    'Характеристики': 'Характеристики'
   },
   en: {
-    'РљР°С‚РµРіРѕСЂРёРё': 'Categories',
-    'РљРѕРјРёСЃСЃРёСЏ РєР°С‚РµРіРѕСЂРёР№': 'Category commission',
-    'РўРѕРІР°СЂС‹': 'Products',
-    'Р‘СЂРµРЅРґС‹': 'Brands',
-    'Р¦РІРµС‚Р°': 'Colors',
-    'РњР°С‚РµСЂРёР°Р»С‹': 'Materials',
-    'РњР°С‚РµСЂРёР°Р»С‹ ( РґР»СЏ С„РёР»СЊС‚СЂРѕРІ)': 'Materials (filters)',
-    'РЎРµР·РѕРЅС‹': 'Seasons',
-    'РўРёРїС‹ С‚РѕРІР°СЂРѕРІ': 'Product types',
-    'РЎС‚СЂР°РЅР°': 'Country',
-    'РўРµРіРё': 'Tags',
-    'Р Р°Р·РјРµСЂС‹': 'Sizes',
-    'РћС‚Р·С‹РІС‹ С‚РѕРІР°СЂРѕРІ': 'Product reviews',
-    'РџСЂРѕРјРѕРєРѕРґС‹': 'Promo codes',
-    'РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё': 'Attributes'
+    'Категории': 'Categories',
+    'Комиссия категорий': 'Category commission',
+    'Товары': 'Products',
+    'Бренды': 'Brands',
+    'Цвета': 'Colors',
+    'Материалы': 'Materials',
+    'Материалы ( для фильтров)': 'Materials (filters)',
+    'Сезоны': 'Seasons',
+    'Типы товаров': 'Product types',
+    'Страна': 'Country',
+    'Теги': 'Tags',
+    'Размеры': 'Sizes',
+    'Отзывы товаров': 'Product reviews',
+    'Промокоды': 'Promo codes',
+    'Характеристики': 'Attributes'
   },
   tr: {
-    'РљР°С‚РµРіРѕСЂРёРё': 'Kategoriler',
-    'РљРѕРјРёСЃСЃРёСЏ РєР°С‚РµРіРѕСЂРёР№': 'Kategori komisyonu',
-    'РўРѕРІР°СЂС‹': 'ГњrГјnler',
-    'Р‘СЂРµРЅРґС‹': 'Markalar',
-    'Р¦РІРµС‚Р°': 'Renkler',
-    'РњР°С‚РµСЂРёР°Р»С‹': 'Materyaller',
-    'РњР°С‚РµСЂРёР°Р»С‹ ( РґР»СЏ С„РёР»СЊС‚СЂРѕРІ)': 'Materyaller (filtreler)',
-    'РЎРµР·РѕРЅС‹': 'Sezonlar',
-    'РўРёРїС‹ С‚РѕРІР°СЂРѕРІ': 'ГњrГјn tipleri',
-    'РЎС‚СЂР°РЅР°': 'Гњlke',
-    'РўРµРіРё': 'Etiketler',
-    'Р Р°Р·РјРµСЂС‹': 'Bedenler',
-    'РћС‚Р·С‹РІС‹ С‚РѕРІР°СЂРѕРІ': 'ГњrГјn yorumlarД±',
-    'РџСЂРѕРјРѕРєРѕРґС‹': 'Promokodlar',
-    'РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё': 'Г–zellikler'
+    'Категории': 'Kategoriler',
+    'Комиссия категорий': 'Kategori komisyonu',
+    'Товары': 'Ürünler',
+    'Бренды': 'Markalar',
+    'Цвета': 'Renkler',
+    'Материалы': 'Materyaller',
+    'Материалы ( для фильтров)': 'Materyaller (filtreler)',
+    'Сезоны': 'Sezonlar',
+    'Типы товаров': 'Ürün tipleri',
+    'Страна': 'Ülke',
+    'Теги': 'Etiketler',
+    'Размеры': 'Bedenler',
+    'Отзывы товаров': 'Ürün yorumları',
+    'Промокоды': 'Promokodlar',
+    'Характеристики': 'Özellikler'
   }
 };
 
 const translations = {
   ru: {
-    navHome: 'Р“Р»Р°РІРЅР°СЏ',
-    navCatalog: 'РљР°С‚Р°Р»РѕРі',
-    navModules: 'РњРѕРґСѓР»Рё',
+    navHome: 'Главная',
+    navCatalog: 'Каталог',
+    navModules: 'Модули',
     navBackup: 'BuckUp',
-    navIntegrations: 'API РјР°СЂРєРµС‚РїР»РµР№СЃРѕРІ',
-    navApiLogs: 'Р›РѕРіРё API',
-    navAccess: 'РџСЂР°РІР° РґРѕСЃС‚СѓРїР°',
-    searchPlaceholder: 'РџРѕРёСЃРє Р·Р°РєР°Р·Р°, SKU, Р±СЂРµРЅРґР° РёР»Рё СЃРѕР±С‹С‚РёСЏ API',
-    companyTitle: 'РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С„РёСЂРјРµ',
-    companyPerson: 'Р‘Р°СЂРєРѕРІР° Р•РІРґРѕРєРёСЏ',
-    companyRole: 'РЈРїСЂР°РІР»СЏСЋС‰РёР№ +1',
-    settings: 'РќР°СЃС‚СЂРѕР№РєРё',
+    navIntegrations: 'API маркетплейсов',
+    navApiLogs: 'Логи API',
+    navAccess: 'Права доступа',
+    searchPlaceholder: 'Поиск заказа, SKU, бренда или события API',
+    companyTitle: 'Информация о фирме',
+    companyPerson: 'Баркова Евдокия',
+    companyRole: 'Управляющий +1',
+    settings: 'Настройки',
     premium: 'Premium',
-    language: 'РЇР·С‹Рє',
-    logout: 'Р’С‹С…РѕРґ',
-    aiAssistant: 'AI РїРѕРјРѕС‰РЅРёРє',
-    chats: 'Р§Р°С‚С‹',
-    support: 'РџРѕРґРґРµСЂР¶РєР°',
-    notifications: 'РЈРІРµРґРѕРјР»РµРЅРёСЏ',
-    settingsTitle: 'РќР°СЃС‚СЂРѕР№РєРё',
-    settingsSubtitle: 'РЈРїСЂР°РІР»СЏР№С‚Рµ РїСЂРѕС„РёР»РµРј, СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё, API, СѓРІРµРґРѕРјР»РµРЅРёСЏРјРё Рё СЋСЂРёРґРёС‡РµСЃРєРёРјРё СЂР°Р·РґРµР»Р°РјРё РєРѕРјРїР°РЅРёРё.',
-    settingsAccount: 'РЈС‡С‘С‚РЅР°СЏ Р·Р°РїРёСЃСЊ',
-    settingsEmployees: 'РЎРѕС‚СЂСѓРґРЅРёРєРё',
-    settingsApiIntegrations: 'API РёРЅС‚РµРіСЂР°С†РёРё',
+    language: 'Язык',
+    logout: 'Выход',
+    aiAssistant: 'AI помощник',
+    chats: 'Чаты',
+    support: 'Поддержка',
+    notifications: 'Уведомления',
+    settingsTitle: 'Настройки',
+    settingsSubtitle: 'Управляйте профилем, сотрудниками, API, уведомлениями и юридическими разделами компании.',
+    settingsAccount: 'Учётная запись',
+    settingsEmployees: 'Сотрудники',
+    settingsApiIntegrations: 'API интеграции',
     settingsSellerApi: 'Seller API',
-    settingsPrivateApps: 'РЈРїСЂР°РІР»РµРЅРёРµ С‡Р°СЃС‚РЅС‹РјРё РїСЂРёР»РѕР¶РµРЅРёСЏРјРё',
-    settingsNotifications: 'РЈРІРµРґРѕРјР»РµРЅРёСЏ',
-    settingsCompanyInfo: 'РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РєРѕРјРїР°РЅРёРё',
-    settingsContracts: 'Р”РѕРіРѕРІРѕСЂС‹',
-    settingsBrandRepresentation: 'РџСЂРµРґСЃС‚Р°РІРёС‚РµР»СЊСЃС‚РІРѕ Р±СЂРµРЅРґРѕРІ',
-    accountTitle: 'Р”Р°РЅРЅС‹Рµ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ',
-    accountSubtitle: 'РР·РјРµРЅРµРЅРёСЏ СЃРѕС…СЂР°РЅСЏСЋС‚СЃСЏ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё РЅР° СЌС‚РѕРј РєРѕРјРїСЊСЋС‚РµСЂРµ.',
-    userLabel: 'РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ',
-    loginLabel: 'Р›РѕРіРёРЅ',
-    passwordLabel: 'РџР°СЂРѕР»СЊ',
-    phoneLabel: 'РўРµР»РµС„РѕРЅ',
-    savedLabel: 'РЎРѕС…СЂР°РЅРµРЅРѕ',
-    languageTitle: 'РЇР·С‹Рє РёРЅС‚РµСЂС„РµР№СЃР°',
-    languageSubtitle: 'Р’С‹Р±РµСЂРёС‚Рµ СЏР·С‹Рє РґР»СЏ РїР°РЅРµР»Рё Р°РґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂР° The Champ.',
-    currentLanguage: 'РўРµРєСѓС‰РёР№ СЏР·С‹Рє',
-    chooseLanguage: 'Р’С‹Р±СЂР°С‚СЊ СЏР·С‹Рє',
-    sectionSoon: 'Р Р°Р·РґРµР» РїРѕРґРіРѕС‚РѕРІР»РµРЅ. РЎР»РµРґСѓСЋС‰РёРј С€Р°РіРѕРј СЃСЋРґР° РјРѕР¶РЅРѕ РґРѕР±Р°РІРёС‚СЊ СЂР°Р±РѕС‡РёРµ С„РѕСЂРјС‹ Рё РїСЂР°РІР° РґРѕСЃС‚СѓРїР°.',
-    openSettings: 'РћС‚РєСЂС‹С‚СЊ РЅР°СЃС‚СЂРѕР№РєРё',
-    openLanguage: 'РћС‚РєСЂС‹С‚СЊ СЏР·С‹РєРё'
+    settingsPrivateApps: 'Управление частными приложениями',
+    settingsNotifications: 'Уведомления',
+    settingsCompanyInfo: 'Информация о компании',
+    settingsContracts: 'Договоры',
+    settingsBrandRepresentation: 'Представительство брендов',
+    accountTitle: 'Данные пользователя',
+    accountSubtitle: 'Изменения сохраняются автоматически на этом компьютере.',
+    userLabel: 'Пользователь',
+    loginLabel: 'Логин',
+    passwordLabel: 'Пароль',
+    phoneLabel: 'Телефон',
+    savedLabel: 'Сохранено',
+    languageTitle: 'Язык интерфейса',
+    languageSubtitle: 'Выберите язык для панели администратора The Champ.',
+    currentLanguage: 'Текущий язык',
+    chooseLanguage: 'Выбрать язык',
+    sectionSoon: 'Раздел подготовлен. Следующим шагом сюда можно добавить рабочие формы и права доступа.',
+    openSettings: 'Открыть настройки',
+    openLanguage: 'Открыть языки'
   },
   en: {
     navHome: 'Home',
@@ -256,48 +256,48 @@ const translations = {
   tr: {
     navHome: 'Ana sayfa',
     navCatalog: 'Katalog',
-    navModules: 'ModГјller',
+    navModules: 'Modüller',
     navBackup: 'BuckUp',
     navIntegrations: 'Marketplace API',
-    navApiLogs: 'API kayД±tlarД±',
-    navAccess: 'EriЕџim haklarД±',
-    searchPlaceholder: 'SipariЕџ, SKU, marka veya API olayД± ara',
+    navApiLogs: 'API kayıtları',
+    navAccess: 'Erişim hakları',
+    searchPlaceholder: 'Sipariş, SKU, marka veya API olayı ara',
     companyTitle: 'Firma bilgileri',
     companyPerson: 'Evdokia Barkova',
-    companyRole: 'YГ¶netici +1',
+    companyRole: 'Yönetici +1',
     settings: 'Ayarlar',
     premium: 'Premium',
     language: 'Dil',
-    logout: 'Г‡Д±kД±Еџ',
+    logout: 'Çıkış',
     aiAssistant: 'AI asistan',
     chats: 'Sohbetler',
     support: 'Destek',
     notifications: 'Bildirimler',
     settingsTitle: 'Ayarlar',
-    settingsSubtitle: 'Profil, Г§alД±Еџanlar, API, bildirimler ve Еџirket bГ¶lГјmlerini yГ¶netin.',
+    settingsSubtitle: 'Profil, çalışanlar, API, bildirimler ve şirket bölümlerini yönetin.',
     settingsAccount: 'Hesap',
-    settingsEmployees: 'Г‡alД±Еџanlar',
-    settingsApiIntegrations: 'API entegrasyonlarД±',
+    settingsEmployees: 'Çalışanlar',
+    settingsApiIntegrations: 'API entegrasyonları',
     settingsSellerApi: 'Seller API',
-    settingsPrivateApps: 'Г–zel uygulama yГ¶netimi',
+    settingsPrivateApps: 'Özel uygulama yönetimi',
     settingsNotifications: 'Bildirimler',
     settingsCompanyInfo: 'Ећirket bilgileri',
-    settingsContracts: 'SГ¶zleЕџmeler',
-    settingsBrandRepresentation: 'Marka temsilciliДџi',
-    accountTitle: 'KullanД±cД± bilgileri',
-    accountSubtitle: 'DeДџiЕџiklikler bu bilgisayarda otomatik saklanД±r.',
-    userLabel: 'KullanД±cД±',
-    loginLabel: 'GiriЕџ',
+    settingsContracts: 'Sözleşmeler',
+    settingsBrandRepresentation: 'Marka temsilciliği',
+    accountTitle: 'Kullanıcı bilgileri',
+    accountSubtitle: 'Değişiklikler bu bilgisayarda otomatik saklanır.',
+    userLabel: 'Kullanıcı',
+    loginLabel: 'Giriş',
     passwordLabel: 'Ећifre',
     phoneLabel: 'Telefon',
     savedLabel: 'Kaydedildi',
-    languageTitle: 'ArayГјz dili',
-    languageSubtitle: 'The Champ admin paneli iГ§in dili seГ§in.',
-    currentLanguage: 'GeГ§erli dil',
-    chooseLanguage: 'Dil seГ§',
-    sectionSoon: 'BГ¶lГјm hazД±rlandД±. Sonraki adД±mda buraya Г§alД±Еџma formlarД± ve eriЕџim haklarД± eklenebilir.',
-    openSettings: 'AyarlarД± aГ§',
-    openLanguage: 'Dilleri aГ§'
+    languageTitle: 'Arayüz dili',
+    languageSubtitle: 'The Champ admin paneli için dili seçin.',
+    currentLanguage: 'Geçerli dil',
+    chooseLanguage: 'Dil seç',
+    sectionSoon: 'Bölüm hazırlandı. Sonraki adımda buraya çalışma formları ve erişim hakları eklenebilir.',
+    openSettings: 'Ayarları aç',
+    openLanguage: 'Dilleri aç'
   }
 };
 
@@ -321,7 +321,7 @@ function escapeHtml(value) {
 
 function getAccountProfile() {
   const fallback = {
-    user: 'Р‘Р°СЂРєРѕРІР° Р•РІРґРѕРєРёСЏ',
+    user: 'Баркова Евдокия',
     login: appConfig.adminEmail || 'admin@thechamp.local',
     password: 'admin',
     phone: '+7'
@@ -355,10 +355,10 @@ function categoryPriority(category) {
     category.name
   ].filter(Boolean).join(' / ').toLowerCase();
 
-  if (text.includes('Р¶РµРЅС‰РёРЅР°Рј') || text.includes('Р¶РµРЅСЃРєР°СЏ') || text.includes('РґР»СЏ Р¶РµРЅС‰РёРЅ')) return 1;
-  if (text.includes('РјСѓР¶С‡РёРЅР°Рј') || text.includes('РјСѓР¶СЃРєР°СЏ') || text.includes('РґР»СЏ РјСѓР¶С‡РёРЅ')) return 2;
-  if (text.includes('РґРµРІРѕС‡РєР°Рј') || text.includes('РґРµРІРѕС‡РєРё') || text.includes('РґР»СЏ РґРµРІРѕС‡РµРє')) return 3;
-  if (text.includes('РјР°Р»СЊС‡РёРєР°Рј') || text.includes('РјР°Р»СЊС‡РёРєРё') || text.includes('РґР»СЏ РјР°Р»СЊС‡РёРєРѕРІ')) return 4;
+  if (text.includes('женщинам') || text.includes('женская') || text.includes('для женщин')) return 1;
+  if (text.includes('мужчинам') || text.includes('мужская') || text.includes('для мужчин')) return 2;
+  if (text.includes('девочкам') || text.includes('девочки') || text.includes('для девочек')) return 3;
+  if (text.includes('мальчикам') || text.includes('мальчики') || text.includes('для мальчиков')) return 4;
   return 50;
 }
 
@@ -382,7 +382,7 @@ async function api(path, options = {}) {
     ...options
   });
   const data = await response.json();
-  if (!response.ok) throw new Error(data.message || 'Р—Р°РїСЂРѕСЃ РЅРµ РІС‹РїРѕР»РЅРµРЅ');
+  if (!response.ok) throw new Error(data.message || 'Запрос не выполнен');
   return data;
 }
 
@@ -406,31 +406,31 @@ function renderLogin() {
       <div class="login-art">
         <div class="brand"><img class="brand-logo" src="${escapeHtml(appLogo())}" alt="${escapeHtml(appBrand())} logo">${escapeHtml(appProductName())}</div>
         <div class="login-preview">
-          <p class="eyebrow">Р¦РµРЅС‚СЂ СѓРїСЂР°РІР»РµРЅРёСЏ РјР°СЂРєРµС‚РїР»РµР№СЃР°РјРё</p>
-          <h1>Р—Р°РєР°Р·С‹, РѕСЃС‚Р°С‚РєРё, С„РёРЅР°РЅСЃС‹ Рё РєР°СЂС‚РѕС‡РєРё С‚РѕРІР°СЂРѕРІ РІ РѕРґРЅРѕРј РєР°Р±РёРЅРµС‚Рµ.</h1>
+          <p class="eyebrow">Центр управления маркетплейсами</p>
+          <h1>Заказы, остатки, финансы и карточки товаров в одном кабинете.</h1>
           <p class="muted">Панель подготовлена как white-label система: бренд, логотип, данные и доступы меняются в настройках окружения.</p>
           <div class="preview-grid">
-            <div class="mini-card"><h3>РЈРјРЅС‹Р№ СЃРєР»Р°Рґ</h3><p class="muted">РЎР±РѕСЂРєР°, СѓРїР°РєРѕРІРєР° Рё Р°РґСЂРµСЃРЅРѕРµ С…СЂР°РЅРµРЅРёРµ.</p></div>
-            <div class="mini-card"><h3>PIM-СЃРёСЃС‚РµРјР°</h3><p class="muted">РЎРѕР·РґР°РЅРёРµ Рё РјР°СЃСЃРѕРІРѕРµ СЂРµРґР°РєС‚РёСЂРѕРІР°РЅРёРµ РєР°СЂС‚РѕС‡РµРє.</p></div>
-            <div class="mini-card"><h3>AI-С„РёРЅР°РЅСЃС‹</h3><p class="muted">РџСЂРёР±С‹Р»СЊ, РґРµРЅРµР¶РЅС‹Р№ РїРѕС‚РѕРє Рё РїР»Р°РЅ-С„Р°РєС‚.</p></div>
+            <div class="mini-card"><h3>Умный склад</h3><p class="muted">Сборка, упаковка и адресное хранение.</p></div>
+            <div class="mini-card"><h3>PIM-система</h3><p class="muted">Создание и массовое редактирование карточек.</p></div>
+            <div class="mini-card"><h3>AI-финансы</h3><p class="muted">Прибыль, денежный поток и план-факт.</p></div>
           </div>
         </div>
       </div>
       <aside class="login-side">
         <form class="login-card" id="loginForm">
-          <p class="eyebrow">Р’С…РѕРґ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂР°</p>
-          <h2>Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ РІ РїР°РЅРµР»СЊ</h2>
+          <p class="eyebrow">Вход администратора</p>
+          <h2>Добро пожаловать в панель</h2>
           <p class="muted">Демо-аккаунт: ${escapeHtml(demoEmail)} / admin</p>
           <div class="field">
             <label for="email">Email</label>
             <input id="email" type="email" value="${escapeHtml(demoEmail)}" autocomplete="email">
           </div>
           <div class="field">
-            <label for="password">РџР°СЂРѕР»СЊ</label>
+            <label for="password">Пароль</label>
             <input id="password" type="password" value="admin" autocomplete="current-password">
           </div>
           <p class="error" id="loginError"></p>
-          <button class="btn primary full" type="submit">Р’РѕР№С‚Рё</button>
+          <button class="btn primary full" type="submit">Войти</button>
         </form>
       </aside>
     </section>
@@ -464,9 +464,9 @@ function layout(content) {
     <section class="layout">
       <aside class="sidebar">
         <div class="brand"><img class="brand-logo" src="${escapeHtml(appLogo())}" alt="${escapeHtml(appBrand())} logo">${escapeHtml(appBrand())}</div>
-        <button class="seller-connect" type="button" disabled title="РњРѕРґСѓР»СЊ Seller Р±СѓРґРµС‚ РїРѕРґРєР»СЋС‡РµРЅ РїРѕР·Р¶Рµ">
+        <button class="seller-connect" type="button" disabled title="Модуль Seller будет подключен позже">
           <span>Seller</span>
-          <strong>РџРѕРґРєР»СЋС‡РёС‚СЊ Seller</strong>
+          <strong>Подключить Seller</strong>
         </button>
         <nav class="nav">
           <button type="button" data-view="dashboard" class="${currentView === 'dashboard' ? 'active' : ''}">
@@ -475,7 +475,7 @@ function layout(content) {
           <button type="button" data-toggle-catalog class="catalog-toggle ${currentView === 'catalog' ? 'active' : ''}">
             <span><img class="nav-icon" src="${icons.catalog}" alt=""></span>
             <span class="nav-label">${t('navCatalog')}</span>
-            <span class="chevron ${catalogOpen ? 'open' : ''}">вЊ„</span>
+            <span class="chevron ${catalogOpen ? 'open' : ''}">⌄</span>
           </button>
           <div class="submenu ${catalogOpen ? '' : 'hidden'}">
             ${catalogSections.map(section => `
@@ -508,7 +508,7 @@ function layout(content) {
                 </div>
                 <button type="button" class="company-menu-item" data-company-view="settings"><span class="menu-gear"></span>${t('settings')}</button>
                 <button type="button" class="company-menu-item" data-company-view="premium"><span class="menu-premium"></span>${t('premium')}</button>
-                <button type="button" class="company-menu-item" data-company-view="language"><span class="menu-language"></span>${t('language')}<b>вЂє</b></button>
+                <button type="button" class="company-menu-item" data-company-view="language"><span class="menu-language"></span>${t('language')}<b>›</b></button>
                 <button type="button" class="company-menu-item" id="logoutButton"><span class="menu-exit"></span>${t('logout')}</button>
               </div>
             </div>
@@ -584,7 +584,7 @@ function moduleCard(item) {
     <article class="card">
       <div class="module-head">
         <div class="module-icon">${item.name.slice(0, 2).toUpperCase()}</div>
-        <span class="status ${item.health}">${item.health === 'good' ? 'РђРєС‚РёРІРµРЅ' : 'Р’РЅРёРјР°РЅРёРµ'}</span>
+        <span class="status ${item.health}">${item.health === 'good' ? 'Активен' : 'Внимание'}</span>
       </div>
       <h3 style="margin-top:14px">${item.name}</h3>
       <p class="muted">${item.group} В· ${item.metric}</p>
@@ -597,7 +597,7 @@ function moduleCard(item) {
 function integrationsTable(integrations) {
   return `
     <table>
-      <thead><tr><th>РџР»Р°С‚С„РѕСЂРјР°</th><th>Р РµР¶РёРј</th><th>РЎС‚Р°С‚СѓСЃ</th><th>РџРѕСЃР»РµРґРЅСЏСЏ СЃРёРЅС…СЂРѕРЅРёР·Р°С†РёСЏ</th><th>Р—Р°РєР°Р·С‹</th><th>Р Р°Р·РЅРёС†Р° РѕСЃС‚Р°С‚РєРѕРІ</th></tr></thead>
+      <thead><tr><th>Платформа</th><th>Режим</th><th>Статус</th><th>Последняя синхронизация</th><th>Заказы</th><th>Разница остатков</th></tr></thead>
       <tbody>
         ${integrations.map(item => `
           <tr>
@@ -626,17 +626,17 @@ function eventCard(event) {
 
 function statusLabel(status) {
   return {
-    connected: 'РџРѕРґРєР»СЋС‡РµРЅРѕ',
-    pending: 'РћР¶РёРґР°РµС‚',
-    draft: 'Р§РµСЂРЅРѕРІРёРє'
+    connected: 'Подключено',
+    pending: 'Ожидает',
+    draft: 'Черновик'
   }[status] || status;
 }
 
 function renderModules() {
   layout(`
     <p class="eyebrow">Карта модулей ${escapeHtml(appBrand())}</p>
-    <h1>РћРїРµСЂР°С†РёРѕРЅРЅС‹Рµ РјРѕРґСѓР»Рё</h1>
-    <p class="muted">РљР°Р¶РґС‹Р№ РјРѕРґСѓР»СЊ РјРѕР¶РЅРѕ СЂР°СЃС€РёСЂРёС‚СЊ СЃРѕР±СЃС‚РІРµРЅРЅС‹РјРё endpoint-Р°РјРё РјР°СЂРєРµС‚РїР»РµР№СЃРѕРІ, РѕС‡РµСЂРµРґСЏРјРё Рё РѕС‚С‡РµС‚Р°РјРё.</p>
+    <h1>Операционные модули</h1>
+    <p class="muted">Каждый модуль можно расширить собственными endpoint-ами маркетплейсов, очередями и отчетами.</p>
     <section class="grid modules">
       ${dashboardData.modules.map(moduleCard).join('')}
     </section>
@@ -645,29 +645,29 @@ function renderModules() {
 
 function renderIntegrations() {
   layout(`
-    <p class="eyebrow">Р¦РµРЅС‚СЂ API-РёРЅС‚РµРіСЂР°С†РёР№</p>
-    <h1>РџРѕРґРєР»СЋС‡РµРЅРёСЏ РјР°СЂРєРµС‚РїР»РµР№СЃРѕРІ</h1>
+    <p class="eyebrow">Центр API-интеграций</p>
+    <h1>Подключения маркетплейсов</h1>
     <section class="grid two-col">
       <div class="panel">
-        <h2>РџСЂРѕРІРµСЂРёС‚СЊ РїРѕРґРєР»СЋС‡РµРЅРёРµ</h2>
+        <h2>Проверить подключение</h2>
         <form id="integrationForm" class="form-grid">
           <div class="field">
-            <label for="provider">РџР»Р°С‚С„РѕСЂРјР°</label>
+            <label for="provider">Платформа</label>
             <select id="provider">
               <option>${escapeHtml(appBrand())}</option>
               <option>${escapeHtml(appProductName())}</option>
               <option>Yandex Market</option>
               <option>Trendyol</option>
-              <option>РЎРѕР±СЃС‚РІРµРЅРЅС‹Р№ РјР°СЂРєРµС‚РїР»РµР№СЃ</option>
+              <option>Собственный маркетплейс</option>
             </select>
           </div>
           <div class="field">
-            <label for="mode">Р РµР¶РёРј СЂР°Р±РѕС‚С‹</label>
+            <label for="mode">Режим работы</label>
             <select id="mode">
               <option>FBO</option>
               <option>FBS</option>
               <option>DBS / RealFBS</option>
-              <option>РЎРѕР±СЃС‚РІРµРЅРЅС‹Р№ API</option>
+              <option>Собственный API</option>
             </select>
           </div>
           <div class="field">
@@ -678,21 +678,21 @@ function renderIntegrations() {
             <label for="apiKey">API key</label>
             <input id="apiKey" value="demo_12345_secret">
           </div>
-          <button class="btn primary" type="submit">РџСЂРѕРІРµСЂРёС‚СЊ РїРѕРґРєР»СЋС‡РµРЅРёРµ</button>
+          <button class="btn primary" type="submit">Проверить подключение</button>
         </form>
         <div id="integrationResult" class="result hidden"></div>
       </div>
       <div class="panel">
-        <h2>Р“РѕС‚РѕРІР°СЏ СЃС‚СЂСѓРєС‚СѓСЂР° endpoint-РѕРІ</h2>
+        <h2>Готовая структура endpoint-ов</h2>
         <div class="event-list">
-          <div class="event"><strong>GET /api/dashboard</strong><p class="muted">РњРµС‚СЂРёРєРё РїР°РЅРµР»Рё, РјРѕРґСѓР»Рё Рё РёРЅС‚РµРіСЂР°С†РёРё.</p></div>
-          <div class="event"><strong>POST /api/integrations/test</strong><p class="muted">РџСЂРѕРІРµСЂРєР° РєР»СЋС‡Р° РјР°СЂРєРµС‚РїР»РµР№СЃР° Рё URL.</p></div>
-          <div class="event"><strong>POST /api/sync</strong><p class="muted">Р—Р°РїСѓСЃРєР°РµС‚ СЃРёРЅС…СЂРѕРЅРёР·Р°С†РёСЋ Р·Р°РєР°Р·РѕРІ, РѕСЃС‚Р°С‚РєРѕРІ Рё РєР°СЂС‚РѕС‡РµРє С‚РѕРІР°СЂРѕРІ.</p></div>
+          <div class="event"><strong>GET /api/dashboard</strong><p class="muted">Метрики панели, модули и интеграции.</p></div>
+          <div class="event"><strong>POST /api/integrations/test</strong><p class="muted">Проверка ключа маркетплейса и URL.</p></div>
+          <div class="event"><strong>POST /api/sync</strong><p class="muted">Запускает синхронизацию заказов, остатков и карточек товаров.</p></div>
         </div>
       </div>
     </section>
     <section class="panel" style="margin-top:18px">
-      <h2>РџР»Р°С‚С„РѕСЂРјС‹</h2>
+      <h2>Платформы</h2>
       ${integrationsTable(dashboardData.integrations)}
     </section>
   `);
@@ -718,25 +718,25 @@ async function renderCatalog() {
   if (!catalogData) {
     catalogData = await api('/api/catalog');
   }
-  if (selectedCatalogSection === 'РљР°С‚РµРіРѕСЂРёРё' && !savedCategories) {
+  if (selectedCatalogSection === 'Категории' && !savedCategories) {
     savedCategories = (await api('/api/catalog/categories')).categories;
   }
-  if (selectedCatalogSection === 'РўРѕРІР°СЂС‹') {
+  if (selectedCatalogSection === 'Товары') {
     if (!savedCategories) savedCategories = (await api('/api/catalog/categories')).categories;
     if (!catalogColors) catalogColors = (await api('/api/catalog/colors')).colors;
     if (!catalogMaterials) catalogMaterials = (await api('/api/catalog/materials')).materials;
     if (!catalogBrands) catalogBrands = (await api('/api/catalog/brands')).brands;
     if (!catalogProducts) catalogProducts = (await api('/api/catalog/products')).products;
   }
-  if (selectedCatalogSection === 'Р‘СЂРµРЅРґС‹') {
+  if (selectedCatalogSection === 'Бренды') {
     if (!catalogProducts) catalogProducts = (await api('/api/catalog/products')).products;
     catalogBrands = (await api('/api/catalog/brands')).brands;
   }
-  if (selectedCatalogSection === 'Р¦РІРµС‚Р°' && !catalogColors) {
+  if (selectedCatalogSection === 'Цвета' && !catalogColors) {
     catalogColors = (await api('/api/catalog/colors')).colors;
   }
   const categories = savedCategories || [];
-  const productsForStats = selectedCatalogSection === 'РўРѕРІР°СЂС‹' ? (catalogProducts || []) : [];
+  const productsForStats = selectedCatalogSection === 'Товары' ? (catalogProducts || []) : [];
   const catalogStats = {
     products: productsForStats.length,
     categories: categories.length,
@@ -744,30 +744,30 @@ async function renderCatalog() {
     averagePrice: productsForStats.length
       ? productsForStats.reduce((sum, product) => sum + Number(product.salePrice || 0), 0) / productsForStats.length
       : 0,
-    importStatus: 'Р“РѕС‚РѕРІР°'
+    importStatus: 'Готова'
   };
-  const categoryButtons = selectedCatalogSection === 'РљР°С‚РµРіРѕСЂРёРё' ? buildCategoryPathRows(categories) : '';
+  const categoryButtons = selectedCatalogSection === 'Категории' ? buildCategoryPathRows(categories) : '';
   let sectionPanel = `
     <section class="panel" style="margin-top:18px">
       <div class="empty-state">
         <img class="empty-icon" src="/assets/icon-folder.svg" alt="">
         <div>
           <h3>${catalogLabel(selectedCatalogSection)}</h3>
-          <p class="muted">Р—РґРµСЃСЊ Р±СѓРґСѓС‚ СЂР°Р·РјРµС‰РµРЅС‹ РјРѕРґСѓР»Рё СЌС‚РѕРіРѕ СЂР°Р·РґРµР»Р° РєР°С‚Р°Р»РѕРіР°.</p>
+          <p class="muted">Здесь будут размещены модули этого раздела каталога.</p>
         </div>
       </div>
     </section>
   `;
 
-  if (selectedCatalogSection === 'РљР°С‚РµРіРѕСЂРёРё') {
+  if (selectedCatalogSection === 'Категории') {
     sectionPanel = `
       <section class="panel" style="margin-top:18px">
         <div class="section-head">
           <div>
-            <h2>РљР°С‚РµРіРѕСЂРёРё</h2>
-            <p class="muted">РЎРѕР·РґР°РІР°Р№С‚Рµ Рё С…СЂР°РЅРёС‚Рµ РєР°С‚РµРіРѕСЂРёРё РєР°С‚Р°Р»РѕРіР°.</p>
+            <h2>Категории</h2>
+            <p class="muted">Создавайте и храните категории каталога.</p>
           </div>
-          <button class="btn primary" type="button" id="addCategoryButton" data-parent="Р‘РµР· РєР°С‚РµРіРѕСЂРёРё">Р”РѕР±Р°РІРёС‚СЊ РєР°С‚РµРіРѕСЂРёСЋ</button>
+          <button class="btn primary" type="button" id="addCategoryButton" data-parent="Без категории">Добавить категорию</button>
         </div>
         <div class="category-board ${categoryButtons ? '' : 'hidden'}">
           ${categoryButtons}
@@ -775,8 +775,8 @@ async function renderCatalog() {
         <div class="empty-state ${categoryButtons ? 'hidden' : ''}">
           <img class="empty-icon" src="/assets/icon-folder.svg" alt="">
           <div>
-            <h3>РљР°С‚РµРіРѕСЂРёР№ РїРѕРєР° РЅРµС‚</h3>
-            <p class="muted">РќР°Р¶РјРёС‚Рµ В«Р”РѕР±Р°РІРёС‚СЊ РєР°С‚РµРіРѕСЂРёСЋВ», С‡С‚РѕР±С‹ СЃРѕР·РґР°С‚СЊ РїРµСЂРІСѓСЋ РєР°С‚РµРіРѕСЂРёСЋ.</p>
+            <h3>Категорий пока нет</h3>
+            <p class="muted">Нажмите «Добавить категорию», чтобы создать первую категорию.</p>
           </div>
         </div>
       </section>
@@ -784,19 +784,19 @@ async function renderCatalog() {
     `;
   }
 
-  if (selectedCatalogSection === 'РўРѕРІР°СЂС‹') {
+  if (selectedCatalogSection === 'Товары') {
     sectionPanel = productEditorOpen ? productEditorPanel() : productModulesPanel();
   }
 
-  if (selectedCatalogSection === 'Р¦РІРµС‚Р°') {
+  if (selectedCatalogSection === 'Цвета') {
     sectionPanel = colorsPanel();
   }
-  if (selectedCatalogSection === 'Р‘СЂРµРЅРґС‹') {
+  if (selectedCatalogSection === 'Бренды') {
     sectionPanel = brandsPanel();
   }
 
   layout(`
-    <div class="top-actions catalog-page-head ${selectedCatalogSection === 'РўРѕРІР°СЂС‹' ? 'product-catalog-head' : ''}">
+    <div class="top-actions catalog-page-head ${selectedCatalogSection === 'Товары' ? 'product-catalog-head' : ''}">
       <div>
         <h1>${catalogLabel(selectedCatalogSection)}</h1>
       </div>
@@ -804,14 +804,14 @@ async function renderCatalog() {
     ${sectionPanel}
   `);
 
-  if (selectedCatalogSection === 'РљР°С‚РµРіРѕСЂРёРё') {
+  if (selectedCatalogSection === 'Категории') {
     bindCategoryForm();
   }
 
-  if (selectedCatalogSection === 'РўРѕРІР°СЂС‹') {
+  if (selectedCatalogSection === 'Товары') {
     productEditorOpen ? bindProductEditor() : bindProductModules();
   }
-  if (selectedCatalogSection === 'Р‘СЂРµРЅРґС‹') {
+  if (selectedCatalogSection === 'Бренды') {
     bindBrandsPanel();
   }
 }
@@ -836,8 +836,8 @@ function saveStoredProducts(products) {
 
 function createProductFromDraft() {
   const value = id => document.querySelector(id)?.value.trim() || '';
-  const name = productDraftName.trim() || productDraftCategory || 'РќРѕРІС‹Р№ С‚РѕРІР°СЂ';
-  const category = productDraftCategory || 'Р‘РµР· РєР°С‚РµРіРѕСЂРёРё';
+  const name = productDraftName.trim() || productDraftCategory || 'Новый товар';
+  const category = productDraftCategory || 'Без категории';
   const marketplaceArticle = value('#newProductArticle') || productGeneratedArticle || generateMarketplaceArticle();
   return {
     id: `tc-${Date.now()}`,
@@ -850,13 +850,13 @@ function createProductFromDraft() {
     salePrice: Number(value('#newProductSalePrice') || 0),
     brand: value('#newProductBrand') || appConfig.defaultBrand || appBrand(),
     manufacturer: value('#newProductManufacturer') || appConfig.defaultBrand || appBrand(),
-    season: value('#newProductSeason') || 'Р’СЃРµСЃРµР·РѕРЅРЅС‹Р№',
-    availability: value('#newProductAvailability') || 'Р”РѕСЃС‚СѓРїРЅС‹ Рє РїСЂРѕРґР°Р¶Рµ',
+    season: value('#newProductSeason') || 'Всесезонный',
+    availability: value('#newProductAvailability') || 'Доступны к продаже',
     barcode: value('#newProductBarcode'),
     wb: marketplaceArticle,
     seller: value('#newProductSellerArticle') || `TC-${Date.now().toString().slice(-6)}`,
-    color: 'вЂ”',
-    sizes: 'вЂ”',
+    color: '—',
+    sizes: '—',
     marketplaceSku: marketplaceArticle,
     media: productDraftMedia
   };
@@ -885,13 +885,13 @@ function fileToMediaPayload(file) {
 }
 
 const productStatusTabs = [
-  { id: 'all', label: 'Р’СЃРµ' },
-  { id: 'sale', label: 'Р’ РїСЂРѕРґР°Р¶Рµ' },
-  { id: 'ready', label: 'Р“РѕС‚РѕРІС‹ Рє РїСЂРѕРґР°Р¶Рµ' },
-  { id: 'errors', label: 'РћС€РёР±РєРё' },
-  { id: 'review', label: 'РќР° РґРѕСЂР°Р±РѕС‚РєСѓ' },
-  { id: 'removed', label: 'РЎРЅСЏС‚С‹ СЃ РїСЂРѕРґР°Р¶Рё' },
-  { id: 'archive', label: 'РђСЂС…РёРІ' }
+  { id: 'all', label: 'Все' },
+  { id: 'sale', label: 'В продаже' },
+  { id: 'ready', label: 'Готовы к продаже' },
+  { id: 'errors', label: 'Ошибки' },
+  { id: 'review', label: 'На доработку' },
+  { id: 'removed', label: 'Сняты с продажи' },
+  { id: 'archive', label: 'Архив' }
 ];
 
 function productStatusText(product) {
@@ -910,11 +910,11 @@ function getProductListStatus(product) {
   const hasName = String(product.name || '').trim();
   const hasCategory = String(product.category || '').trim();
 
-  if (product.archived || text.includes('Р°СЂС…РёРІ')) return 'archive';
-  if (product.removedFromSale || product.saleStopped || text.includes('СЃРЅСЏС‚')) return 'removed';
-  if (product.hasError || product.error || text.includes('РѕС€РёР±')) return 'errors';
+  if (product.archived || text.includes('архив')) return 'archive';
+  if (product.removedFromSale || product.saleStopped || text.includes('снят')) return 'removed';
+  if (product.hasError || product.error || text.includes('ошиб')) return 'errors';
   if (!hasName || !hasCategory) return 'errors';
-  if (product.needsWork || product.inReview || text.includes('РґРѕСЂР°Р±РѕС‚') || text.includes('С‡РµСЂРЅРѕРІ') || text.includes('РїРѕРґРіРѕС‚РѕРІ')) return 'review';
+  if (product.needsWork || product.inReview || text.includes('доработ') || text.includes('чернов') || text.includes('подготов')) return 'review';
   if (stock > 0) return 'sale';
   return 'ready';
 }
@@ -939,7 +939,7 @@ function brandsPanel() {
   });
 
   products.forEach(product => {
-    const name = String(product.brand || '').trim() || 'Р‘СЂРµРЅРґ РЅРµ СѓРєР°Р·Р°РЅ';
+    const name = String(product.brand || '').trim() || 'Бренд не указан';
     const key = name.toLowerCase();
     const item = byName.get(key) || { id: key, name, source: 'product', products: [] };
     item.products.push(product);
@@ -953,28 +953,28 @@ function brandsPanel() {
     <section class="brand-page">
       <div class="brand-summary">
         <div>
-          <span>РЎРїСЂР°РІРѕС‡РЅРёРє Р±СЂРµРЅРґРѕРІ</span>
+          <span>Справочник брендов</span>
           <strong>${brands.length}</strong>
         </div>
         <div>
-          <span>РўРѕРІР°СЂРѕРІ СЃ Р±СЂРµРЅРґРѕРј</span>
+          <span>Товаров с брендом</span>
           <strong>${totalProducts}</strong>
         </div>
         <div>
-          <span>РџРѕСЃР»РµРґРЅСЏСЏ СЃРёРЅС…СЂРѕРЅРёР·Р°С†РёСЏ</span>
-          <strong>Р“РѕС‚РѕРІРѕ</strong>
+          <span>Последняя синхронизация</span>
+          <strong>Готово</strong>
         </div>
       </div>
 
       <section class="panel brand-panel">
         <div class="section-head">
           <div>
-            <h2>Р‘СЂРµРЅРґС‹</h2>
+            <h2>Бренды</h2>
             <p class="muted">Все бренды собираются из товаров и сохраняются в каталоге ${escapeHtml(appBrand())}.</p>
           </div>
           <form class="brand-form" id="brandForm">
-            <input id="brandNameInput" placeholder="РќР°Р·РІР°РЅРёРµ Р±СЂРµРЅРґР°" autocomplete="off">
-            <button class="btn primary" type="submit">Р”РѕР±Р°РІРёС‚СЊ Р±СЂРµРЅРґ</button>
+            <input id="brandNameInput" placeholder="Название бренда" autocomplete="off">
+            <button class="btn primary" type="submit">Добавить бренд</button>
           </form>
         </div>
         <p class="result hidden" id="brandResult"></p>
@@ -984,17 +984,17 @@ function brandsPanel() {
               <div class="brand-mark">${escapeHtml(brand.name.slice(0, 2).toUpperCase())}</div>
               <div>
                 <strong>${escapeHtml(brand.name)}</strong>
-                <span>${brand.products.length} С‚РѕРІР°СЂРѕРІ</span>
+                <span>${brand.products.length} товаров</span>
               </div>
-              <small>${brand.source === 'manual' ? 'Р”РѕР±Р°РІР»РµРЅ РІСЂСѓС‡РЅСѓСЋ' : 'РР· С‚РѕРІР°СЂРѕРІ'}</small>
+              <small>${brand.source === 'manual' ? 'Добавлен вручную' : 'Из товаров'}</small>
             </article>
           `).join('')}
         </div>
         <div class="empty-state ${brands.length ? 'hidden' : ''}">
           <img class="empty-icon" src="/assets/icon-folder.svg" alt="">
           <div>
-            <h3>Р‘СЂРµРЅРґРѕРІ РїРѕРєР° РЅРµС‚</h3>
-            <p class="muted">Р”РѕР±Р°РІСЊС‚Рµ РїРµСЂРІС‹Р№ Р±СЂРµРЅРґ РёР»Рё СЃРѕР·РґР°Р№С‚Рµ С‚РѕРІР°СЂ СЃ РЅРѕРІС‹Рј Р±СЂРµРЅРґРѕРј.</p>
+            <h3>Брендов пока нет</h3>
+            <p class="muted">Добавьте первый бренд или создайте товар с новым брендом.</p>
           </div>
         </div>
       </section>
@@ -1012,7 +1012,7 @@ function bindBrandsPanel() {
     event.preventDefault();
     const name = input.value.trim();
     if (!name) {
-      result.textContent = 'РЈРєР°Р¶РёС‚Рµ РЅР°Р·РІР°РЅРёРµ Р±СЂРµРЅРґР°.';
+      result.textContent = 'Укажите название бренда.';
       result.classList.remove('hidden');
       return;
     }
@@ -1022,7 +1022,7 @@ function bindBrandsPanel() {
     });
     catalogBrands = response.brands;
     input.value = '';
-    result.textContent = `Р‘СЂРµРЅРґ "${name}" СЃРѕС…СЂР°РЅРµРЅ.`;
+    result.textContent = `Бренд "${name}" сохранен.`;
     result.classList.remove('hidden');
     renderCatalog();
   });
@@ -1034,8 +1034,8 @@ function colorsPanel() {
     <section class="panel" style="margin-top:18px">
       <div class="section-head">
         <div>
-          <h2>Р¦РІРµС‚Р°</h2>
-          <p class="muted">Р¦РІРµС‚Р° СЃРёРЅС…СЂРѕРЅРёР·РёСЂСѓСЋС‚СЃСЏ РёР· РїР°РїРєРё D:\\thechamp\\katalog\\Р¦РІРµС‚Р°.</p>
+          <h2>Цвета</h2>
+          <p class="muted">Цвета синхронизируются из папки D:\\thechamp\\katalog\\Цвета.</p>
         </div>
         <img class="section-icon" src="/assets/icon-color.svg" alt="">
       </div>
@@ -1049,8 +1049,8 @@ function colorsPanel() {
       <div class="empty-state ${colors.length ? 'hidden' : ''}">
         <img class="empty-icon" src="/assets/icon-color.svg" alt="">
         <div>
-          <h3>Р¦РІРµС‚РѕРІ РїРѕРєР° РЅРµС‚</h3>
-          <p class="muted">Р”РѕР±Р°РІСЊС‚Рµ РїР°РїРєСѓ С†РІРµС‚Р° РІ D:\\thechamp\\katalog\\Р¦РІРµС‚Р°, Рё РѕРЅР° РїРѕСЏРІРёС‚СЃСЏ Р·РґРµСЃСЊ.</p>
+          <h3>Цветов пока нет</h3>
+          <p class="muted">Добавьте папку цвета в D:\\thechamp\\katalog\\Цвета, и она появится здесь.</p>
         </div>
       </div>
     </section>
@@ -1068,16 +1068,16 @@ function productModulesPanel() {
       <div class="product-list-top">
         <div>
           <div class="product-breadcrumb">
-            <span>в†ђ</span>
-            <span>РўРѕРІР°СЂС‹</span>
-            <span>вЂє</span>
-            <strong>Р Р°Р±РѕС‚Р° СЃ С‚РѕРІР°СЂР°РјРё</strong>
+            <span>←</span>
+            <span>Товары</span>
+            <span>›</span>
+            <strong>Работа с товарами</strong>
           </div>
-          <h1>РЎРїРёСЃРѕРє С‚РѕРІР°СЂРѕРІ</h1>
+          <h1>Список товаров</h1>
         </div>
         <div class="product-list-actions">
-          <button class="btn soft" type="button">РЎРєР°С‡Р°С‚СЊ С€Р°Р±Р»РѕРЅС‹</button>
-          <button class="btn primary" id="addProductButton" type="button">Р”РѕР±Р°РІРёС‚СЊ С‚РѕРІР°СЂС‹</button>
+          <button class="btn soft" type="button">Скачать шаблоны</button>
+          <button class="btn primary" id="addProductButton" type="button">Добавить товары</button>
         </div>
       </div>
 
@@ -1092,11 +1092,11 @@ function productModulesPanel() {
       <div class="product-list-toolbar">
         <label class="product-list-search">
           <img src="/assets/icon-search.svg" alt="">
-          <input id="productSearchInput" placeholder="РќР°Р·РІР°РЅРёРµ, Р°СЂС‚РёРєСѓР», SKU, С€С‚СЂРёС…РєРѕРґ">
+          <input id="productSearchInput" placeholder="Название, артикул, SKU, штрихкод">
         </label>
-        <button class="btn soft" id="applyProductFilters" type="button">Р¤РёР»СЊС‚СЂС‹вЊ„</button>
-        <button class="btn danger-outline" id="deleteSelectedProducts" type="button">РЈРґР°Р»РёС‚СЊ РІС‹Р±СЂР°РЅРЅС‹Рµ</button>
-        <button class="btn soft" id="resetProductFilters" type="button">РЎР±СЂРѕСЃРёС‚СЊ</button>
+        <button class="btn soft" id="applyProductFilters" type="button">Фильтры⌄</button>
+        <button class="btn danger-outline" id="deleteSelectedProducts" type="button">Удалить выбранные</button>
+        <button class="btn soft" id="resetProductFilters" type="button">Сбросить</button>
       </div>
 
       <p class="result hidden" id="productModuleResult"></p>
@@ -1105,22 +1105,22 @@ function productModulesPanel() {
         <div class="product-table" id="productTable">
           <div class="product-table-head product-table-head-modern">
             <label class="product-check"><input id="selectAllProducts" type="checkbox"></label>
-            <span>РўРѕРІР°СЂ</span>
-            <span>РђСЂС‚РёРєСѓР» / SKU</span>
-            <span>РЎС‚Р°С‚СѓСЃ</span>
-            <span>Р¦РµРЅР°</span>
-            <span>РћСЃС‚Р°С‚РєРё</span>
-            <span>РЁС‚СЂРёС…РєРѕРґ</span>
-            <span>РљР°С‡РµСЃС‚РІРѕ</span>
-            <span>Р”Р°С‚Р° / РѕР±СЉРµРј</span>
+            <span>Товар</span>
+            <span>Артикул / SKU</span>
+            <span>Статус</span>
+            <span>Цена</span>
+            <span>Остатки</span>
+            <span>Штрихкод</span>
+            <span>Качество</span>
+            <span>Дата / объем</span>
             <span></span>
           </div>          ${productRows}
         </div>
         <div class="empty-state ${products.length ? 'hidden' : ''}">
           <img class="empty-icon" src="/assets/icon-folder.svg" alt="">
           <div>
-            <h3>РўРѕРІР°СЂРѕРІ РїРѕРєР° РЅРµС‚</h3>
-            <p class="muted">РќР°Р¶РјРёС‚Рµ В«Р”РѕР±Р°РІРёС‚СЊ С‚РѕРІР°СЂС‹В», Р·Р°РїРѕР»РЅРёС‚Рµ РґР°РЅРЅС‹Рµ, Рё С‚РѕРІР°СЂ РїРѕСЏРІРёС‚СЃСЏ РІ СЌС‚РѕР№ С‚Р°Р±Р»РёС†Рµ.</p>
+            <h3>Товаров пока нет</h3>
+            <p class="muted">Нажмите «Добавить товары», заполните данные, и товар появится в этой таблице.</p>
           </div>
         </div>
       </div>
@@ -1129,8 +1129,8 @@ function productModulesPanel() {
 }
 
 function productRow(product) {
-  const productName = product.name || 'Р‘РµР· РЅР°Р·РІР°РЅРёСЏ';
-  const article = product.seller || product.marketplaceSku || product.wb || product.id || 'вЂ”';
+  const productName = product.name || 'Без названия';
+  const article = product.seller || product.marketplaceSku || product.wb || product.id || '—';
   const sku = product.marketplaceSku || product.wb || product.barcode || article;
   const stock = Number(product.stock || 0);
   const price = Number(product.salePrice || product.price || 0);
@@ -1138,10 +1138,10 @@ function productRow(product) {
   const volume = product.volume || '1,20';
   const rating = product.rating || '0';
   const contentRating = product.contentRating || '86,5';
-  const created = product.createdAt ? String(product.createdAt).slice(0, 10) : 'вЂ”';
-  const status = product.availability || (stock > 0 ? 'РџСЂРѕРґР°РµС‚СЃСЏ' : 'РќРµС‚ РІ РЅР°Р»РёС‡РёРё');
+  const created = product.createdAt ? String(product.createdAt).slice(0, 10) : '—';
+  const status = product.availability || (stock > 0 ? 'Продается' : 'Нет в наличии');
   const listStatus = getProductListStatus(product);
-  const removedReason = product.removedReason || product.saleStopReason || product.deactivationReason || 'РџСЂРёС‡РёРЅР° РЅРµ СѓРєР°Р·Р°РЅР°';
+  const removedReason = product.removedReason || product.saleStopReason || product.deactivationReason || 'Причина не указана';
   const search = [
     productName,
     article,
@@ -1171,43 +1171,43 @@ function productRow(product) {
         <img class="product-thumb" src="${product.image || '/assets/icon-folder.svg'}" alt="">
         <div class="product-title-cell">
           <a href="#">${escapeHtml(productName)}</a>
-          <span>${escapeHtml(product.category || 'Р‘РµР· РєР°С‚РµРіРѕСЂРёРё')}</span>
-          <small>${escapeHtml(product.brand || 'Р‘СЂРµРЅРґ РЅРµ СѓРєР°Р·Р°РЅ')}</small>
+          <span>${escapeHtml(product.category || 'Без категории')}</span>
+          <small>${escapeHtml(product.brand || 'Бренд не указан')}</small>
         </div>
       </div>
       <div class="product-article-cell">
         <strong>${escapeHtml(article)}</strong>
         <span>SKU ${escapeHtml(sku)}</span>
-        <small>РћР±СЉРµРґРёРЅРµРЅ</small>
+        <small>Объединен</small>
       </div>
       <div class="product-status-cell">
         <span class="product-status-pill">${escapeHtml(status)}</span>
         ${listStatus === 'removed' ? `<small class="removed-reason">${escapeHtml(removedReason)}</small>` : ''}
-        <button class="product-add-label" type="button">Р”РѕР±Р°РІРёС‚СЊ РјРµС‚РєСѓ</button>
+        <button class="product-add-label" type="button">Добавить метку</button>
       </div>
       <div class="product-price-cell">
         <strong>${formatMoney(price)}</strong>
-        <span>Р’Р°С€Р° С†РµРЅР°</span>
+        <span>Ваша цена</span>
       </div>
       <div class="product-stock-cell">
         <strong>${escapeHtml(stock)}</strong>
         <span>${escapeHtml(appBrand())}</span>
-        <small>${escapeHtml(product.myStock || 1)} РЅР° СЃРєР»Р°РґРµ</small>
+        <small>${escapeHtml(product.myStock || 1)} на складе</small>
       </div>
       <a class="product-link-cell" href="#">${escapeHtml(barcode)}</a>
       <div class="product-quality-cell">
-        <span>РћС‚Р·С‹РІС‹: <strong>0</strong></span>
-        <span>Р РµР№С‚РёРЅРі: <strong>${escapeHtml(rating)}</strong></span>
-        <span>РљРѕРЅС‚РµРЅС‚: <strong>${escapeHtml(contentRating)}</strong></span>
+        <span>Отзывы: <strong>0</strong></span>
+        <span>Рейтинг: <strong>${escapeHtml(rating)}</strong></span>
+        <span>Контент: <strong>${escapeHtml(contentRating)}</strong></span>
       </div>
       <div class="product-date-cell">
         <strong>${escapeHtml(created)}</strong>
-        <span>${escapeHtml(volume)} Р»</span>
+        <span>${escapeHtml(volume)} л</span>
       </div>
       <div class="row-actions">
-        <button type="button" title="РђРЅР°Р»РёС‚РёРєР°">в–Ґ</button>
-        <button type="button" title="Р РµРґР°РєС‚РёСЂРѕРІР°С‚СЊ">вњЋ</button>
-        <button type="button" data-delete-product="${escapeHtml(product.id)}" title="РЈРґР°Р»РёС‚СЊ">в‹®</button>
+        <button type="button" title="Аналитика">▥</button>
+        <button type="button" title="Редактировать">✎</button>
+        <button type="button" data-delete-product="${escapeHtml(product.id)}" title="Удалить">⋮</button>
       </div>
     </article>
   `;
@@ -1218,55 +1218,55 @@ function categoryModal() {
     <div class="modal-backdrop hidden" id="categoryModal">
       <form class="modal category-form" id="categoryForm">
         <div class="section-head">
-          <h2>Р”РѕР±Р°РІР»РµРЅРёРµ РєР°С‚РµРіРѕСЂРёРё</h2>
-          <button class="btn" type="button" id="closeCategoryModal">Р—Р°РєСЂС‹С‚СЊ</button>
+          <h2>Добавление категории</h2>
+          <button class="btn" type="button" id="closeCategoryModal">Закрыть</button>
         </div>
         <div class="form-stack">
-          <input id="categoryName" name="name" placeholder="РќР°Р·РІР°РЅРёРµ" required>
+          <input id="categoryName" name="name" placeholder="Название" required>
           <input id="categoryUrl" name="url" placeholder="URL">
           <label class="field compact">
-            <span>Р РѕРґРёС‚РµР»СЊСЃРєР°СЏ РєР°С‚РµРіРѕСЂРёСЏ</span>
+            <span>Родительская категория</span>
             <select id="categoryParent" name="parent">
-              <option>Р‘РµР· РєР°С‚РµРіРѕСЂРёРё</option>
+              <option>Без категории</option>
               ${parentOptions}
             </select>
           </label>
           <label class="field compact">
-            <span>ID РєР°С‚РµРіРѕСЂРёРё РІ СЃРёСЃС‚РµРјРµ 1C</span>
+            <span>ID категории в системе 1C</span>
             <input id="categoryOneCId" name="oneCId" value="0">
           </label>
           <label class="field compact">
-            <span>РџРѕСЂСЏРґРѕРє СЃРѕСЂС‚РёСЂРѕРІРєРё</span>
+            <span>Порядок сортировки</span>
             <input id="categorySortOrder" name="sortOrder" type="number" value="1" min="1">
           </label>
-          <p class="muted">( РћС‚ РјРµРЅСЊС€РµРіРѕ Рє Р±РѕР»СЊС€РµРјСѓ )</p>
+          <p class="muted">( От меньшего к большему )</p>
           <label class="switch-row">
             <input id="categoryActive" name="active" type="checkbox">
             <span class="switch"></span>
-            РђРєС‚РёРІРЅРѕСЃС‚СЊ РєР°С‚РµРіРѕСЂРёРё
+            Активность категории
           </label>
           <label class="switch-row">
             <input id="categoryShowHome" name="showHome" type="checkbox">
             <span class="switch"></span>
-            РџРѕРєР°Р·С‹РІР°С‚СЊ РЅР° РіР»Р°РІРЅРѕР№
+            Показывать на главной
           </label>
           <label class="field compact">
-            <span>РР·РѕР±СЂР°Р¶РµРЅРёРµ РєР°С‚РµРіРѕСЂРёРё (РіР»Р°РІРЅР°СЏ)</span>
+            <span>Изображение категории (главная)</span>
             <input id="categoryMainImage" name="mainImage" type="file" accept="image/*">
           </label>
           <div>
-            <p class="muted"><strong>РРєРѕРЅРєР° (48x48px)</strong></p>
+            <p class="muted"><strong>Иконка (48x48px)</strong></p>
             <label class="dropzone" for="categoryIcon">
               <input id="categoryIcon" name="icon" type="file" accept="image/*">
-              <strong>РџРµСЂРµС‚Р°С‰РёС‚Рµ РёР·РѕР±СЂР°Р¶РµРЅРёРµ СЃСЋРґР°</strong>
-              <span>РёР»Рё</span>
-              <span class="upload-link">РќР°Р¶РјРёС‚Рµ, С‡С‚РѕР±С‹ Р·Р°РіСЂСѓР·РёС‚СЊ</span>
+              <strong>Перетащите изображение сюда</strong>
+              <span>или</span>
+              <span class="upload-link">Нажмите, чтобы загрузить</span>
             </label>
           </div>
           <p class="error" id="categoryFormError"></p>
           <div class="row end">
-            <button class="btn" type="button" id="cancelCategoryButton">РћС‚РјРµРЅР°</button>
-            <button class="btn primary" type="submit">РЎРѕС…СЂР°РЅРёС‚СЊ РєР°С‚РµРіРѕСЂРёСЋ</button>
+            <button class="btn" type="button" id="cancelCategoryButton">Отмена</button>
+            <button class="btn primary" type="submit">Сохранить категорию</button>
           </div>
         </div>
       </form>
@@ -1327,7 +1327,7 @@ function bindProductModules() {
 
   const deleteProducts = async ids => {
     if (!ids.length) {
-      showResult('Р’С‹Р±РµСЂРёС‚Рµ С‚РѕРІР°СЂС‹ РґР»СЏ СѓРґР°Р»РµРЅРёСЏ.');
+      showResult('Выберите товары для удаления.');
       return;
     }
     const response = await api('/api/catalog/products/delete', {
@@ -1335,7 +1335,7 @@ function bindProductModules() {
       body: JSON.stringify({ ids })
     });
     catalogProducts = response.products;
-    showResult(`РЈРґР°Р»РµРЅРѕ С‚РѕРІР°СЂРѕРІ: ${ids.length}.`);
+    showResult(`Удалено товаров: ${ids.length}.`);
     renderCatalog();
   };
 
@@ -1361,10 +1361,10 @@ function bindProductModules() {
 }
 
 const backupSections = [
-  { id: 'products', title: 'Buck up Product', subtitle: 'РЈРґР°Р»РµРЅРЅС‹Рµ С‚РѕРІР°СЂС‹' },
-  { id: 'files', title: 'Buck up file', subtitle: 'РЈРґР°Р»РµРЅРЅС‹Рµ С„Р°Р№Р»С‹' },
-  { id: 'blogs', title: 'Buck up blog', subtitle: 'РЈРґР°Р»РµРЅРЅС‹Рµ Р±Р»РѕРєРё' },
-  { id: 'free', title: 'Buck up free', subtitle: 'Р’СЃРµ СѓРґР°Р»РµРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ' }
+  { id: 'products', title: 'Buck up Product', subtitle: 'Удаленные товары' },
+  { id: 'files', title: 'Buck up file', subtitle: 'Удаленные файлы' },
+  { id: 'blogs', title: 'Buck up blog', subtitle: 'Удаленные блоки' },
+  { id: 'free', title: 'Buck up free', subtitle: 'Все удаленные данные' }
 ];
 
 function backupItemsForSection() {
@@ -1378,16 +1378,16 @@ function backupProductRow(item) {
     <article class="backup-row" data-backup-search="${escapeHtml([item.name, item.article, item.category, item.deletedAt].join(' ').toLowerCase())}">
       <label class="product-check"><input type="checkbox" data-backup-select="${escapeHtml(item.backupId)}" data-backup-type="${escapeHtml(item.type || selectedBackupSection)}"></label>
       <div class="backup-main">
-        <strong>${escapeHtml(item.name || product.name || 'РЈРґР°Р»РµРЅРЅС‹Р№ СЌР»РµРјРµРЅС‚')}</strong>
-        <span>${escapeHtml(item.category || product.category || 'Р‘РµР· РєР°С‚РµРіРѕСЂРёРё')}</span>
+        <strong>${escapeHtml(item.name || product.name || 'Удаленный элемент')}</strong>
+        <span>${escapeHtml(item.category || product.category || 'Без категории')}</span>
       </div>
       <div class="backup-meta">
-        <strong>${escapeHtml(item.article || product.seller || product.marketplaceSku || 'вЂ”')}</strong>
+        <strong>${escapeHtml(item.article || product.seller || product.marketplaceSku || '—')}</strong>
         <span>${escapeHtml(product.barcode || product.wb || '')}</span>
       </div>
       <div class="backup-meta">
-        <strong>${escapeHtml(item.deletedAt || 'вЂ”')}</strong>
-        <span>${item.archivedFiles ? 'Р¤Р°Р№Р»С‹ СЃРѕС…СЂР°РЅРµРЅС‹' : 'РўРѕР»СЊРєРѕ РґР°РЅРЅС‹Рµ'}</span>
+        <strong>${escapeHtml(item.deletedAt || '—')}</strong>
+        <span>${item.archivedFiles ? 'Файлы сохранены' : 'Только данные'}</span>
       </div>
       <span class="backup-pill">${item.type === 'product' ? 'Product' : 'Data'}</span>
     </article>
@@ -1402,7 +1402,7 @@ function backupPlaceholderRows(items) {
       <img class="empty-icon" src="/assets/icon-folder.svg" alt="">
       <div>
         <h3>${active?.title || 'BuckUp'}</h3>
-        <p class="muted">РџРѕРєР° Р·РґРµСЃСЊ РЅРµС‚ СѓРґР°Р»РµРЅРЅС‹С… РґР°РЅРЅС‹С…. РџРѕСЃР»Рµ СѓРґР°Р»РµРЅРёСЏ СЌР»РµРјРµРЅС‚С‹ Р±СѓРґСѓС‚ СЃРѕС…СЂР°РЅСЏС‚СЊСЃСЏ РІ СЌС‚РѕРј СЂР°Р·РґРµР»Рµ.</p>
+        <p class="muted">Пока здесь нет удаленных данных. После удаления элементы будут сохраняться в этом разделе.</p>
       </div>
     </div>
   `;
@@ -1424,7 +1424,7 @@ async function renderBackup() {
         <div>
           <p class="eyebrow">${escapeHtml(appBrand()).toUpperCase()} BACKUP</p>
           <h1>BuckUp</h1>
-          <p class="muted">Р’СЃРµ СѓРґР°Р»РµРЅРЅС‹Рµ РґР°РЅРЅС‹Рµ СЃРѕС…СЂР°РЅСЏСЋС‚СЃСЏ Р·РґРµСЃСЊ, С‡С‚РѕР±С‹ РёС… РјРѕР¶РЅРѕ Р±С‹Р»Рѕ РІС‹Р±СЂР°С‚СЊ Рё РІРµСЂРЅСѓС‚СЊ РѕР±СЂР°С‚РЅРѕ.</p>
+          <p class="muted">Все удаленные данные сохраняются здесь, чтобы их можно было выбрать и вернуть обратно.</p>
         </div>
       </div>
       <div class="backup-tabs">
@@ -1440,10 +1440,10 @@ async function renderBackup() {
         <div class="backup-toolbar">
           <label class="product-list-search">
             <img src="/assets/icon-search.svg" alt="">
-            <input id="backupSearchInput" placeholder="РџРѕРёСЃРє РїРѕ РЅР°Р·РІР°РЅРёСЋ, Р°СЂС‚РёРєСѓР»Сѓ РёР»Рё РґР°С‚Рµ СѓРґР°Р»РµРЅРёСЏ">
+            <input id="backupSearchInput" placeholder="Поиск по названию, артикулу или дате удаления">
           </label>
-          <button class="btn soft" id="selectAllBackup" type="button">Р’С‹Р±СЂР°С‚СЊ РІСЃРµ</button>
-          <button class="btn primary" id="restoreBackupButton" type="button">Р’РѕСЃСЃС‚Р°РЅРѕРІРёС‚СЊ РІС‹Р±СЂР°РЅРЅРѕРµ</button>
+          <button class="btn soft" id="selectAllBackup" type="button">Выбрать все</button>
+          <button class="btn primary" id="restoreBackupButton" type="button">Восстановить выбранное</button>
         </div>
         <p class="result hidden" id="backupResult"></p>
         <div class="backup-list">
@@ -1483,7 +1483,7 @@ function bindBackupPage() {
     const selected = Array.from(document.querySelectorAll('[data-backup-select]:checked'));
     const result = document.querySelector('#backupResult');
     if (!selected.length) {
-      result.textContent = 'Р’С‹Р±РµСЂРёС‚Рµ СЌР»РµРјРµРЅС‚С‹ РґР»СЏ РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ.';
+      result.textContent = 'Выберите элементы для восстановления.';
       result.classList.remove('hidden');
       return;
     }
@@ -1491,7 +1491,7 @@ function bindBackupPage() {
       .filter(input => input.dataset.backupType === 'product' || selectedBackupSection === 'products' || selectedBackupSection === 'free')
       .map(input => input.dataset.backupSelect);
     if (!productIds.length) {
-      result.textContent = 'Р”Р»СЏ СЌС‚РѕРіРѕ СЂР°Р·РґРµР»Р° РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёРµ Р±СѓРґРµС‚ РїРѕРґРєР»СЋС‡РµРЅРѕ РїРѕСЃР»Рµ РїРѕСЏРІР»РµРЅРёСЏ СѓРґР°Р»РµРЅРЅС‹С… С„Р°Р№Р»РѕРІ РёР»Рё Р±Р»РѕРєРѕРІ.';
+      result.textContent = 'Для этого раздела восстановление будет подключено после появления удаленных файлов или блоков.';
       result.classList.remove('hidden');
       return;
     }
@@ -1509,18 +1509,18 @@ function bindBackupPage() {
 
 function productCategorySuggestions() {
   const categories = savedCategories && savedCategories.length ? savedCategories : [
-    { name: 'РўРѕРїС‹', parent: 'РћРґРµР¶РґР°' },
-    { name: 'Р¤СѓС‚Р±РѕР»РєРё', parent: 'РћРґРµР¶РґР°' },
-    { name: 'РџР»Р°С‚СЊСЏ', parent: 'РћРґРµР¶РґР°' },
-    { name: 'Р‘СЋСЃС‚РіР°Р»СЊС‚РµСЂС‹', parent: 'Р‘РµР»СЊРµ' },
-    { name: 'Р—Р°РєСЂРµРїРёС‚РµР»Рё РґР»СЏ РіРµР»СЊ-Р»Р°РєР°', parent: 'РљСЂР°СЃРѕС‚Р°' }
+    { name: 'Топы', parent: 'Одежда' },
+    { name: 'Футболки', parent: 'Одежда' },
+    { name: 'Платья', parent: 'Одежда' },
+    { name: 'Бюстгальтеры', parent: 'Белье' },
+    { name: 'Закрепители для гель-лака', parent: 'Красота' }
   ];
   return categories.map(category => ({
     id: String(category.id || category.name || ''),
     name: String(category.name || ''),
-    parent: String(category.parent || 'Р‘РµР· РєР°С‚РµРіРѕСЂРёРё'),
+    parent: String(category.parent || 'Без категории'),
     parentId: String(category.parentId || ''),
-    path: String(category.path || `${category.parent || 'Р‘РµР· РєР°С‚РµРіРѕСЂРёРё'} / ${category.name || ''}`),
+    path: String(category.path || `${category.parent || 'Без категории'} / ${category.name || ''}`),
     sortOrder: Number(category.sortOrder || 0),
     depth: Number(category.depth || String(category.path || '').split('/').filter(Boolean).length || 1)
   })).filter(category => category.name);
@@ -1592,7 +1592,7 @@ function modalCategoryRows() {
 function modalCategoryRowsHtml() {
   return modalCategoryRows().map(category => `
     <button class="manual-category-item ${productCategoryModalSelectionId === category.id ? 'active' : ''}" style="--depth:${Math.max(0, Number(category.depth || 0))}" type="button" data-manual-category="${escapeHtml(category.name)}" data-manual-id="${escapeHtml(category.id)}" data-manual-parent="${escapeHtml(category.parent)}" data-has-children="${category.hasChildren ? 'true' : 'false'}">
-      <span class="category-arrow ${category.hasChildren ? '' : 'empty'} ${category.expanded ? 'open' : ''}" data-category-toggle="${escapeHtml(category.id)}">вЂє</span>
+      <span class="category-arrow ${category.hasChildren ? '' : 'empty'} ${category.expanded ? 'open' : ''}" data-category-toggle="${escapeHtml(category.id)}">›</span>
       <span class="category-row-name">${escapeHtml(category.name)}</span>
     </button>
   `).join('');
@@ -1603,25 +1603,25 @@ function productCategoryModal() {
   return `
     <div class="modal-backdrop product-category-backdrop" id="productCategoryModal">
       <section class="modal product-category-modal">
-        <button class="modal-close" id="closeManualCategory" type="button">Г—</button>
-        <h2>Р’С‹Р±РµСЂРёС‚Рµ РєР°С‚РµРіРѕСЂРёСЋ Рё С‚РёРї С‚РѕРІР°СЂР°</h2>
+        <button class="modal-close" id="closeManualCategory" type="button">×</button>
+        <h2>Выберите категорию и тип товара</h2>
         <div class="category-modal-tools">
           <div class="modal-search">
             <img src="/assets/icon-search.svg" alt="">
-            <input id="manualCategorySearch" value="${escapeHtml(productManualCategoryQuery)}" placeholder="РќР°Р·РІР°РЅРёРµ РєР°С‚РµРіРѕСЂРёРё, С‚РѕРІР°СЂР° РёР»Рё С‚РёРїР°">
+            <input id="manualCategorySearch" value="${escapeHtml(productManualCategoryQuery)}" placeholder="Название категории, товара или типа">
           </div>
           <select>
-            <option>РСЃРєР°С‚СЊ РІРµР·РґРµ</option>
-            <option>Р“Р»Р°РІРЅС‹Рµ РєР°С‚РµРіРѕСЂРёРё</option>
-            <option>РџРѕРґРєР°С‚РµРіРѕСЂРёРё</option>
+            <option>Искать везде</option>
+            <option>Главные категории</option>
+            <option>Подкатегории</option>
           </select>
         </div>
         <div class="manual-category-list modal-category-list" id="manualCategoryList">
           ${modalCategoryRowsHtml()}
         </div>
         <div class="category-modal-footer">
-          <button class="btn primary" id="confirmProductCategory" type="button" ${productCategoryModalSelection ? '' : 'disabled'}>РџРѕРґС‚РІРµСЂРґРёС‚СЊ</button>
-          <span>${productCategoryModalSelection ? escapeHtml(productCategoryModalSelection) : 'РљР°С‚РµРіРѕСЂРёСЏ РЅРµ РІС‹Р±СЂР°РЅР°'}</span>
+          <button class="btn primary" id="confirmProductCategory" type="button" ${productCategoryModalSelection ? '' : 'disabled'}>Подтвердить</button>
+          <span>${productCategoryModalSelection ? escapeHtml(productCategoryModalSelection) : 'Категория не выбрана'}</span>
         </div>
       </section>
     </div>
@@ -1635,46 +1635,46 @@ function selectedCategoryPropertiesPanel() {
     <section class="category-live-properties">
       <div class="section-head">
         <div>
-          <p class="eyebrow">РљР°С‚РµРіРѕСЂРёСЏ РїСЂРѕРґР°РІС†Р°</p>
+          <p class="eyebrow">Категория продавца</p>
           <h2>${escapeHtml(productDraftCategory)}</h2>
         </div>
-        <span class="status draft">РљР°С‡РµСЃС‚РІРѕ РєР°СЂС‚РѕС‡РєРё: 2</span>
+        <span class="status draft">Качество карточки: 2</span>
       </div>
       <div class="selected-category-line">
         <strong>${escapeHtml(productDraftCategory)}</strong>
-        <button class="btn" id="changeProductCategory" type="button">РР·РјРµРЅРёС‚СЊ</button>
+        <button class="btn" id="changeProductCategory" type="button">Изменить</button>
         <label class="switch-row compact"><input type="checkbox"><span class="switch"></span>18+</label>
       </div>
-      <label class="field compact magic-field"><span>РђСЂС‚РёРєСѓР» РїСЂРѕРґР°РІС†Р°</span><input><button type="button">AI</button></label>
+      <label class="field compact magic-field"><span>Артикул продавца</span><input><button type="button">AI</button></label>
       <div class="category-property-card">
         <label class="field compact">
-          <span>Р‘СЂРµРЅРґ</span>
-          <input placeholder="Р’С‹Р±СЂР°С‚СЊ Р±СЂРµРЅРґ">
+          <span>Бренд</span>
+          <input placeholder="Выбрать бренд">
         </label>
         <label class="field compact">
-          <span>Р¦РІРµС‚</span>
+          <span>Цвет</span>
           <select>
-            <option>Р’С‹Р±СЂР°С‚СЊ С†РІРµС‚</option>
+            <option>Выбрать цвет</option>
             ${colors.map(color => `<option>${escapeHtml(color.name)}</option>`).join('')}
           </select>
         </label>
         <label class="field compact">
-          <span>РњР°С‚РµСЂРёР°Р»</span>
+          <span>Материал</span>
           <select>
-            <option>Р’С‹Р±СЂР°С‚СЊ РјР°С‚РµСЂРёР°Р»</option>
+            <option>Выбрать материал</option>
             ${(catalogMaterials || []).map(material => `<option>${escapeHtml(material)}</option>`).join('')}
           </select>
         </label>
         <label class="field compact">
-          <span>Р Р°Р·РјРµСЂ</span>
-          <input placeholder="РќР°РїСЂРёРјРµСЂ: 75-B, M, 42">
+          <span>Размер</span>
+          <input placeholder="Например: 75-B, M, 42">
         </label>
       </div>
       <div class="marking-box">
-        <h3>РўРќР’Р­Р”</h3>
-        <button class="btn" type="button">Р’С‹Р±СЂР°С‚СЊ</button>
-        <label class="switch-row"><input type="checkbox" checked><span class="switch"></span>РќСѓР¶РЅР° РјР°СЂРєРёСЂРѕРІРєР° РљРР—</label>
-        <label class="switch-row"><input type="checkbox"><span class="switch"></span>РџРѕРґС‚РІРµСЂР¶РґР°СЋ, С‡С‚Рѕ РЅР° С‚РѕРІР°СЂ РЅР°РЅРµСЃРµРЅР° РЅРµРѕР±С…РѕРґРёРјР°СЏ РјР°СЂРєРёСЂРѕРІРєР°</label>
+        <h3>ТНВЭД</h3>
+        <button class="btn" type="button">Выбрать</button>
+        <label class="switch-row"><input type="checkbox" checked><span class="switch"></span>Нужна маркировка КИЗ</label>
+        <label class="switch-row"><input type="checkbox"><span class="switch"></span>Подтверждаю, что на товар нанесена необходимая маркировка</label>
       </div>
     </section>
   `;
@@ -1695,33 +1695,33 @@ function productMediaGalleryHtml() {
             ? `<video src="${main.preview}" muted playsinline></video>`
             : `<img src="${main.preview}" alt="">`
           }
-          <span class="main-badge">Р“Р»Р°РІРЅР°СЏ</span>
+          <span class="main-badge">Главная</span>
         ` : `
           <span class="upload-ghost">+</span>
-          <strong>Р¤РѕС‚Рѕ Рё РІРёРґРµРѕ</strong>
-          <small>РџРµСЂРµС‚Р°С‰РёС‚Рµ СЃСЋРґР° РёР»Рё РІС‹Р±РµСЂРёС‚Рµ С„Р°Р№Р»</small>
+          <strong>Фото и видео</strong>
+          <small>Перетащите сюда или выберите файл</small>
         `}
       </label>
       <div class="media-thumb-grid">
         ${thumbnails.map((file, index) => `
-          <div class="media-thumb ${index === 0 ? 'active' : ''}" role="button" tabindex="0" draggable="true" data-media-index="${index}" title="РџРµСЂРµС‚Р°С‰РёС‚Рµ РЅР° РґСЂСѓРіРѕРµ С„РѕС‚Рѕ, С‡С‚РѕР±С‹ РїРѕРјРµРЅСЏС‚СЊ РјРµСЃС‚Р°РјРё.">
+          <div class="media-thumb ${index === 0 ? 'active' : ''}" role="button" tabindex="0" draggable="true" data-media-index="${index}" title="Перетащите на другое фото, чтобы поменять местами.">
             ${file.kind === 'video'
-              ? `<video src="${file.preview}" muted playsinline></video><span class="play-dot">в–¶</span>`
+              ? `<video src="${file.preview}" muted playsinline></video><span class="play-dot">▶</span>`
               : `<img src="${file.preview}" alt="">`
             }
             <span class="thumb-order">${index + 1}</span>
-            ${index === 0 ? '<span class="thumb-main-dot">Р“Р»Р°РІРЅР°СЏ</span>' : `<button class="thumb-main-action" type="button" data-set-main-media="${index}">Р“Р»Р°РІРЅР°СЏ</button>`}
-            <span class="thumb-drag-dot">в‡„</span>
+            ${index === 0 ? '<span class="thumb-main-dot">Главная</span>' : `<button class="thumb-main-action" type="button" data-set-main-media="${index}">Главная</button>`}
+            <span class="thumb-drag-dot">⇄</span>
           </div>
         `).join('')}
         <label class="media-add-tile">
           <input id="productMediaAddInput" type="file" accept="image/*,video/*" multiple>
           <span>+</span>
-          <strong>Р”РѕР±Р°РІРёС‚СЊ</strong>
+          <strong>Добавить</strong>
         </label>
       </div>
       <div class="media-upload-status" id="productMediaStatus">
-        ${productDraftMedia.length ? `Р¤РѕС‚Рѕ: ${images.length}, РІРёРґРµРѕ: ${videos.length}` : 'Р¤РѕС‚Рѕ Рё РІРёРґРµРѕ РїРѕРєР° РЅРµ РІС‹Р±СЂР°РЅС‹'}
+        ${productDraftMedia.length ? `Фото: ${images.length}, видео: ${videos.length}` : 'Фото и видео пока не выбраны'}
       </div>
     </div>
   `;
@@ -1732,103 +1732,103 @@ function productEditorPanel() {
       <section class="product-builder">
         <aside class="variant-sidebar">
           <div class="section-head">
-            <h2>Р’Р°СЂРёР°РЅС‚С‹ С‚РѕРІР°СЂР°</h2>
+            <h2>Варианты товара</h2>
             <span class="status draft">1 / 30</span>
           </div>
           <div class="variant-card">
-            <div class="variant-image"><span>в–Ў</span></div>
+            <div class="variant-image"><span>□</span></div>
             <div>
-              <strong>РќРѕРІР°СЏ РєР°СЂС‚РѕС‡РєР°</strong>
-              <span class="muted">Р¤РѕС‚Рѕ Рё РЅР°Р·РІР°РЅРёРµ РїРѕСЏРІСЏС‚СЃСЏ РїРѕСЃР»Рµ Р·Р°РїРѕР»РЅРµРЅРёСЏ</span>
+              <strong>Новая карточка</strong>
+              <span class="muted">Фото и название появятся после заполнения</span>
             </div>
           </div>
         </aside>
         <div class="builder-main">
           <div class="builder-notice">
             <span class="info-dot">i</span>
-            РЎРѕР·РґР°Р№С‚Рµ РєР°СЂС‚РѕС‡РєСѓ С‚РѕРІР°СЂР°: РјРµРґРёР°, РєР°С‚РµРіРѕСЂРёСЏ, РѕРїРёСЃР°РЅРёРµ Рё С‚РѕСЂРіРѕРІС‹Рµ РїР°СЂР°РјРµС‚СЂС‹
+            Создайте карточку товара: медиа, категория, описание и торговые параметры
           </div>
           <div class="builder-card">
             <div class="media-column">
               ${productMediaGalleryHtml()}
               <div class="media-tools">
-                <button class="builder-soft" type="button">Р РµРґР°РєС‚РѕСЂ С„РѕС‚Рѕ</button>
-                <button class="builder-soft" type="button">Р¤РѕС‚РѕСЃС‚СѓРґРёСЏ</button>
-                <button class="builder-muted" type="button">Р’РёРґРµРѕРѕР±Р»РѕР¶РєР°</button>
+                <button class="builder-soft" type="button">Редактор фото</button>
+                <button class="builder-soft" type="button">Фотостудия</button>
+                <button class="builder-muted" type="button">Видеообложка</button>
               </div>
               <div class="link-loader">
-                <span class="muted">Р”РѕР±Р°РІРёС‚СЊ РјРµРґРёР° РїРѕ СЃСЃС‹Р»РєРµ</span>
+                <span class="muted">Добавить медиа по ссылке</span>
                 <div>
                   <input placeholder="https://">
-                  <button type="button">в†’</button>
+                  <button type="button">→</button>
                 </div>
               </div>
             </div>
             <div class="main-info-column">
               <div class="creation-steps">
-                <span class="active"><b>1</b>РРЅС„РѕСЂРјР°С†РёСЏ Рѕ С‚РѕРІР°СЂРµ</span>
-                <span><b>2</b>РџСЂРµРґРІР°СЂРёС‚РµР»СЊРЅС‹Р№ РїСЂРѕСЃРјРѕС‚СЂ</span>
+                <span class="active"><b>1</b>Информация о товаре</span>
+                <span><b>2</b>Предварительный просмотр</span>
               </div>
               <div class="section-head product-simple-head">
-                <h2>РћСЃРЅРѕРІРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ</h2>
-                <span class="status draft">Р“РѕС‚РѕРІРЅРѕСЃС‚СЊ: 0%</span>
+                <h2>Основная информация</h2>
+                <span class="status draft">Готовность: 0%</span>
               </div>
               <div class="product-simple-form">
                 <label class="simple-field product-name-field">
-                  <input id="newProductName" value="${escapeHtml(productDraftName)}" autocomplete="off" placeholder="РќР°Р·РІР°РЅРёРµ">
+                  <input id="newProductName" value="${escapeHtml(productDraftName)}" autocomplete="off" placeholder="Название">
                 </label>
                 <div class="simple-field product-category-field">
                   <button class="simple-select" type="button" id="openProductCategory">
-                    <span>${productDraftCategory ? escapeHtml(productDraftCategory) : 'РљР°С‚РµРіРѕСЂРёСЏ Рё С‚РёРї *'}</span>
-                    <b>вЂє</b>
+                    <span>${productDraftCategory ? escapeHtml(productDraftCategory) : 'Категория и тип *'}</span>
+                    <b>›</b>
                   </button>
                 </div>
                 <label class="simple-field with-note">
-                  <input id="newProductBarcode" placeholder="РЁС‚СЂРёС…РєРѕРґ">
-                  <small>РЁС‚СЂРёС…РєРѕРґ РЅСѓР¶РµРЅ РґР»СЏ РєРѕРјРїРµРЅСЃР°С†РёРё РїСЂРё СѓС‚РµСЂРµ</small>
+                  <input id="newProductBarcode" placeholder="Штрихкод">
+                  <small>Штрихкод нужен для компенсации при утере</small>
                 </label>
                 <label class="simple-field">
-                  <input id="newProductArticle" value="${escapeHtml(productGeneratedArticle || generateMarketplaceArticle())}" placeholder="РђСЂС‚РёРєСѓР» *">
+                  <input id="newProductArticle" value="${escapeHtml(productGeneratedArticle || generateMarketplaceArticle())}" placeholder="Артикул *">
                 </label>
                 <div class="simple-grid two">
                   <label class="simple-field">
-                    <input id="newProductSalePrice" type="number" min="0" value="0" placeholder="Р’Р°С€Р° С†РµРЅР°, в‚Ѕ *">
+                    <input id="newProductSalePrice" type="number" min="0" value="0" placeholder="Ваша цена, ₽ *">
                   </label>
                   <label class="simple-field">
-                    <input id="newProductPurchasePrice" type="number" min="0" value="0" placeholder="Р¦РµРЅР° РґРѕ СЃРєРёРґРєРё, в‚Ѕ">
+                    <input id="newProductPurchasePrice" type="number" min="0" value="0" placeholder="Цена до скидки, ₽">
                   </label>
                 </div>
                 <label class="simple-field">
                   <select id="newProductVat">
-                    <option>РќР”РЎ *</option>
-                    <option>Р‘РµР· РќР”РЎ</option>
+                    <option>НДС *</option>
+                    <option>Без НДС</option>
                     <option>0%</option>
                     <option>10%</option>
                     <option>20%</option>
                   </select>
                 </label>
-                <div class="simple-section-title">Р“Р°Р±Р°СЂРёС‚С‹ Рё РІРµСЃ</div>
+                <div class="simple-section-title">Габариты и вес</div>
                 <label class="simple-field">
-                  <input id="newProductLength" type="number" min="0" placeholder="Р”Р»РёРЅР° СѓРїР°РєРѕРІРєРё, РјРј *">
+                  <input id="newProductLength" type="number" min="0" placeholder="Длина упаковки, мм *">
                 </label>
                 <label class="simple-field">
-                  <input id="newProductWidth" type="number" min="0" placeholder="РЁРёСЂРёРЅР° СѓРїР°РєРѕРІРєРё, РјРј *">
+                  <input id="newProductWidth" type="number" min="0" placeholder="Ширина упаковки, мм *">
                 </label>
                 <label class="simple-field">
-                  <input id="newProductHeight" type="number" min="0" placeholder="Р’С‹СЃРѕС‚Р° СѓРїР°РєРѕРІРєРё, РјРј *">
+                  <input id="newProductHeight" type="number" min="0" placeholder="Высота упаковки, мм *">
                 </label>
                 <label class="simple-field">
-                  <input id="newProductWeight" type="number" min="0" placeholder="Р’РµСЃ СЃ СѓРїР°РєРѕРІРєРѕР№, Рі *">
+                  <input id="newProductWeight" type="number" min="0" placeholder="Вес с упаковкой, г *">
                 </label>
                 <div class="simple-grid three">
                   <label class="simple-field">
-                    <input id="newProductStock" type="number" min="0" value="0" placeholder="РћСЃС‚Р°С‚РѕРє">
+                    <input id="newProductStock" type="number" min="0" value="0" placeholder="Остаток">
                   </label>
                   <label class="simple-field">
-                    <input id="newProductBrand" list="brandOptions" placeholder="Р‘СЂРµРЅРґ">
+                    <input id="newProductBrand" list="brandOptions" placeholder="Бренд">
                   </label>
                   <label class="simple-field">
-                    <input id="newProductManufacturer" placeholder="РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ">
+                    <input id="newProductManufacturer" placeholder="Производитель">
                   </label>
                 </div>
                 <datalist id="brandOptions">
@@ -1836,12 +1836,12 @@ function productEditorPanel() {
                 </datalist>
                 <input id="newProductAssortment" type="hidden" value="">
                 <input id="newProductSellerArticle" type="hidden" value="">
-                <input id="newProductSeason" type="hidden" value="Р’СЃРµСЃРµР·РѕРЅРЅС‹Р№">
+                <input id="newProductSeason" type="hidden" value="Всесезонный">
                 <select id="newProductAvailability" class="hidden">
-                  <option>Р”РѕСЃС‚СѓРїРЅС‹ Рє РїСЂРѕРґР°Р¶Рµ</option>
-                  <option>Р’ РїСЂРѕРґР°Р¶Рµ</option>
-                  <option>РќРµС‚ РІ РЅР°Р»РёС‡РёРё</option>
-                  <option>Р’ РѕС€РёР±РєРµ</option>
+                  <option>Доступны к продаже</option>
+                  <option>В продаже</option>
+                  <option>Нет в наличии</option>
+                  <option>В ошибке</option>
                 </select>
               </div>
             </div>
@@ -1854,12 +1854,12 @@ function productEditorPanel() {
     <section class="product-editor">
       <div class="section-head">
         <div>
-          <p class="muted">РџР°РЅРµР»СЊ СѓРїСЂР°РІР»РµРЅРёСЏ / РўРѕРІР°СЂС‹ / Р”РѕР±Р°РІР»РµРЅРёРµ С‚РѕРІР°СЂР°</p>
-          <h1>Р”РѕР±Р°РІР»РµРЅРёРµ С‚РѕРІР°СЂР°</h1>
+          <p class="muted">Панель управления / Товары / Добавление товара</p>
+          <h1>Добавление товара</h1>
         </div>
         <div class="row">
-          <button class="btn danger-outline" id="cancelProductEditor" type="button">РћС‚РјРµРЅРёС‚СЊ</button>
-          <button class="btn primary" id="saveProductEditor" type="button">Р”РѕР±Р°РІРёС‚СЊ С‚РѕРІР°СЂ</button>
+          <button class="btn danger-outline" id="cancelProductEditor" type="button">Отменить</button>
+          <button class="btn primary" id="saveProductEditor" type="button">Добавить товар</button>
         </div>
       </div>
       <div class="editor-content">${editorContent}</div>
@@ -1994,7 +1994,7 @@ function bindProductEditor() {
         if (mediaStatus) {
           const images = productDraftMedia.filter(file => file.kind === 'image').length;
           const videos = productDraftMedia.filter(file => file.kind === 'video').length;
-          mediaStatus.textContent = `Р’С‹Р±СЂР°РЅРѕ: С„РѕС‚Рѕ ${images}, РІРёРґРµРѕ ${videos}`;
+          mediaStatus.textContent = `Выбрано: фото ${images}, видео ${videos}`;
         }
         renderCatalog();
       });
@@ -2071,7 +2071,7 @@ function bindProductEditor() {
       if (mediaStatus) {
         const images = productDraftMedia.filter(file => file.kind === 'image').length;
         const videos = productDraftMedia.filter(file => file.kind === 'video').length;
-        mediaStatus.textContent = `Р’С‹Р±СЂР°РЅРѕ: С„РѕС‚Рѕ ${images}, РІРёРґРµРѕ ${videos}`;
+        mediaStatus.textContent = `Выбрано: фото ${images}, видео ${videos}`;
       }
       renderCatalog();
     });
@@ -2082,7 +2082,7 @@ function buildCategoryParentOptions(categories) {
   const childrenByParent = new Map();
 
   sorted.forEach(category => {
-    const parent = category.parent || 'Р‘РµР· РєР°С‚РµРіРѕСЂРёРё';
+    const parent = category.parent || 'Без категории';
     if (!childrenByParent.has(parent)) childrenByParent.set(parent, []);
     childrenByParent.get(parent).push(category);
   });
@@ -2100,7 +2100,7 @@ function buildCategoryParentOptions(categories) {
     }).join('');
   };
 
-  return renderBranch('Р‘РµР· РєР°С‚РµРіРѕСЂРёРё', 0);
+  return renderBranch('Без категории', 0);
 }
 
 function buildCategoryPathRows(categories) {
@@ -2109,27 +2109,27 @@ function buildCategoryPathRows(categories) {
   const knownIds = new Set(sorted.map(category => category.id).filter(Boolean));
 
   sorted.forEach(category => {
-    const parent = category.parentId || category.parent || 'Р‘РµР· РєР°С‚РµРіРѕСЂРёРё';
+    const parent = category.parentId || category.parent || 'Без категории';
     if (!byParent.has(parent)) byParent.set(parent, []);
     byParent.get(parent).push(category);
   });
 
   const roots = sorted.filter(category => {
-    const parent = category.parentId || category.parent || 'Р‘РµР· РєР°С‚РµРіРѕСЂРёРё';
-    return parent === 'Р‘РµР· РєР°С‚РµРіРѕСЂРёРё' || !knownIds.has(parent);
+    const parent = category.parentId || category.parent || 'Без категории';
+    return parent === 'Без категории' || !knownIds.has(parent);
   });
 
   const byId = new Map(sorted.map(category => [String(category.id || category.name), category]));
   categoryDrillPath = categoryDrillPath.filter(id => byId.has(String(id)));
   localStorage.setItem('thechamp_category_drill_path', JSON.stringify(categoryDrillPath));
 
-  const levels = [{ title: 'РЈСЂРѕРІРµРЅСЊ 1', parent: 'Р“Р»Р°РІРЅС‹Рµ РєР°С‚РµРіРѕСЂРёРё', items: roots, selectedId: categoryDrillPath[0] }];
+  const levels = [{ title: 'Уровень 1', parent: 'Главные категории', items: roots, selectedId: categoryDrillPath[0] }];
   categoryDrillPath.forEach((id, index) => {
     const category = byId.get(String(id));
     const children = byParent.get(category?.id || category?.name) || [];
     if (category && children.length) {
       levels.push({
-        title: `РЈСЂРѕРІРµРЅСЊ ${index + 2}`,
+        title: `Уровень ${index + 2}`,
         parent: category.name,
         items: children,
         selectedId: categoryDrillPath[index + 1]
@@ -2142,10 +2142,10 @@ function buildCategoryPathRows(categories) {
   return `
     <div class="category-drill-summary">
       <div>
-        <strong>РљР°С‚РµРіРѕСЂРёР№: ${sorted.length}</strong>
-        <span>${selectedNames.length ? selectedNames.join(' / ') : 'Р’С‹Р±РµСЂРёС‚Рµ РіР»Р°РІРЅСѓСЋ РєР°С‚РµРіРѕСЂРёСЋ'}</span>
+        <strong>Категорий: ${sorted.length}</strong>
+        <span>${selectedNames.length ? selectedNames.join(' / ') : 'Выберите главную категорию'}</span>
       </div>
-      <button class="btn" type="button" id="resetCategoryDrill">РЎР±СЂРѕСЃРёС‚СЊ</button>
+      <button class="btn" type="button" id="resetCategoryDrill">Сбросить</button>
     </div>
     <div class="category-drill">
       ${levels.map((level, levelIndex) => `
@@ -2162,7 +2162,7 @@ function buildCategoryPathRows(categories) {
               return `
                 <button class="category-level-button ${active ? 'active' : ''}" type="button" data-drill-level="${levelIndex}" data-drill-category="${escapeHtml(id)}">
                   <span>${escapeHtml(category.name)}</span>
-                  <small>${childCount ? `${childCount} РїРѕРґРєР°С‚РµРіРѕСЂРёР№` : 'РєРѕРЅРµС‡РЅР°СЏ РєР°С‚РµРіРѕСЂРёСЏ'}</small>
+                  <small>${childCount ? `${childCount} подкатегорий` : 'конечная категория'}</small>
                 </button>
               `;
             }).join('')}
@@ -2198,7 +2198,7 @@ function bindCategoryForm() {
 
   const closeModal = () => modal.classList.add('hidden');
   const openModal = parent => {
-    pendingCategoryParent = parent || 'Р‘РµР· РєР°С‚РµРіРѕСЂРёРё';
+    pendingCategoryParent = parent || 'Без категории';
     form.reset();
     document.querySelector('#categoryOneCId').value = '0';
     document.querySelector('#categorySortOrder').value = '1';
@@ -2245,8 +2245,8 @@ function bindCategoryForm() {
 
 function renderApiLogs() {
   layout(`
-    <p class="eyebrow">РўРµС…РЅРёС‡РµСЃРєРёР№ РјРѕРЅРёС‚РѕСЂРёРЅРі</p>
-    <h1>Р›РѕРіРё API</h1>
+    <p class="eyebrow">Технический мониторинг</p>
+    <h1>Логи API</h1>
     <section class="panel">
       <div class="event-list">${dashboardData.apiEvents.map(eventCard).join('')}</div>
     </section>
@@ -2255,13 +2255,13 @@ function renderApiLogs() {
 
 function renderUsers() {
   layout(`
-    <p class="eyebrow">Р‘РµР·РѕРїР°СЃРЅРѕСЃС‚СЊ</p>
-    <h1>Р¦РµРЅС‚СЂ СЂРѕР»РµР№ Рё РїСЂР°РІ РґРѕСЃС‚СѓРїР°</h1>
+    <p class="eyebrow">Безопасность</p>
+    <h1>Центр ролей и прав доступа</h1>
     <section class="grid modules">
-      <div class="card"><h3>Р’Р»Р°РґРµР»РµС†</h3><p class="muted">Р’СЃРµ РјР°РіР°Р·РёРЅС‹, API-РєР»СЋС‡Рё, С„РёРЅР°РЅСЃС‹ Рё СѓРїСЂР°РІР»РµРЅРёРµ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏРјРё.</p><span class="chip">1 РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ</span></div>
-      <div class="card"><h3>РћРїРµСЂР°С†РёРё</h3><p class="muted">Р—Р°РєР°Р·С‹, СЃРєР»Р°Рґ, РјР°СЂРєРёСЂРѕРІРєР° Рё РїСЂРѕС†РµСЃСЃС‹ РґРѕСЃС‚Р°РІРєРё.</p><span class="chip">5 РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№</span></div>
-      <div class="card"><h3>Р¤РёРЅР°РЅСЃС‹</h3><p class="muted">РћС‚С‡РµС‚ РїРѕ РїСЂРёР±С‹Р»Рё, РґРµРЅРµР¶РЅС‹Р№ РїРѕС‚РѕРє, СЂР°СЃС…РѕРґС‹ Рё СЃРѕРіР»Р°СЃРѕРІР°РЅРёРµ С†РµРЅ.</p><span class="chip">3 РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ</span></div>
-      <div class="card"><h3>РљРѕРЅС‚РµРЅС‚ С‚РѕРІР°СЂРѕРІ</h3><p class="muted">PIM-РєР°СЂС‚РѕС‡РєРё, РѕРїРёСЃР°РЅРёСЏ, РёР·РѕР±СЂР°Р¶РµРЅРёСЏ Рё СЃРѕРїРѕСЃС‚Р°РІР»РµРЅРёРµ РєР°С‚РµРіРѕСЂРёР№.</p><span class="chip">3 РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ</span></div>
+      <div class="card"><h3>Владелец</h3><p class="muted">Все магазины, API-ключи, финансы и управление пользователями.</p><span class="chip">1 пользователь</span></div>
+      <div class="card"><h3>Операции</h3><p class="muted">Заказы, склад, маркировка и процессы доставки.</p><span class="chip">5 пользователей</span></div>
+      <div class="card"><h3>Финансы</h3><p class="muted">Отчет по прибыли, денежный поток, расходы и согласование цен.</p><span class="chip">3 пользователя</span></div>
+      <div class="card"><h3>Контент товаров</h3><p class="muted">PIM-карточки, описания, изображения Рё сопоставление категорий.</p><span class="chip">3 пользователя</span></div>
     </section>
   `);
 }
@@ -2433,5 +2433,3 @@ async function renderApp() {
 }
 
 loadAppConfig().then(renderApp);
-
-
