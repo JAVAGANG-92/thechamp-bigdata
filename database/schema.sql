@@ -115,6 +115,7 @@ CREATE TABLE IF NOT EXISTS product_media (
 );
 
 CREATE INDEX IF NOT EXISTS idx_product_media_product ON product_media(product_id, sort_order);
+CREATE UNIQUE INDEX IF NOT EXISTS idx_product_media_unique_order ON product_media(product_id, kind, sort_order);
 
 CREATE TABLE IF NOT EXISTS product_attributes (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),

@@ -58,8 +58,18 @@ Russian category names are valid UTF-8 in the files. Some PowerShell output disp
 
 ## Recommended next implementation step
 
-After PostgreSQL is available, create a migration command:
+The migration command is prepared at:
+
+`tools/migrate_file_data_to_postgres.py`
+
+Dry-run:
+
+`python tools/migrate_file_data_to_postgres.py --source D:\thechamp --write-report database\migration-dry-run-live.json`
+
+Real import after PostgreSQL is available:
 
 `python tools/migrate_file_data_to_postgres.py --source D:\thechamp --database-url %DATABASE_URL%`
 
-This should insert data transactionally and print counts for products, media, categories, brands, colors, materials, and backups.
+Use `--create-schema` on the first import if the target database is empty.
+
+The script inserts data transactionally and prints counts for products, media, categories, brands, colors, materials, and backups.

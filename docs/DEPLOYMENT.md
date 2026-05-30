@@ -100,13 +100,19 @@ python tools\audit_data_store.py --root D:\thechamp --write-report database\audi
 
 ## 5. Next implementation step
 
-Create and run:
+Dry-run migration:
 
-```text
-tools/migrate_file_data_to_postgres.py
+```powershell
+python tools\migrate_file_data_to_postgres.py --source D:\thechamp --write-report database\migration-dry-run-live.json
 ```
 
-It should import:
+Real PostgreSQL import after `DATABASE_URL` is configured:
+
+```powershell
+python tools\migrate_file_data_to_postgres.py --source D:\thechamp --database-url %DATABASE_URL% --create-schema --apply
+```
+
+It imports:
 
 - categories
 - products

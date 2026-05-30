@@ -23,6 +23,7 @@ storage/
 *.tmp
 *.broken-*
 database/audit-report-*.json
+database/migration-*.json
 
 # OS/editor noise
 .DS_Store
