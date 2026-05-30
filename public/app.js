@@ -482,6 +482,11 @@ const visibleTextTranslations = {
     'Производитель': 'Manufacturer',
     'Доступны к продаже': 'Available for sale',
     'Продается': 'On sale',
+    'Без названия': 'Untitled',
+    'Бренд не указан': 'Brand not specified',
+    'на складе': 'in stock',
+    'л': 'l',
+    'Причина не указана': 'Reason not specified',
     'Все': 'All',
     'Готовы к продаже': 'Ready for sale',
     'Ошибки': 'Errors',
@@ -692,6 +697,11 @@ const visibleTextTranslations = {
     'Производитель': 'Üretici',
     'Доступны к продаже': 'Satışa uygun',
     'Продается': 'Satışta',
+    'Без названия': 'Adsız',
+    'Бренд не указан': 'Marka belirtilmedi',
+    'на складе': 'depoda',
+    'л': 'l',
+    'Причина не указана': 'Neden belirtilmedi',
     'Все': 'Tümü',
     'Готовы к продаже': 'Satışa hazır',
     'Ошибки': 'Hatalar',
@@ -783,6 +793,10 @@ function escapeHtml(value) {
     '"': '&quot;',
     "'": '&#39;'
   }[char]));
+}
+
+function uiText(value) {
+  return escapeHtml(translateVisibleText(value));
 }
 
 function getAccountProfile() {
@@ -1539,22 +1553,22 @@ function productModulesPanel() {
         <div>
           <div class="product-breadcrumb">
             <span>←</span>
-            <span>Товары</span>
+            <span>${uiText('Товары')}</span>
             <span>›</span>
-            <strong>Работа с товарами</strong>
+            <strong>${uiText('Работа с товарами')}</strong>
           </div>
-          <h1>Список товаров</h1>
+          <h1>${uiText('Список товаров')}</h1>
         </div>
         <div class="product-list-actions">
-          <button class="btn soft" type="button">Скачать шаблоны</button>
-          <button class="btn primary" id="addProductButton" type="button">Добавить товары</button>
+          <button class="btn soft" type="button">${uiText('Скачать шаблоны')}</button>
+          <button class="btn primary" id="addProductButton" type="button">${uiText('Добавить товары')}</button>
         </div>
       </div>
 
       <div class="product-status-tabs">
         ${productStatusTabs.map(tab => `
           <button class="${activeProductStatus === tab.id ? 'active' : ''}" type="button" data-product-status-tab="${tab.id}">
-            ${tab.label} <span>${statusCounts[tab.id] || 0}</span>
+            ${uiText(tab.label)} <span>${statusCounts[tab.id] || 0}</span>
           </button>
         `).join('')}
       </div>
@@ -1562,11 +1576,11 @@ function productModulesPanel() {
       <div class="product-list-toolbar">
         <label class="product-list-search">
           <img src="/assets/icon-search.svg" alt="">
-          <input id="productSearchInput" placeholder="Название, артикул, SKU, штрихкод">
+          <input id="productSearchInput" placeholder="${uiText('Название, артикул, SKU, штрихкод')}">
         </label>
-        <button class="btn soft" id="applyProductFilters" type="button">Фильтры⌄</button>
-        <button class="btn danger-outline" id="deleteSelectedProducts" type="button">Удалить выбранные</button>
-        <button class="btn soft" id="resetProductFilters" type="button">Сбросить</button>
+        <button class="btn soft" id="applyProductFilters" type="button">${uiText('Фильтры⌄')}</button>
+        <button class="btn danger-outline" id="deleteSelectedProducts" type="button">${uiText('Удалить выбранные')}</button>
+        <button class="btn soft" id="resetProductFilters" type="button">${uiText('Сбросить')}</button>
       </div>
 
       <p class="result hidden" id="productModuleResult"></p>
@@ -1575,22 +1589,22 @@ function productModulesPanel() {
         <div class="product-table" id="productTable">
           <div class="product-table-head product-table-head-modern">
             <label class="product-check"><input id="selectAllProducts" type="checkbox"></label>
-            <span>Товар</span>
-            <span>Артикул / SKU</span>
-            <span>Статус</span>
-            <span>Цена</span>
-            <span>Остатки</span>
-            <span>Штрихкод</span>
-            <span>Качество</span>
-            <span>Дата / объем</span>
+            <span>${uiText('Товар')}</span>
+            <span>${uiText('Артикул / SKU')}</span>
+            <span>${uiText('Статус')}</span>
+            <span>${uiText('Цена')}</span>
+            <span>${uiText('Остатки')}</span>
+            <span>${uiText('Штрихкод')}</span>
+            <span>${uiText('Качество')}</span>
+            <span>${uiText('Дата / объем')}</span>
             <span></span>
           </div>          ${productRows}
         </div>
         <div class="empty-state ${products.length ? 'hidden' : ''}">
           <img class="empty-icon" src="/assets/icon-folder.svg" alt="">
           <div>
-            <h3>Товаров пока нет</h3>
-            <p class="muted">Нажмите «Добавить товары», заполните данные, и товар появится в этой таблице.</p>
+            <h3>${uiText('Товаров пока нет')}</h3>
+            <p class="muted">${uiText('Нажмите «Добавить товары», заполните данные, и товар появится в этой таблице.')}</p>
           </div>
         </div>
       </div>
@@ -1599,7 +1613,7 @@ function productModulesPanel() {
 }
 
 function productRow(product) {
-  const productName = product.name || 'Без названия';
+  const productName = product.name || translateVisibleText('Без названия');
   const article = product.seller || product.marketplaceSku || product.wb || product.id || '—';
   const sku = product.marketplaceSku || product.wb || product.barcode || article;
   const stock = Number(product.stock || 0);
@@ -1610,8 +1624,9 @@ function productRow(product) {
   const contentRating = product.contentRating || '86,5';
   const created = product.createdAt ? String(product.createdAt).slice(0, 10) : '—';
   const status = product.availability || (stock > 0 ? 'Продается' : 'Нет в наличии');
+  const visibleStatus = translateVisibleText(status);
   const listStatus = getProductListStatus(product);
-  const removedReason = product.removedReason || product.saleStopReason || product.deactivationReason || 'Причина не указана';
+  const removedReason = translateVisibleText(product.removedReason || product.saleStopReason || product.deactivationReason || 'Причина не указана');
   const search = [
     productName,
     article,
@@ -1641,43 +1656,43 @@ function productRow(product) {
         <img class="product-thumb" src="${product.image || '/assets/icon-folder.svg'}" alt="">
         <div class="product-title-cell">
           <a href="#">${escapeHtml(productName)}</a>
-          <span>${escapeHtml(product.category || 'Без категории')}</span>
-          <small>${escapeHtml(product.brand || 'Бренд не указан')}</small>
+          <span>${escapeHtml(translateVisibleText(product.category || 'Без категории'))}</span>
+          <small>${escapeHtml(translateVisibleText(product.brand || 'Бренд не указан'))}</small>
         </div>
       </div>
       <div class="product-article-cell">
         <strong>${escapeHtml(article)}</strong>
         <span>SKU ${escapeHtml(sku)}</span>
-        <small>Объединен</small>
+        <small>${uiText('Объединен')}</small>
       </div>
       <div class="product-status-cell">
-        <span class="product-status-pill">${escapeHtml(status)}</span>
+        <span class="product-status-pill">${escapeHtml(visibleStatus)}</span>
         ${listStatus === 'removed' ? `<small class="removed-reason">${escapeHtml(removedReason)}</small>` : ''}
-        <button class="product-add-label" type="button">Добавить метку</button>
+        <button class="product-add-label" type="button">${uiText('Добавить метку')}</button>
       </div>
       <div class="product-price-cell">
         <strong>${formatMoney(price)}</strong>
-        <span>Ваша цена</span>
+        <span>${uiText('Ваша цена')}</span>
       </div>
       <div class="product-stock-cell">
         <strong>${escapeHtml(stock)}</strong>
         <span>${escapeHtml(appBrand())}</span>
-        <small>${escapeHtml(product.myStock || 1)} на складе</small>
+        <small>${escapeHtml(product.myStock || 1)} ${uiText('на складе')}</small>
       </div>
       <a class="product-link-cell" href="#">${escapeHtml(barcode)}</a>
       <div class="product-quality-cell">
-        <span>Отзывы: <strong>0</strong></span>
-        <span>Рейтинг: <strong>${escapeHtml(rating)}</strong></span>
-        <span>Контент: <strong>${escapeHtml(contentRating)}</strong></span>
+        <span>${uiText('Отзывы:')} <strong>0</strong></span>
+        <span>${uiText('Рейтинг:')} <strong>${escapeHtml(rating)}</strong></span>
+        <span>${uiText('Контент:')} <strong>${escapeHtml(contentRating)}</strong></span>
       </div>
       <div class="product-date-cell">
         <strong>${escapeHtml(created)}</strong>
-        <span>${escapeHtml(volume)} л</span>
+        <span>${escapeHtml(volume)} ${uiText('л')}</span>
       </div>
       <div class="row-actions">
-        <button type="button" title="Аналитика">▥</button>
-        <button type="button" title="Редактировать">✎</button>
-        <button type="button" data-delete-product="${escapeHtml(product.id)}" title="Удалить">⋮</button>
+        <button type="button" title="${uiText('Аналитика')}">▥</button>
+        <button type="button" title="${uiText('Редактировать')}">✎</button>
+        <button type="button" data-delete-product="${escapeHtml(product.id)}" title="${uiText('Удалить')}">⋮</button>
       </div>
     </article>
   `;
