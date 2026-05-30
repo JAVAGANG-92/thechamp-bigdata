@@ -445,6 +445,7 @@ const visibleTextTranslations = {
     'Главные категории': 'Main categories',
     'Подкатегории': 'Subcategories',
     'Подтвердить': 'Confirm',
+    'Категория не выбрана': 'No category selected',
     'Категория продавца': 'Seller category',
     'Качество карточки: 2': 'Card quality: 2',
     'Изменить': 'Change',
@@ -669,6 +670,7 @@ const visibleTextTranslations = {
     'Главные категории': 'Ana kategoriler',
     'Подкатегории': 'Alt kategoriler',
     'Подтвердить': 'Onayla',
+    'Категория не выбрана': 'Kategori seçilmedi',
     'Категория продавца': 'Satıcı kategorisi',
     'Качество карточки: 2': 'Kart kalitesi: 2',
     'Изменить': 'Değiştir',
@@ -815,6 +817,209 @@ function escapeHtml(value) {
 
 function uiText(value) {
   return escapeHtml(translateVisibleText(value));
+}
+
+const categoryNameTranslations = {
+  en: {
+    'Без категории': 'No category',
+    'Автомототехника': 'Auto and motorcycle',
+    'Автоаксессуары': 'Auto accessories',
+    'Автозапчасти': 'Auto parts',
+    'Автомобили': 'Cars',
+    'Автохимия': 'Auto chemicals',
+    'Шины и диски': 'Tires and wheels',
+    'Антиквариат и коллекционирование': 'Antiques and collectibles',
+    'Антиквариат': 'Antiques',
+    'Винил и музыка': 'Vinyl and music',
+    'Коллекционирование': 'Collectibles',
+    'Аптека': 'Pharmacy',
+    'Витамины и БАД': 'Vitamins and supplements',
+    'Медицинские изделия': 'Medical products',
+    'Медицинские приборы': 'Medical devices',
+    'Ортопедия': 'Orthopedics',
+    'Благотворительность': 'Charity',
+    'Бытовая техника': 'Home appliances',
+    'Бытовая химия': 'Household chemicals',
+    'Военторг': 'Military goods',
+    'Галантерея и аксессуары': 'Haberdashery and accessories',
+    'Дача, сад и огород': 'Country house, garden and vegetable garden',
+    'Детские товары': 'Children goods',
+    'Дом и сад': 'Home and garden',
+    'Животные и ветеринария': 'Pets and veterinary',
+    'Игры и консоли': 'Games and consoles',
+    'Одежда': 'Clothing',
+    'Обувь': 'Shoes',
+    'Белье': 'Underwear',
+    'Красота': 'Beauty',
+    'Женщинам': 'Women',
+    'Мужчинам': 'Men',
+    'Девочкам': 'Girls',
+    'Мальчикам': 'Boys',
+    'Топы': 'Tops',
+    'Футболки': 'T-shirts',
+    'Платья': 'Dresses',
+    'Бюстгальтеры': 'Bras'
+  },
+  tr: {
+    'Без категории': 'Kategorisiz',
+    'Автомототехника': 'Otomotiv ve motosiklet',
+    'Автоаксессуары': 'Oto aksesuarları',
+    'Автозапчасти': 'Oto yedek parçaları',
+    'Автомобили': 'Otomobiller',
+    'Автохимия': 'Oto kimyasalları',
+    'Шины и диски': 'Lastikler ve jantlar',
+    'Антиквариат и коллекционирование': 'Antika ve koleksiyon',
+    'Антиквариат': 'Antika',
+    'Антикварная книга': 'Antika kitap',
+    'Антикварная мебель': 'Antika mobilya',
+    'Антикварная посуда': 'Antika sofra eşyası',
+    'Предмет интерьера': 'İç mekan ürünü',
+    'Винил и музыка': 'Plak ve müzik',
+    'Виниловая пластинка': 'Vinil plak',
+    'Музыкальная кассета': 'Müzik kaseti',
+    'Коллекционирование': 'Koleksiyon',
+    'Коллекционная фигурка': 'Koleksiyon figürü',
+    'Аптека': 'Eczane',
+    'Витамины и БАД': 'Vitaminler ve takviyeler',
+    'Витаминный комплекс': 'Vitamin kompleksi',
+    'Медицинские изделия': 'Tıbbi ürünler',
+    'Медицинские приборы': 'Tıbbi cihazlar',
+    'Перчатки медицинские': 'Tıbbi eldiven',
+    'Ортопедия': 'Ortopedi',
+    'Компрессионный трикотаж': 'Kompresyon triko',
+    'Благотворительность': 'Hayırseverlik',
+    'Помощь детям': 'Çocuklara yardım',
+    'Помощь животным': 'Hayvanlara yardım',
+    'Социальные проекты': 'Sosyal projeler',
+    'Бытовая техника': 'Ev aletleri',
+    'Климатическая техника': 'İklimlendirme cihazları',
+    'Крупная техника': 'Büyük ev aletleri',
+    'Техника для дома': 'Ev için cihazlar',
+    'Техника для кухни': 'Mutfak cihazları',
+    'Бытовая химия': 'Ev temizlik ürünleri',
+    'Посудомоечные средства': 'Bulaşık yıkama ürünleri',
+    'Средство для мытья посуды': 'Bulaşık deterjanı',
+    'Таблетки для ПММ': 'Bulaşık makinesi tableti',
+    'Кондиционер для белья': 'Çamaşır yumuşatıcısı',
+    'Средство для ванной': 'Banyo temizleyici',
+    'Средство для кухни': 'Mutfak temizleyici',
+    'Средство для пола': 'Zemin temizleyici',
+    'Военторг': 'Askeri ürünler',
+    'Тактическая экипировка': 'Taktik ekipman',
+    'Туристическая экипировка': 'Turistik ekipman',
+    'Галантерея и аксессуары': 'Aksesuar ve çanta ürünleri',
+    'Аксессуары': 'Aksesuarlar',
+    'Аксессуары для волос': 'Saç aksesuarları',
+    'Сумки и рюкзаки': 'Çantalar ve sırt çantaları',
+    'Украшения': 'Takılar',
+    'Дача, сад и огород': 'Yazlık, bahçe ve bostan',
+    'Садовая техника': 'Bahçe makineleri',
+    'Семена и растения': 'Tohumlar ve bitkiler',
+    'Теплицы и парники': 'Seralar ve fide tünelleri',
+    'Удобрения и грунты': 'Gübreler ve topraklar',
+    'Детские товары': 'Çocuk ürünleri',
+    'Игрушки': 'Oyuncaklar',
+    'Обувь детская': 'Çocuk ayakkabıları',
+    'Одежда для девочек': 'Kız çocuk giyim',
+    'Одежда для мальчиков': 'Erkek çocuk giyim',
+    'Товары для малыша': 'Bebek ürünleri',
+    'Дом и сад': 'Ev ve bahçe',
+    'Декор': 'Dekor',
+    'Посуда': 'Mutfak ve sofra ürünleri',
+    'Сад и дача': 'Bahçe ve yazlık',
+    'Текстиль для дома': 'Ev tekstili',
+    'Хранение': 'Saklama',
+    'Животные и ветеринария': 'Evcil hayvan ve veterinerlik',
+    'Ветеринария': 'Veterinerlik',
+    'Груминг': 'Bakım',
+    'Содержание': 'Bakım ve barındırma',
+    'Игры и консоли': 'Oyunlar ve konsollar',
+    'Аксессуары для геймеров': 'Oyuncu aksesuarları',
+    'Видеоигры': 'Video oyunları',
+    'Игровые приставки': 'Oyun konsolları',
+    'Одежда': 'Giyim',
+    'Обувь': 'Ayakkabı',
+    'Белье': 'İç giyim',
+    'Красота': 'Güzellik',
+    'Женщинам': 'Kadın',
+    'Мужчинам': 'Erkek',
+    'Девочкам': 'Kız çocuk',
+    'Мальчикам': 'Erkek çocuk',
+    'Топы': 'Üst giyim',
+    'Футболки': 'Tişörtler',
+    'Платья': 'Elbiseler',
+    'Бюстгальтеры': 'Sütyenler',
+    'Закрепители для гель-лака': 'Jel oje sabitleyiciler'
+  }
+};
+
+const categoryTermTranslations = {
+  en: {
+    'автомобильный': 'car',
+    'автомобильная': 'car',
+    'детские': 'children',
+    'детская': 'children',
+    'для девочки': 'for girls',
+    'для мальчика': 'for boys',
+    'для дома': 'for home',
+    'для кухни': 'for kitchen',
+    'для волос': 'for hair',
+    'медицинская': 'medical',
+    'медицинские': 'medical',
+    'тактические': 'tactical',
+    'туристический': 'tourist',
+    'садовый': 'garden'
+  },
+  tr: {
+    'автомобильный': 'oto',
+    'автомобильная': 'oto',
+    'детские': 'çocuk',
+    'детская': 'çocuk',
+    'для девочки': 'kız çocuk için',
+    'для мальчика': 'erkek çocuk için',
+    'для дома': 'ev için',
+    'для кухни': 'mutfak için',
+    'для волос': 'saç için',
+    'для животных': 'hayvanlar için',
+    'медицинская': 'tıbbi',
+    'медицинские': 'tıbbi',
+    'тактические': 'taktik',
+    'тактический': 'taktik',
+    'туристический': 'turistik',
+    'садовый': 'bahçe',
+    'подарочный': 'hediyelik',
+    'благотворительный': 'hayır'
+  }
+};
+
+function translateCategoryName(value) {
+  const original = String(value || '');
+  if (appLanguage === 'ru' || !original.trim()) return original;
+  const dictionary = categoryNameTranslations[appLanguage] || {};
+  const terms = categoryTermTranslations[appLanguage] || {};
+
+  return original.split('/').map(part => {
+    const trimmed = part.trim();
+    if (!trimmed) return part;
+    if (dictionary[trimmed]) return part.replace(trimmed, dictionary[trimmed]);
+
+    let translated = trimmed;
+    Object.entries(dictionary)
+      .sort((a, b) => b[0].length - a[0].length)
+      .forEach(([from, to]) => {
+        translated = translated.replaceAll(from, to);
+      });
+    Object.entries(terms)
+      .sort((a, b) => b[0].length - a[0].length)
+      .forEach(([from, to]) => {
+        translated = translated.replace(new RegExp(from, 'gi'), to);
+      });
+    return part.replace(trimmed, translated);
+  }).join('/');
+}
+
+function categoryText(value) {
+  return escapeHtml(translateCategoryName(value));
 }
 
 function getAccountProfile() {
@@ -1674,7 +1879,7 @@ function productRow(product) {
         <img class="product-thumb" src="${product.image || '/assets/icon-folder.svg'}" alt="">
         <div class="product-title-cell">
           <a href="#">${escapeHtml(productName)}</a>
-          <span>${escapeHtml(translateVisibleText(product.category || 'Без категории'))}</span>
+          <span>${categoryText(product.category || 'Без категории')}</span>
           <small>${escapeHtml(translateVisibleText(product.brand || 'Бренд не указан'))}</small>
         </div>
       </div>
@@ -1882,7 +2087,7 @@ function backupProductRow(item) {
       <label class="product-check"><input type="checkbox" data-backup-select="${escapeHtml(item.backupId)}" data-backup-type="${escapeHtml(item.type || selectedBackupSection)}"></label>
       <div class="backup-main">
         <strong>${escapeHtml(item.name || product.name || 'Удаленный элемент')}</strong>
-        <span>${escapeHtml(item.category || product.category || 'Без категории')}</span>
+        <span>${categoryText(item.category || product.category || 'Без категории')}</span>
       </div>
       <div class="backup-meta">
         <strong>${escapeHtml(item.article || product.seller || product.marketplaceSku || '—')}</strong>
@@ -2032,12 +2237,14 @@ function productCategorySuggestions() {
 function scoreCategorySuggestion(category, query) {
   const name = category.name.toLowerCase();
   const parent = category.parent.toLowerCase();
+  const translatedName = translateCategoryName(category.name).toLowerCase();
+  const translatedParent = translateCategoryName(category.parent).toLowerCase();
   if (!query) return 10;
-  if (name === query) return 1000;
-  if (name.startsWith(query)) return 900 - name.length;
-  if (name.split(/\s+/).some(part => part === query)) return 820 - name.length;
-  if (name.includes(query)) return 700 - name.length;
-  if (parent.includes(query)) return 250 - parent.length;
+  if (name === query || translatedName === query) return 1000;
+  if (name.startsWith(query) || translatedName.startsWith(query)) return 900 - name.length;
+  if (name.split(/\s+/).some(part => part === query) || translatedName.split(/\s+/).some(part => part === query)) return 820 - name.length;
+  if (name.includes(query) || translatedName.includes(query)) return 700 - name.length;
+  if (parent.includes(query) || translatedParent.includes(query)) return 250 - parent.length;
   return -1;
 }
 
@@ -2096,7 +2303,7 @@ function modalCategoryRowsHtml() {
   return modalCategoryRows().map(category => `
     <button class="manual-category-item ${productCategoryModalSelectionId === category.id ? 'active' : ''}" style="--depth:${Math.max(0, Number(category.depth || 0))}" type="button" data-manual-category="${escapeHtml(category.name)}" data-manual-id="${escapeHtml(category.id)}" data-manual-parent="${escapeHtml(category.parent)}" data-has-children="${category.hasChildren ? 'true' : 'false'}">
       <span class="category-arrow ${category.hasChildren ? '' : 'empty'} ${category.expanded ? 'open' : ''}" data-category-toggle="${escapeHtml(category.id)}">›</span>
-      <span class="category-row-name">${escapeHtml(category.name)}</span>
+      <span class="category-row-name">${categoryText(category.name)}</span>
     </button>
   `).join('');
 }
@@ -2124,7 +2331,7 @@ function productCategoryModal() {
         </div>
         <div class="category-modal-footer">
           <button class="btn primary" id="confirmProductCategory" type="button" ${productCategoryModalSelection ? '' : 'disabled'}>Подтвердить</button>
-          <span>${productCategoryModalSelection ? escapeHtml(productCategoryModalSelection) : 'Категория не выбрана'}</span>
+          <span>${productCategoryModalSelection ? categoryText(productCategoryModalSelection) : uiText('Категория не выбрана')}</span>
         </div>
       </section>
     </div>
@@ -2139,12 +2346,12 @@ function selectedCategoryPropertiesPanel() {
       <div class="section-head">
         <div>
           <p class="eyebrow">Категория продавца</p>
-          <h2>${escapeHtml(productDraftCategory)}</h2>
+          <h2>${categoryText(productDraftCategory)}</h2>
         </div>
         <span class="status draft">Качество карточки: 2</span>
       </div>
       <div class="selected-category-line">
-        <strong>${escapeHtml(productDraftCategory)}</strong>
+        <strong>${categoryText(productDraftCategory)}</strong>
         <button class="btn" id="changeProductCategory" type="button">Изменить</button>
         <label class="switch-row compact"><input type="checkbox"><span class="switch"></span>18+</label>
       </div>
@@ -2438,7 +2645,7 @@ function bindProductEditor() {
           manualList?.querySelectorAll('.manual-category-item').forEach(item => item.classList.remove('active'));
           button.classList.add('active');
           if (confirmCategoryButton) confirmCategoryButton.disabled = false;
-          document.querySelector('.category-modal-footer span').textContent = productCategoryModalSelection;
+          document.querySelector('.category-modal-footer span').textContent = translateCategoryName(productCategoryModalSelection);
         });
       });
     };
@@ -2597,7 +2804,7 @@ function buildCategoryParentOptions(categories) {
       nextVisited.add(category.name);
       const prefix = depth === 0 ? '' : `${'-- '.repeat(depth)}`;
       return `
-        <option value="${category.name}">${prefix}${category.name}</option>
+        <option value="${escapeHtml(category.name)}">${prefix}${categoryText(category.name)}</option>
         ${renderBranch(category.name, depth + 1, nextVisited)}
       `;
     }).join('');
@@ -2633,14 +2840,14 @@ function buildCategoryPathRows(categories) {
     if (category && children.length) {
       levels.push({
         title: `${translateVisibleText('Уровень')} ${index + 2}`,
-        parent: category.name,
+        parent: translateCategoryName(category.name),
         items: children,
         selectedId: categoryDrillPath[index + 1]
       });
     }
   });
 
-  const selectedNames = categoryDrillPath.map(id => byId.get(String(id))?.name).filter(Boolean);
+  const selectedNames = categoryDrillPath.map(id => translateCategoryName(byId.get(String(id))?.name)).filter(Boolean);
 
   return `
     <div class="category-drill-summary">
@@ -2664,7 +2871,7 @@ function buildCategoryPathRows(categories) {
               const active = String(level.selectedId || '') === id;
               return `
                 <button class="category-level-button ${active ? 'active' : ''}" type="button" data-drill-level="${levelIndex}" data-drill-category="${escapeHtml(id)}">
-                  <span>${escapeHtml(category.name)}</span>
+                  <span>${categoryText(category.name)}</span>
                   <small>${childCount ? `${childCount} ${uiText('подкатегорий')}` : uiText('конечная категория')}</small>
                 </button>
               `;
