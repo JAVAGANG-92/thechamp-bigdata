@@ -373,6 +373,15 @@ const visibleTextTranslations = {
     'Добавить категорию': 'Add category',
     'Категорий пока нет': 'No categories yet',
     'Нажмите «Добавить категорию», чтобы создать первую категорию.': 'Click "Add category" to create the first category.',
+    'Категорий:': 'Categories:',
+    'Выберите главную категорию': 'Select a main category',
+    'Уровень': 'Level',
+    'Главные категории': 'Main categories',
+    'подкатегорий': 'subcategories',
+    'конечная категория': 'final category',
+    'От меньшего к большему': 'From smaller to larger',
+    'Активность категории': 'Category activity',
+    'Показывать на главной': 'Show on home page',
     'Справочник брендов': 'Brand directory',
     'Товаров с брендом': 'Products with brand',
     'Готово': 'Ready',
@@ -588,6 +597,15 @@ const visibleTextTranslations = {
     'Добавить категорию': 'Kategori ekle',
     'Категорий пока нет': 'Henüz kategori yok',
     'Нажмите «Добавить категорию», чтобы создать первую категорию.': 'İlk kategoriyi oluşturmak için "Kategori ekle"ye basın.',
+    'Категорий:': 'Kategori:',
+    'Выберите главную категорию': 'Ana kategoriyi seçin',
+    'Уровень': 'Seviye',
+    'Главные категории': 'Ana kategoriler',
+    'подкатегорий': 'alt kategori',
+    'конечная категория': 'son kategori',
+    'От меньшего к большему': 'Küçükten büyüğe',
+    'Активность категории': 'Kategori aktifliği',
+    'Показывать на главной': 'Ana sayfada göster',
     'Справочник брендов': 'Marka rehberi',
     'Товаров с брендом': 'Markalı ürünler',
     'Готово': 'Hazır',
@@ -1248,10 +1266,10 @@ async function renderCatalog() {
       <section class="panel" style="margin-top:18px">
         <div class="section-head">
           <div>
-            <h2>Категории</h2>
-            <p class="muted">Создавайте и храните категории каталога.</p>
+            <h2>${uiText('Категории')}</h2>
+            <p class="muted">${uiText('Создавайте и храните категории каталога.')}</p>
           </div>
-          <button class="btn primary" type="button" id="addCategoryButton" data-parent="Без категории">Добавить категорию</button>
+          <button class="btn primary" type="button" id="addCategoryButton" data-parent="Без категории">${uiText('Добавить категорию')}</button>
         </div>
         <div class="category-board ${categoryButtons ? '' : 'hidden'}">
           ${categoryButtons}
@@ -1259,8 +1277,8 @@ async function renderCatalog() {
         <div class="empty-state ${categoryButtons ? 'hidden' : ''}">
           <img class="empty-icon" src="/assets/icon-folder.svg" alt="">
           <div>
-            <h3>Категорий пока нет</h3>
-            <p class="muted">Нажмите «Добавить категорию», чтобы создать первую категорию.</p>
+            <h3>${uiText('Категорий пока нет')}</h3>
+            <p class="muted">${uiText('Нажмите «Добавить категорию», чтобы создать первую категорию.')}</p>
           </div>
         </div>
       </section>
@@ -1703,55 +1721,55 @@ function categoryModal() {
     <div class="modal-backdrop hidden" id="categoryModal">
       <form class="modal category-form" id="categoryForm">
         <div class="section-head">
-          <h2>Добавление категории</h2>
-          <button class="btn" type="button" id="closeCategoryModal">Закрыть</button>
+          <h2>${uiText('Добавление категории')}</h2>
+          <button class="btn" type="button" id="closeCategoryModal">${uiText('Закрыть')}</button>
         </div>
         <div class="form-stack">
-          <input id="categoryName" name="name" placeholder="Название" required>
+          <input id="categoryName" name="name" placeholder="${uiText('Название')}" required>
           <input id="categoryUrl" name="url" placeholder="URL">
           <label class="field compact">
-            <span>Родительская категория</span>
+            <span>${uiText('Родительская категория')}</span>
             <select id="categoryParent" name="parent">
-              <option>Без категории</option>
+              <option value="Без категории">${uiText('Без категории')}</option>
               ${parentOptions}
             </select>
           </label>
           <label class="field compact">
-            <span>ID категории в системе 1C</span>
+            <span>${uiText('ID категории в системе 1C')}</span>
             <input id="categoryOneCId" name="oneCId" value="0">
           </label>
           <label class="field compact">
-            <span>Порядок сортировки</span>
+            <span>${uiText('Порядок сортировки')}</span>
             <input id="categorySortOrder" name="sortOrder" type="number" value="1" min="1">
           </label>
-          <p class="muted">( От меньшего к большему )</p>
+          <p class="muted">( ${uiText('От меньшего к большему')} )</p>
           <label class="switch-row">
             <input id="categoryActive" name="active" type="checkbox">
             <span class="switch"></span>
-            Активность категории
+            ${uiText('Активность категории')}
           </label>
           <label class="switch-row">
             <input id="categoryShowHome" name="showHome" type="checkbox">
             <span class="switch"></span>
-            Показывать на главной
+            ${uiText('Показывать на главной')}
           </label>
           <label class="field compact">
-            <span>Изображение категории (главная)</span>
+            <span>${uiText('Изображение категории (главная)')}</span>
             <input id="categoryMainImage" name="mainImage" type="file" accept="image/*">
           </label>
           <div>
-            <p class="muted"><strong>Иконка (48x48px)</strong></p>
+            <p class="muted"><strong>${uiText('Иконка (48x48px)')}</strong></p>
             <label class="dropzone" for="categoryIcon">
               <input id="categoryIcon" name="icon" type="file" accept="image/*">
-              <strong>Перетащите изображение сюда</strong>
-              <span>или</span>
-              <span class="upload-link">Нажмите, чтобы загрузить</span>
+              <strong>${uiText('Перетащите изображение сюда')}</strong>
+              <span>${uiText('или')}</span>
+              <span class="upload-link">${uiText('Нажмите, чтобы загрузить')}</span>
             </label>
           </div>
           <p class="error" id="categoryFormError"></p>
           <div class="row end">
-            <button class="btn" type="button" id="cancelCategoryButton">Отмена</button>
-            <button class="btn primary" type="submit">Сохранить категорию</button>
+            <button class="btn" type="button" id="cancelCategoryButton">${uiText('Отмена')}</button>
+            <button class="btn primary" type="submit">${uiText('Сохранить категорию')}</button>
           </div>
         </div>
       </form>
@@ -2608,13 +2626,13 @@ function buildCategoryPathRows(categories) {
   categoryDrillPath = categoryDrillPath.filter(id => byId.has(String(id)));
   localStorage.setItem('thechamp_category_drill_path', JSON.stringify(categoryDrillPath));
 
-  const levels = [{ title: 'Уровень 1', parent: 'Главные категории', items: roots, selectedId: categoryDrillPath[0] }];
+  const levels = [{ title: `${translateVisibleText('Уровень')} 1`, parent: translateVisibleText('Главные категории'), items: roots, selectedId: categoryDrillPath[0] }];
   categoryDrillPath.forEach((id, index) => {
     const category = byId.get(String(id));
     const children = byParent.get(category?.id || category?.name) || [];
     if (category && children.length) {
       levels.push({
-        title: `Уровень ${index + 2}`,
+        title: `${translateVisibleText('Уровень')} ${index + 2}`,
         parent: category.name,
         items: children,
         selectedId: categoryDrillPath[index + 1]
@@ -2627,10 +2645,10 @@ function buildCategoryPathRows(categories) {
   return `
     <div class="category-drill-summary">
       <div>
-        <strong>Категорий: ${sorted.length}</strong>
-        <span>${selectedNames.length ? selectedNames.join(' / ') : 'Выберите главную категорию'}</span>
+        <strong>${uiText('Категорий:')} ${sorted.length}</strong>
+        <span>${selectedNames.length ? selectedNames.join(' / ') : uiText('Выберите главную категорию')}</span>
       </div>
-      <button class="btn" type="button" id="resetCategoryDrill">Сбросить</button>
+      <button class="btn" type="button" id="resetCategoryDrill">${uiText('Сбросить')}</button>
     </div>
     <div class="category-drill">
       ${levels.map((level, levelIndex) => `
@@ -2647,7 +2665,7 @@ function buildCategoryPathRows(categories) {
               return `
                 <button class="category-level-button ${active ? 'active' : ''}" type="button" data-drill-level="${levelIndex}" data-drill-category="${escapeHtml(id)}">
                   <span>${escapeHtml(category.name)}</span>
-                  <small>${childCount ? `${childCount} подкатегорий` : 'конечная категория'}</small>
+                  <small>${childCount ? `${childCount} ${uiText('подкатегорий')}` : uiText('конечная категория')}</small>
                 </button>
               `;
             }).join('')}
