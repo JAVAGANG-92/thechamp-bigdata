@@ -1,8 +1,10 @@
-# The Champ BigData
+# White-label BigData Admin Panel
 
-Административная панель The Champ для каталога, товаров, справочников, BuckUp и будущих seller/API-интеграций.
+Marketplace admin panel for catalog, products, references, BuckUp, and future seller/API integrations.
 
-## Быстрый запуск
+The project is prepared as a white-label product: the same codebase can be copied and sold to different customers by changing `.env` branding, logo, data folder, database, and admin credentials.
+
+## Quick Start
 
 Windows:
 
@@ -10,64 +12,77 @@ Windows:
 D:\thechamp\THECHAMP_SERVER_START.bat
 ```
 
-Ручной запуск из папки проекта:
+Manual start from the project folder:
 
 ```powershell
-python py_server.py
+node server.js
 ```
 
-Адрес панели:
+Panel URL:
 
 ```text
 http://localhost:4173
 ```
 
-## Настройки окружения
+## Environment
 
-Скопируйте:
+Copy:
 
 ```text
 .env.example -> .env
 ```
 
-Главные параметры:
+Main customer settings:
 
-```text
-THECHAMP_PORT=4173
-THECHAMP_DATA_ROOT=D:\thechamp-data
-DATABASE_URL=postgresql://thechamp:change_me@127.0.0.1:5432/thechamp
+```env
+APP_BRAND_NAME=Customer Brand
+APP_PRODUCT_NAME=Customer Brand BigData
+APP_DEFAULT_BRAND=Customer Brand
+APP_LOGO_URL=/assets/customer-logo.svg
+APP_STORAGE_PREFIX=customerbrand
+APP_PORT=4173
+APP_DATA_ROOT=D:\customerbrand-data
+DATABASE_URL=postgresql://customer_user:strong_password@127.0.0.1:5432/customer_bigdata
 PUBLIC_BASE_URL=http://localhost:4173
+APP_ADMIN_EMAIL=admin@customer.local
+APP_ADMIN_PASSWORD=change_this_password
 ```
 
-`THECHAMP_DATA_ROOT` нужен, чтобы отделить код от рабочих данных: товаров, фото, видео и BuckUp.
+`APP_DATA_ROOT` keeps code separate from customer data: products, photos, videos, and BuckUp.
 
-## Структура
+## White-label Copies
 
-- `public/` - интерфейс панели.
-- `katalog/` - локальная файловая база каталога и справочников.
-- `BuckUp/` - удаленные данные для восстановления.
-- `database/` - PostgreSQL schema и план миграции.
-- `docs/` - deploy и операционные инструкции.
-- `tools/` - служебные скрипты.
-- `py_server.py` - основной локальный сервер.
-- `server.js` - резервный Node.js сервер.
+Read the sale/copy guide before creating a customer build:
 
-## Проверка здоровья
+```text
+docs/WHITE_LABEL.md
+```
+
+Create a customer copy:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools\create_customer_copy.ps1 `
+  -SourcePath C:\Users\Crypt\Documents\TheChamp `
+  -TargetPath D:\customer-panel `
+  -BrandName "Customer Brand" `
+  -DataRoot D:\customer-data `
+  -DatabaseUrl "postgresql://customer_user:strong_password@127.0.0.1:5432/customer_bigdata" `
+  -AdminEmail "admin@customer.local" `
+  -AdminPassword "change_this_password"
+```
+
+## Structure
+
+- `public/` - admin panel interface.
+- `katalog/` - local catalog and reference data.
+- `BuckUp/` - deleted data prepared for restore.
+- `database/` - PostgreSQL schema and migration plan.
+- `docs/` - deployment, operations, and white-label guides.
+- `tools/` - service scripts.
+- `server.js` - local Node.js server.
+
+## Health Check
 
 ```powershell
 .\scripts\healthcheck.ps1 -BaseUrl http://127.0.0.1:4173
-```
-
-## Подготовка к online server
-
-Подробный план:
-
-```text
-docs/DEPLOYMENT.md
-```
-
-Операционные правила:
-
-```text
-docs/OPERATIONS.md
 ```

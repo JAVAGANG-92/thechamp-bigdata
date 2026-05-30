@@ -1,4 +1,4 @@
-const http = require('http');
+﻿const http = require('http');
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
@@ -21,17 +21,27 @@ function loadEnvFile(filePath) {
 
 loadEnvFile(ENV_FILE);
 
-const PORT = Number(process.env.THECHAMP_PORT || process.env.PORT || 4173);
+const TENANT = {
+  brandName: process.env.APP_BRAND_NAME || process.env.THECHAMP_BRAND_NAME || 'The Champ',
+  productName: process.env.APP_PRODUCT_NAME || process.env.THECHAMP_PRODUCT_NAME || `${process.env.APP_BRAND_NAME || process.env.THECHAMP_BRAND_NAME || 'The Champ'} BigData`,
+  logoUrl: process.env.APP_LOGO_URL || process.env.THECHAMP_LOGO_URL || '/assets/THE_CHAMP_logo_200x200.svg',
+  defaultBrand: process.env.APP_DEFAULT_BRAND || process.env.THECHAMP_DEFAULT_BRAND || process.env.APP_BRAND_NAME || process.env.THECHAMP_BRAND_NAME || 'The Champ',
+  storagePrefix: process.env.APP_STORAGE_PREFIX || process.env.THECHAMP_STORAGE_PREFIX || 'thechamp',
+  adminEmail: process.env.APP_ADMIN_EMAIL || process.env.THECHAMP_ADMIN_EMAIL || 'admin@materio.com',
+  adminPassword: process.env.APP_ADMIN_PASSWORD || process.env.THECHAMP_ADMIN_PASSWORD || 'admin'
+};
+
+const PORT = Number(process.env.APP_PORT || process.env.THECHAMP_PORT || process.env.PORT || 4173);
 const PUBLIC_DIR = path.join(ROOT, 'public');
-const DATA_ROOT = path.resolve(process.env.THECHAMP_DATA_ROOT || ROOT);
+const DATA_ROOT = path.resolve(process.env.APP_DATA_ROOT || process.env.THECHAMP_DATA_ROOT || ROOT);
 const CATALOG_DIR = path.join(DATA_ROOT, 'katalog');
-const CATEGORIES_DIR = path.join(CATALOG_DIR, 'Категории');
+const CATEGORIES_DIR = path.join(CATALOG_DIR, '\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438');
 const CATEGORIES_FILE = path.join(CATEGORIES_DIR, 'categories.json');
-const COLORS_DIR = path.join(CATALOG_DIR, 'Цвета');
+const COLORS_DIR = path.join(CATALOG_DIR, '\u0426\u0432\u0435\u0442\u0430');
 const COLORS_FILE = path.join(COLORS_DIR, 'colors.json');
-const MATERIALS_DIR = path.join(CATALOG_DIR, 'Материалы');
+const MATERIALS_DIR = path.join(CATALOG_DIR, '\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b');
 const MATERIALS_FILE = path.join(MATERIALS_DIR, 'materials.json');
-const BRANDS_DIR = path.join(CATALOG_DIR, 'Бренды');
+const BRANDS_DIR = path.join(CATALOG_DIR, '\u0411\u0440\u0435\u043d\u0434\u044b');
 const BRANDS_FILE = path.join(BRANDS_DIR, 'brands.json');
 const PRODUCTS_FILE = path.join(CATALOG_DIR, 'products.json');
 const PRODUCTS_DIR = path.join(CATALOG_DIR, 'products');
@@ -45,25 +55,38 @@ const BACKUP_FILES_FILE = path.join(BACKUP_FILE_DIR, 'deleted-files.json');
 const BACKUP_BLOGS_FILE = path.join(BACKUP_BLOG_DIR, 'deleted-blogs.json');
 const BACKUP_FREE_FILE = path.join(BACKUP_FREE_DIR, 'deleted-free.json');
 
+function publicTenantConfig() {
+  return {
+    brandName: TENANT.brandName,
+    productName: TENANT.productName,
+    logoUrl: TENANT.logoUrl,
+    defaultBrand: TENANT.defaultBrand,
+    storagePrefix: TENANT.storagePrefix,
+    adminEmail: TENANT.adminEmail,
+    dataRoot: DATA_ROOT,
+    port: PORT
+  };
+}
+
 const defaultProducts = [];
 
 const state = {
   integrations: [
-    { id: 'champ-seller', name: 'The Champ Seller', status: 'connected', mode: 'FBO/FBS', lastSync: '2026-05-27 09:30', orders: 184, stockDelta: -12 },
-    { id: 'champ-store', name: 'The Champ Store', status: 'connected', mode: 'FBO/FBS', lastSync: '2026-05-27 09:22', orders: 231, stockDelta: 34 },
-    { id: 'yandex', name: 'Яндекс Маркет', status: 'pending', mode: 'DBS', lastSync: 'Ожидает подключения', orders: 0, stockDelta: 0 },
-    { id: 'trendyol', name: 'Trendyol', status: 'draft', mode: 'API', lastSync: 'Требуется настройка', orders: 0, stockDelta: 0 }
+    { id: 'seller-main', name: `${TENANT.brandName} Seller`, status: 'connected', mode: 'FBO/FBS', lastSync: '2026-05-27 09:30', orders: 184, stockDelta: -12 },
+    { id: 'store-main', name: `${TENANT.brandName} Store`, status: 'connected', mode: 'FBO/FBS', lastSync: '2026-05-27 09:22', orders: 231, stockDelta: 34 },
+    { id: 'yandex', name: 'РЇРЅРґРµРєСЃ РњР°СЂРєРµС‚', status: 'pending', mode: 'DBS', lastSync: 'РћР¶РёРґР°РµС‚ РїРѕРґРєР»СЋС‡РµРЅРёСЏ', orders: 0, stockDelta: 0 },
+    { id: 'trendyol', name: 'Trendyol', status: 'draft', mode: 'API', lastSync: 'РўСЂРµР±СѓРµС‚СЃСЏ РЅР°СЃС‚СЂРѕР№РєР°', orders: 0, stockDelta: 0 }
   ],
   modules: [
-    { id: 'warehouse', name: 'Умный склад', group: 'Операции', progress: 76, health: 'good', metric: '1 248 SKU', tags: ['Сборка', 'Упаковка', 'Адресное хранение', 'Видео-контроль'] },
-    { id: 'finance-ai', name: 'AI-финансовый директор', group: 'Финансы', progress: 68, health: 'good', metric: '18,4% прибыли', tags: ['ОПиУ', 'ДДС', 'BI', 'ABC-анализ'] },
-    { id: 'planner-ai', name: 'AI-планировщик', group: 'Поставки', progress: 61, health: 'warn', metric: '14 дней запаса', tags: ['Снабжение', 'Закупки', 'Поставщики', 'Расходы'] },
-    { id: 'pim', name: 'PIM-система', group: 'Товары', progress: 82, health: 'good', metric: '934 карточки', tags: ['Импорт', 'Создание', 'Редактирование', 'Аналитика'] }
+    { id: 'warehouse', name: 'РЈРјРЅС‹Р№ СЃРєР»Р°Рґ', group: 'РћРїРµСЂР°С†РёРё', progress: 76, health: 'good', metric: '1 248 SKU', tags: ['РЎР±РѕСЂРєР°', 'РЈРїР°РєРѕРІРєР°', 'РђРґСЂРµСЃРЅРѕРµ С…СЂР°РЅРµРЅРёРµ', 'Р’РёРґРµРѕ-РєРѕРЅС‚СЂРѕР»СЊ'] },
+    { id: 'finance-ai', name: 'AI-С„РёРЅР°РЅСЃРѕРІС‹Р№ РґРёСЂРµРєС‚РѕСЂ', group: 'Р¤РёРЅР°РЅСЃС‹', progress: 68, health: 'good', metric: '18,4% РїСЂРёР±С‹Р»Рё', tags: ['РћРџРёРЈ', 'Р”Р”РЎ', 'BI', 'ABC-Р°РЅР°Р»РёР·'] },
+    { id: 'planner-ai', name: 'AI-РїР»Р°РЅРёСЂРѕРІС‰РёРє', group: 'РџРѕСЃС‚Р°РІРєРё', progress: 61, health: 'warn', metric: '14 РґРЅРµР№ Р·Р°РїР°СЃР°', tags: ['РЎРЅР°Р±Р¶РµРЅРёРµ', 'Р—Р°РєСѓРїРєРё', 'РџРѕСЃС‚Р°РІС‰РёРєРё', 'Р Р°СЃС…РѕРґС‹'] },
+    { id: 'pim', name: 'PIM-СЃРёСЃС‚РµРјР°', group: 'РўРѕРІР°СЂС‹', progress: 82, health: 'good', metric: '934 РєР°СЂС‚РѕС‡РєРё', tags: ['РРјРїРѕСЂС‚', 'РЎРѕР·РґР°РЅРёРµ', 'Р РµРґР°РєС‚РёСЂРѕРІР°РЅРёРµ', 'РђРЅР°Р»РёС‚РёРєР°'] }
   ],
   apiEvents: [
-    { time: '09:31', source: 'The Champ', type: 'orders.pull', status: 200, detail: 'Получено 63 новых заказа' },
-    { time: '09:29', source: 'The Champ', type: 'stock.push', status: 200, detail: 'Обновлено 214 остатков' },
-    { time: '09:27', source: 'PIM', type: 'products.normalize', status: 200, detail: 'Обогащено 18 карточек' }
+    { time: '09:31', source: TENANT.brandName, type: 'orders.pull', status: 200, detail: 'РџРѕР»СѓС‡РµРЅРѕ 63 РЅРѕРІС‹С… Р·Р°РєР°Р·Р°' },
+    { time: '09:29', source: TENANT.brandName, type: 'stock.push', status: 200, detail: 'РћР±РЅРѕРІР»РµРЅРѕ 214 РѕСЃС‚Р°С‚РєРѕРІ' },
+    { time: '09:27', source: 'PIM', type: 'products.normalize', status: 200, detail: 'РћР±РѕРіР°С‰РµРЅРѕ 18 РєР°СЂС‚РѕС‡РµРє' }
   ]
 };
 
@@ -201,21 +224,21 @@ function normalizeProduct(body, existingId) {
   return {
     id,
     image: String(body.image || '/assets/icon-folder.svg'),
-    name: String(body.name || 'Новый товар').trim(),
-    assortment: String(body.assortment || body.name || 'Название товара').trim(),
-    category: String(body.category || 'Без категории').trim(),
+    name: String(body.name || 'РќРѕРІС‹Р№ С‚РѕРІР°СЂ').trim(),
+    assortment: String(body.assortment || body.name || 'РќР°Р·РІР°РЅРёРµ С‚РѕРІР°СЂР°').trim(),
+    category: String(body.category || 'Р‘РµР· РєР°С‚РµРіРѕСЂРёРё').trim(),
     stock: Number(body.stock || 0),
     purchasePrice: Number(body.purchasePrice || 0),
     salePrice: Number(body.salePrice || 0),
-    brand: String(body.brand || 'The Champ').trim(),
-    manufacturer: String(body.manufacturer || 'The Champ').trim(),
-    season: String(body.season || 'Всесезонный').trim(),
-    availability: String(body.availability || 'Доступны к продаже').trim(),
+    brand: String(body.brand || TENANT.defaultBrand).trim(),
+    manufacturer: String(body.manufacturer || TENANT.defaultBrand).trim(),
+    season: String(body.season || 'Р’СЃРµСЃРµР·РѕРЅРЅС‹Р№').trim(),
+    availability: String(body.availability || 'Р”РѕСЃС‚СѓРїРЅС‹ Рє РїСЂРѕРґР°Р¶Рµ').trim(),
     barcode: String(body.barcode || '').trim(),
     wb: marketplaceArticle,
     seller: String(body.seller || `TC-${id.slice(0, 6).toUpperCase()}`).trim(),
-    color: String(body.color || '—').trim(),
-    sizes: String(body.sizes || '—').trim(),
+    color: String(body.color || 'вЂ”').trim(),
+    sizes: String(body.sizes || 'вЂ”').trim(),
     marketplaceSku: String(body.marketplaceSku || marketplaceArticle).trim(),
     createdAt: String(body.createdAt || now),
     updatedAt: now
@@ -411,7 +434,7 @@ function serveProductMedia(res, pathname) {
   const relative = decodeURIComponent(pathname.replace('/api/catalog/product-media/', ''));
   const filePath = path.normalize(path.join(PRODUCTS_DIR, relative));
   if (!filePath.startsWith(PRODUCTS_DIR) || !fs.existsSync(filePath) || fs.statSync(filePath).isDirectory()) {
-    sendJson(res, 404, { ok: false, message: 'Файл не найден.' });
+    sendJson(res, 404, { ok: false, message: 'Р¤Р°Р№Р» РЅРµ РЅР°Р№РґРµРЅ.' });
     return;
   }
   const ext = path.extname(filePath).toLowerCase();
@@ -434,8 +457,12 @@ const server = http.createServer(async (req, res) => {
       serveProductMedia(res, pathname);
       return;
     }
+    if (req.method === 'GET' && pathname === '/api/config') {
+      sendJson(res, 200, publicTenantConfig());
+      return;
+    }
     if (req.method === 'GET' && pathname === '/api/health') {
-      sendJson(res, 200, { ok: true, service: 'The Champ', categories: readJson(CATEGORIES_FILE, []).length });
+      sendJson(res, 200, { ok: true, service: TENANT.productName, categories: readJson(CATEGORIES_FILE, []).length });
       return;
     }
     if (req.method === 'GET' && pathname === '/api/dashboard') {
@@ -480,11 +507,11 @@ const server = http.createServer(async (req, res) => {
 
     if (req.method === 'POST' && pathname === '/api/login') {
       const body = await readRequestJson(req);
-      if (body.email !== 'admin@materio.com' || body.password !== 'admin') {
-        sendJson(res, 401, { ok: false, message: 'Неверный email или пароль.' });
+      if (body.email !== TENANT.adminEmail || body.password !== TENANT.adminPassword) {
+        sendJson(res, 401, { ok: false, message: 'РќРµРІРµСЂРЅС‹Р№ email РёР»Рё РїР°СЂРѕР»СЊ.' });
         return;
       }
-      sendJson(res, 200, { ok: true, token: crypto.randomBytes(18).toString('hex'), user: { name: 'Администратор The Champ', email: body.email, role: 'Владелец' } });
+      sendJson(res, 200, { ok: true, token: crypto.randomBytes(18).toString('hex'), user: { name: `Администратор ${TENANT.brandName}`, email: body.email, role: 'Владелец' } });
       return;
     }
 
@@ -492,7 +519,7 @@ const server = http.createServer(async (req, res) => {
       const body = await readRequestJson(req);
       const name = String(body.name || '').trim();
       if (!name) {
-        sendJson(res, 400, { ok: false, message: 'Укажите материал.' });
+        sendJson(res, 400, { ok: false, message: 'РЈРєР°Р¶РёС‚Рµ РјР°С‚РµСЂРёР°Р».' });
         return;
       }
       let materials = readJson(MATERIALS_FILE, []);
@@ -511,7 +538,7 @@ const server = http.createServer(async (req, res) => {
       const body = await readRequestJson(req);
       const { brand, brands } = saveCatalogBrand(body.name);
       if (!brand) {
-        sendJson(res, 400, { ok: false, message: 'Укажите название бренда.' });
+        sendJson(res, 400, { ok: false, message: 'РЈРєР°Р¶РёС‚Рµ РЅР°Р·РІР°РЅРёРµ Р±СЂРµРЅРґР°.' });
         return;
       }
       sendJson(res, 201, { ok: true, brand, brands });
@@ -533,7 +560,7 @@ const server = http.createServer(async (req, res) => {
       const body = await readRequestJson(req);
       const ids = new Set((body.ids || []).map(String));
       if (!ids.size) {
-        sendJson(res, 400, { ok: false, message: 'Выберите товары для удаления.' });
+        sendJson(res, 400, { ok: false, message: 'Р’С‹Р±РµСЂРёС‚Рµ С‚РѕРІР°СЂС‹ РґР»СЏ СѓРґР°Р»РµРЅРёСЏ.' });
         return;
       }
       const currentProducts = readProducts();
@@ -565,10 +592,11 @@ const server = http.createServer(async (req, res) => {
 
     serveStatic(req, res, pathname);
   } catch (error) {
-    sendJson(res, 500, { ok: false, message: 'Внутренняя ошибка сервера.' });
+    sendJson(res, 500, { ok: false, message: 'Р’РЅСѓС‚СЂРµРЅРЅСЏСЏ РѕС€РёР±РєР° СЃРµСЂРІРµСЂР°.' });
   }
 });
 
 server.listen(PORT, '127.0.0.1', () => {
-  console.log(`The Champ server running on http://localhost:${PORT}`);
+  console.log(`${TENANT.productName} server running on http://localhost:${PORT}`);
 });
+
